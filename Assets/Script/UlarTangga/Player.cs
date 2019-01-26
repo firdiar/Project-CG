@@ -17,6 +17,10 @@ public class Player : MonoBehaviour {
         this.isNaikTangga = isNaikTangga;
 	}
 
+    public int GetCurrentPos() {
+        return currentPos;
+    }
+
     void nextPos() {
         nextCurrentPos = currentPos + 1;
         target = GameUlarTanggaManager.MAIN.board.GetChild(nextCurrentPos);
@@ -54,12 +58,14 @@ public class Player : MonoBehaviour {
             }
             else if ((target.position - transform.position).magnitude > 0.5f && !isNaikTangga)
             {
-                transform.position = Vector2.MoveTowards(transform.position, new Vector2(target.position.x , target.position.y+0.4f) , Time.deltaTime*2.5f);
+                transform.position = Vector2.MoveTowards(transform.position, new Vector2(target.position.x , target.position.y+0.4f) , Time.deltaTime*1.5f);
             }
             else
             {
-                transform.position = Vector2.MoveTowards(transform.position, target.position, Time.deltaTime * 2.5f);
+                transform.position = Vector2.MoveTowards(transform.position, target.position, Time.deltaTime * 3f);
             }
         }
+
+       
 	}
 }

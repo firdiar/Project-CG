@@ -6,6 +6,7 @@ public class BoardGenerator : MonoBehaviour{
 
     
     [SerializeField] GameObject _boardTile;
+    [SerializeField] GameObject _boardTile2;
     [SerializeField] GameObject player;
     [SerializeField] Transform board;
     [SerializeField] Transform players;
@@ -32,7 +33,8 @@ public class BoardGenerator : MonoBehaviour{
         for (int i = 0; i < GameUlarTanggaManager.MAIN.playerCount; i++) {
             GameUlarTanggaManager.MAIN.players.Add( Instantiate(player, startPos, Quaternion.identity , players));
         }
-        Destroy(gameObject);
+
+        //Destroy(gameObject);
     }
 
     // Use this for initialization
@@ -45,9 +47,9 @@ public class BoardGenerator : MonoBehaviour{
             for (int j = 0; j < colomCount; j++)
             {
                 
-                Instantiate(_boardTile, new Vector2( ( Mathf.Abs(( (i%2 == 0?  0 : 1 * (colomCount-1)) - j)) * scaleWidth + offsetWidth) - halfWidth, (i * scaleHeaight + offsetHeight) - halfHeight), Quaternion.identity, board);
-                
-                //sr.color = (((i+j)%2 == 0)? new Color(231, 210, 167) : new Color(104, 79, 27));
+                Instantiate( ((i+j)%2==0)? _boardTile:_boardTile2, new Vector2( ( Mathf.Abs(( (i%2 == 0?  0 : 1 * (colomCount-1)) - j)) * scaleWidth + offsetWidth) - halfWidth, (i * scaleHeaight + offsetHeight) - halfHeight), Quaternion.identity, board);
+                //t.GetComponent<SpriteRenderer>().material.color= (((i+j) % 2 == 0) ? new Color(231, 210, 167) : new Color(104, 79, 27));
+
             }
         }
 
