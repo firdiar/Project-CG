@@ -1,18 +1,39 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Newtonsoft.Json;
+
 
 [System.Serializable]
-public struct Question {
-    public string question;
-    public string[] answer;
-    public int TrueAnswer;
+public class Question
+{
+    public string question { get; set; }
+    public List<string> answer { get; set; }
+    public int trueAnswer { get; set; }
 }
+
+
 
 public class GameUlarTanggaManager : MonoBehaviour {
 
     public static GameUlarTanggaManager MAIN;
+
+    [Header("Scene Data")]
+    [SerializeField] GameObject MainMenuScreen;
+    [SerializeField] GameObject GameScreen;
+    [SerializeField] GameObject ResultScreen;
+
+    [Header("MainMenuScreen")]
+    [SerializeField] UnityEngine.UI.Text TextPlayerCount;
+
+    [Header("ResultScreen")]
+    [SerializeField] Transform podium;
+
+
+
     [Header("PlayerData")]
+    [SerializeField] GameObject playerPrefabs;
+    [SerializeField] Transform playerTransform;
     public int playerCount;
     public List<GameObject> players = new List<GameObject>();
     public UnityEngine.UI.Text currentPlayerText;
@@ -25,36 +46,116 @@ public class GameUlarTanggaManager : MonoBehaviour {
     public Sprite[] diceSide;
 
     [Header("Question Data")]
-    [SerializeField] Question[] questions;
+    [SerializeField]List<Question> questions;
     [SerializeField] QuestionCard card;
 
 
     int currentPlayer = 0;
     bool isDiceRolled = false;
     int tempMove = 0;
+    [SerializeField]Vector2[] posSnakeAndLadder;
 
 
+    public void addPlayerCount() {
+        playerCount = Mathf.Clamp(playerCount + 1, 0, 6);
+        TextPlayerCount.text = playerCount.ToString();
+    }
+    public void minusPlayerCount()
+    {
+        playerCount = Mathf.Clamp(playerCount-1 , 0 , playerCount);
+        TextPlayerCount.text = playerCount.ToString();
+    }
 
+    public bool isSnakeOrLadder(int pos , ref int step) {
+        step = -1;
+        foreach (Vector2 v in posSnakeAndLadder)
+        {
+            if (v.x == pos)
+            {
+
+                step = (int)(v.y - v.x);
+
+                break;
+            }
+
+        }
+        return step != -1;
+    }
+
+    public void SetActiveMainMenu() {
+        MainMenuScreen.SetActive(true);
+        GameScreen.SetActive(false);
+        ResultScreen.SetActive(false);
+    }
+    public void SetActiveGame() {
+        MainMenuScreen.SetActive(false);
+        GameScreen.SetActive(true);
+        ResultScreen.SetActive(false);
+    }
+    public void SetActiveResult() {
+        MainMenuScreen.SetActive(false);
+        GameScreen.SetActive(false);
+        ResultScreen.SetActive(true);
+    }
 
     private void Awake()
     {
         MAIN = this;
     }
 
-    void NextPlayer() {
+    void Start()
+    {
+        TextPlayerCount.text = playerCount.ToString();
+
+        //Load Soal
+        string a = Resources.Load<TextAsset>("Data/UlarTangga/Data").text;
+        Debug.Log(a);
+        questions = JsonConvert.DeserializeObject<List<Question>>(a);
+
+    }
+
+    public void StartGame() {
+
+        SetActiveGame();
+
+        for (int i = 0; i < GameUlarTanggaManager.MAIN.playerCount; i++)
+        {
+            Player p = Instantiate(playerPrefabs, board.GetChild(0).position, Quaternion.identity, playerTransform).GetComponent<Player>();
+            p.id = i + 1;
+            p.transform.GetChild(0).GetComponent<SpriteRenderer>().color = new Color(getBiner(i, 0) * 255, getBiner(i, 1) * 255, getBiner(i, 2) * 255);
+            
+            GameUlarTanggaManager.MAIN.players.Add(p.gameObject);
+        }
+    }
+
+    int getBiner(int ke, int urutan) {
+        int temp = 0;
+       
+        for (int i = 0; i <= urutan; i++) {
+            temp = ke % 2;
+            ke = Mathf.FloorToInt( ke / 2 );
+            
+        }
+
+        return temp;
+    }
+
+    public void NextPlayer() {
         currentPlayer++;
         if (currentPlayer >= players.Count) {
             currentPlayer = 0;
         }
+        Debug.Log("Player berganti");
         currentPlayerText.text = "Player " + (currentPlayer + 1);
+        isDiceRolled = false;
     }
 
-    public void MovePlayer(int moveCount) {
+    public void MovePlayer(int moveCount , bool naikTangga = false) {
 
         Debug.Log("Player move " + moveCount + "step");
-        players[currentPlayer].GetComponent<Player>().Move(moveCount, false);
+        players[currentPlayer].GetComponent<Player>().Move(moveCount, naikTangga);
 
-        NextPlayer();
+        
         
     }
 
@@ -84,7 +185,7 @@ public class GameUlarTanggaManager : MonoBehaviour {
         
         tempMove = i + 1;
         
-        card.question = questions[players[currentPlayer].GetComponent<Player>().GetCurrentPos()];
+        card.question = (players[currentPlayer].GetComponent<Player>().GetCurrentPos()<questions.Count) ? questions[players[currentPlayer].GetComponent<Player>().GetCurrentPos()] :  questions[Random.Range(0,questions.Count)];
         card.Show(result);
         //MovePlayer(i+1);
 
@@ -99,14 +200,26 @@ public class GameUlarTanggaManager : MonoBehaviour {
             MovePlayer(-tempMove);
         }
         Debug.Log("Terjawab");
-        isDiceRolled = false;
+        
         //tempMove = 0;
     }
 
-    
+    public void setWinner() {
 
-    // Update is called once per frame
-    void Update () {
-		
-	}
+        Debug.Log("Player ke " + currentPlayer+"Winning The Game");
+
+        players.Sort((b,a)=>  a.GetComponent<Player>().GetCurrentPos().CompareTo(b.GetComponent<Player>().GetCurrentPos()));
+        int loop = players.Count >= 3 ? 3 : players.Count;
+        for (int i = 0; i < 3; i++) {
+            podium.GetChild(i).GetComponent<UnityEngine.UI.Text>().text = "Player - "+players[i].GetComponent<Player>().id.ToString();
+        }
+
+        SetActiveResult();
+    }
+
+
+    public void QuitGame()
+    {
+        //Kembali ke Home
+    }
 }

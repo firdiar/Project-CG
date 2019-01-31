@@ -30,11 +30,16 @@ public class BoardGenerator : MonoBehaviour{
 
         Generate();
         Vector2 startPos = new Vector2((0 * scaleWidth + offsetWidth) - halfWidth, (0 * scaleHeaight + offsetHeight) - halfHeight);
-        for (int i = 0; i < GameUlarTanggaManager.MAIN.playerCount; i++) {
-            GameUlarTanggaManager.MAIN.players.Add( Instantiate(player, startPos, Quaternion.identity , players));
-        }
+        //for (int i = 0; i < GameUlarTanggaManager.MAIN.playerCount; i++) {
+        //    GameObject p = Instantiate(player, startPos, Quaternion.identity, players);
+            
+        //    GameUlarTanggaManager.MAIN.players.Add( p );
+        //}
 
-        //Destroy(gameObject);
+
+
+
+        Destroy(gameObject);
     }
 
     // Use this for initialization
