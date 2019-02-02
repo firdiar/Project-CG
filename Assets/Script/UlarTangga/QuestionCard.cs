@@ -43,6 +43,7 @@ public class QuestionCard : MonoBehaviour
             Button b = Instantiate(answerButtonPrefabs, Vector2.zero, Quaternion.identity, buttonPlace).GetComponent<Button>();
             b.transform.GetChild(0).GetComponent<Text>().text = _question.answer[i];
             b.onClick.AddListener(() => Answer(b.transform.GetChild(0).GetComponent<Text>()));
+           
             yield return new WaitForSeconds(0.01f);
         }
     }

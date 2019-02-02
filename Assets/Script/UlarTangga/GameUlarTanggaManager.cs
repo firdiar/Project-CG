@@ -110,7 +110,14 @@ public class GameUlarTanggaManager : MonoBehaviour {
         //Load Soal
         string a = Resources.Load<TextAsset>("Data/UlarTangga/Data").text;
         Debug.Log(a);
-        questions = JsonConvert.DeserializeObject<List<Question>>(a);
+       questions = JsonConvert.DeserializeObject<List<Question>>(a);
+        for (int i = 0; i < questions.Count; i++)
+        {
+            Question temp = questions[i];
+            int randomIndex = Random.Range(i, questions.Count);
+            questions[i] = questions[randomIndex];
+            questions[randomIndex] = temp;
+        }
 
     }
 
