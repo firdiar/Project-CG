@@ -78,7 +78,7 @@ public class QuestionCard : MonoBehaviour
         //Debug.Log(Vector2.Distance(this.GetComponent<RectTransform>().localPosition, targetPos));
         if (Vector2.Distance(this.GetComponent<RectTransform>().localPosition, targetPos) > 0.2f)
         {
-            this.GetComponent<RectTransform>().localPosition = Vector2.Lerp( this.GetComponent<RectTransform>().localPosition, targetPos, Time.deltaTime * 2);
+            this.GetComponent<RectTransform>().localPosition = Vector2.Lerp( this.GetComponent<RectTransform>().localPosition, targetPos, Time.deltaTime * 5);
         }
         
 

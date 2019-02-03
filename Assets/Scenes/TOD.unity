@@ -631,7 +631,7 @@ PrefabInstance:
     - target: {fileID: 2245238693561767849, guid: 30039d00f4533184698b806c53e4f779,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2245238693561767849, guid: 30039d00f4533184698b806c53e4f779,
         type: 3}
@@ -711,6 +711,31 @@ PrefabInstance:
     - target: {fileID: 2245238693561767849, guid: 30039d00f4533184698b806c53e4f779,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2245238693561767849, guid: 30039d00f4533184698b806c53e4f779,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2245238693561767849, guid: 30039d00f4533184698b806c53e4f779,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2245238693561767849, guid: 30039d00f4533184698b806c53e4f779,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
+      value: 
+      objectReference: {fileID: 2110823971}
+    - target: {fileID: 2245238693561767849, guid: 30039d00f4533184698b806c53e4f779,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
+      value: Back
+      objectReference: {fileID: 0}
+    - target: {fileID: 2245238693561767849, guid: 30039d00f4533184698b806c53e4f779,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1083,13 +1108,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2245238694119073365, guid: 30039d00f4533184698b806c53e4f779,
-        type: 3}
-      propertyPath: m_Text
-      value: 'Yakin Ingin Kembali Ke
-
-        Menu Awal?'
-      objectReference: {fileID: 0}
     - target: {fileID: 2245238693561767849, guid: 30039d00f4533184698b806c53e4f779,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -1109,6 +1127,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2245238694119073365, guid: 30039d00f4533184698b806c53e4f779,
+        type: 3}
+      propertyPath: m_Text
+      value: 'Yakin Ingin Kembali Ke
+
+        Menu Awal?'
       objectReference: {fileID: 0}
     - target: {fileID: 2245238693042329103, guid: 30039d00f4533184698b806c53e4f779,
         type: 3}

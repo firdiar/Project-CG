@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: 28aded1575265ad41a0d46f561f533d3
+  - enabled: 1
+    path: Assets/Scenes/TebakGambar.unity
+    guid: cff598cb054e0ed44a11d2958f64a183
+  - enabled: 1
+    path: Assets/Scenes/TOD.unity
+    guid: 8e039ec037d497a4fb9070888c9d33f3
+  - enabled: 1
+    path: Assets/Scenes/UlarTangga.unity
+    guid: 47996342a9f951349a567ff6dfa99555
   m_configObjects: {}

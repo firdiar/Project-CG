@@ -148,6 +148,7 @@ public class GameTebakGambarManager : MonoBehaviour
 
     public void BackToHome() {
         //kembali ke halaman awal
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Home");
     }
 
 

@@ -18,6 +18,9 @@ public class GameUlarTanggaManager : MonoBehaviour {
 
     public static GameUlarTanggaManager MAIN;
 
+    [Header("GameScreen")]
+    [SerializeField] GameObject optionGame;
+
     [Header("Scene Data")]
     [SerializeField] GameObject MainMenuScreen;
     [SerializeField] GameObject GameScreen;
@@ -25,6 +28,7 @@ public class GameUlarTanggaManager : MonoBehaviour {
 
     [Header("MainMenuScreen")]
     [SerializeField] UnityEngine.UI.Text TextPlayerCount;
+    [SerializeField] GameObject optionMenu;
 
     [Header("ResultScreen")]
     [SerializeField] Transform podium;
@@ -57,12 +61,12 @@ public class GameUlarTanggaManager : MonoBehaviour {
 
 
     public void addPlayerCount() {
-        playerCount = Mathf.Clamp(playerCount + 1, 0, 6);
+        playerCount = Mathf.Clamp(playerCount + 1, 1, 6);
         TextPlayerCount.text = playerCount.ToString();
     }
     public void minusPlayerCount()
     {
-        playerCount = Mathf.Clamp(playerCount-1 , 0 , playerCount);
+        playerCount = Mathf.Clamp(playerCount-1 , 1 , playerCount);
         TextPlayerCount.text = playerCount.ToString();
     }
 
@@ -82,10 +86,38 @@ public class GameUlarTanggaManager : MonoBehaviour {
         return step != -1;
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            if (MainMenuScreen.activeInHierarchy)
+            {
+                optionMenu.SetActive(true);
+            }
+            else if (GameScreen.activeInHierarchy)
+            {
+                optionGame.SetActive(true);
+            }
+            else if (ResultScreen.activeInHierarchy) {
+                SetActiveMainMenu();
+            }
+        }
+    }
+
     public void SetActiveMainMenu() {
+
+        foreach (GameObject p in players)
+        {
+            Destroy(p);
+        }
+        players.Clear();
+
+        card.Hide();
+        isDiceRolled = false;
         MainMenuScreen.SetActive(true);
         GameScreen.SetActive(false);
         ResultScreen.SetActive(false);
+
+        
     }
     public void SetActiveGame() {
         MainMenuScreen.SetActive(false);
@@ -122,7 +154,7 @@ public class GameUlarTanggaManager : MonoBehaviour {
     }
 
     public void StartGame() {
-
+        currentPlayer = 0;
         SetActiveGame();
 
         for (int i = 0; i < GameUlarTanggaManager.MAIN.playerCount; i++)
@@ -228,5 +260,6 @@ public class GameUlarTanggaManager : MonoBehaviour {
     public void QuitGame()
     {
         //Kembali ke Home
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Home");
     }
 }

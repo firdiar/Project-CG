@@ -115,12 +115,13 @@ public class GameTODManager : MonoBehaviour
 
     public void Home() {
         // back to home
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Home");
     }
 
     private void Update()
     {
         if (isRolling) {
-            float nextRot = Mathf.Lerp(bottle.eulerAngles.z, bottle.eulerAngles.z+rollingPower , Time.deltaTime * 1.5f);
+            float nextRot = Mathf.Lerp(bottle.eulerAngles.z, bottle.eulerAngles.z+rollingPower , Time.deltaTime*0.8f);
 
             rollingPower = Mathf.Clamp( rollingPower - (nextRot - bottle.eulerAngles.z ) , 0 ,  Mathf.Infinity);
 
