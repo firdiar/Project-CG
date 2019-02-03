@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c92bf87fc267be44ba82a0162cd7e91, type: 3}
+  m_Name: Soal1
+  m_EditorClassIdentifier: 
+  soal:
+  - texture: {fileID: 10912, guid: 0000000000000000f000000000000000, type: 0}
+    answer: TES
+  - texture: {fileID: 2800000, guid: 62488aeba9bbc3242806eff5a841a560, type: 3}
+    answer: TES
+  - texture: {fileID: 2800000, guid: 53bade589966a9944b7eb0834656128c, type: 3}
+    answer: TES
+  - texture: {fileID: 2800000, guid: b50e7d386b15611419b399b0012e23bd, type: 3}
+    answer: TES
+  - texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+    answer: TES
