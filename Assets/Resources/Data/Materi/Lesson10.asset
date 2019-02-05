@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9f5ac730b7934d47857496e6046b223, type: 3}
+  m_Name: Lesson10
+  m_EditorClassIdentifier: 
+  learnCard:
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "BAB III\r\nKitab Suci dan Tradisi\r\n\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: Sebagai orang yang beriman akan Yesus Kristus, kalian tentu ingin mengembangkan
+      diri dengan berpolakan pada Yesus Kristus. Pribadi Yesus Kristus adalah pola
+      dan teladan pengembangan diri, sebab dalam Dia-lah kalian dapat menemukan keluhuran
+      martabat manusia yang unggul dan berkenan kepada Allah. Dialah Citra Allah yang
+      telah dipilih Allah menjadi jalan, kebenaran dan hidup manusia. Dalam Dia-lah
+      manusia kesempurnaan manusia di hadapan Allah. Agar kalian mampu memahami Yesus
+      sebagai sosok kesempurnaan hidup, maka kalian perlu menggali pemahaman dari
+      sumbernya, yakni Kitab Suci, baik Kitab Suci Perjanjian Lama dan Perjanjian
+      Baru, serta Tradisi Gereja.
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "KITAB SUCI PERJANJIAN LAMA\r\n\nKitab Suci Perjanjian Lama seperti yang
+      dimiliki umat Kristiani saat ini disusun melalui proses yang panjang sekitar
+      lebih dari sepuluh abad, sejak abad XI SM sampai kurang lebih abad I Sesudah
+      Masehi. Pada mulanya berupa kumpulan cerita-cerita tentang pengalaman bangsa
+      Israel dalam hubungannya dengan sejarah bangsanya dan sekaligus peranan serta
+      kehadiran Allah dalam seluruh perjalanan hidup mereka"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Pengalaman-pengalaman penyelamatan Allah sepanjang sejarah mereka itu
+      diceritakan kepada anak cucu mereka secara turuntemurun. Hingga suatu saat ada
+      orang-orang tertentu, yang mendapat ilham Roh Kudus menyusun dan menuliskannya
+      menjadi sebuah buku utuh seperti yang kita miliki sekarang ini.\r\nKitab Suci
+      Perjanjian Lama dapat dikelompokkan ke dalam empat kelompok yaitu\r\n1) Pentateukh
+      atau Taurat \r\n2) Kitab-Kitab Sejarah \r\n3) Kitab-Kitab Kebijaksanaan dan
+      Sesembahan atau Pujian \r\n4) Kitab-Kitab Kenabian atau Para Nabi\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Tentang Perjanjian Lama, Dokumen Konsili Vatikan II tentang Wahyu Ilahi
+      (Dei Verbum) artikel 14 menyatakan:\r\nAllah Yang Mahakasih dengan penuh perhatian
+      merencanakan dan menyiapkan keselamatan segenap umat manusia. Dalam pada itu
+      Ia dengan penyelenggaraan yang istimewa memilih bagi diri-Nya suatu bangsa,
+      untuk diserahi janji-janji-Nya. Sebab setelah mengadakan perjanjian dengan Abraham
+      (lih. Kej 15:18) dan dengan bangsa Israel melalui Musa (lih. Kel 24:8), dengan
+      sabda maupun karya-Nya Ia mewahyukan Diri kepada umat yang diperoleh-Nya sebegai
+      satu-satunya Allah yang benar dan hidup sedemikian rupa, sehingga Israel mengalami
+      bagaimanakah Allah bergaul dengan manusia."
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Dan ketika Allah bersabda melalui para Nabi, Israel semakin mendalam
+      dan terang memahami itu, dan semakin meluas menunjukkannya diantara para bangsa
+      (lih. Mzm 21:28-29; 95:1-3; Yes 2:1-4; Yer 3:17). Adapun tata keselamatan, yang
+      diramalkan, diceritakan dan diterangkan oleh para pengarang suci, sebagai sabda
+      Allah yang benar terdapat dalam Kitab-kitab Perjanjian Lama. Maka dari itu kitab-kitab
+      itu, yang diilhami oleh Allah, tetap mempunyai nilai abadi: \u201CSebab apapun
+      yang tertulis, ditulis untuk menjadi pelajaran bagi kita, supaya kita karena
+      kesabaran dan penghiburan Kitab Suci mempunyai pengharapan\u201D(Roma15:4)."
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Istilah \u201CPerjanjian Lama\u201D dipergunakan untuk membedakan dengan
+      \u201CPerjanjian Baru\u201D. Dalam sejarah keselamatan, relasi manusia dengan
+      Alah diikat dengan perjanjian, yang dalam Perjanjian Lama manusia diwakili oleh
+      bangsa Israel, teristimewa melalui para pemimpin mereka. Perjanjian itu adalah
+      perjanjian kasih yang menyelamatkan. Dalam perjanjian itu, Allah berjanji akan
+      senantiasa menyelamatkan manusia, dan dari pihak manusia Allah menuntut kesetiaan."
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Sayangnya kesetiaan Allah itu seringkali dibalas dengan ketidaksetiaan
+      Israel. Maka Allah yang adalah setia tetap menjanjikan penyelamatan pada manusia
+      dengan cara memperbaharui perjanjian melalui putraNya sendiri Yesus Kristus.
+      Maka Perjanjian Lama menunjuk pada perjanjian antara manusia dengan Allah sebelum
+      Yesus Kristus. '
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Dengan mempelajari Perjanjian Lama, kita akan melihat bagaimana Allah
+      secara terus-menerus dan dengan setia menyatakan Diri-Nya untuk dikenal dan
+      bagaimana bangsa Israel menanggapi pewahyuan Allah itu. Hubungan timbal-balik
+      antara Allah dengan bangsa Israel tersebut dapat menjadi cermin bagi manusia
+      yang hidup zaman sekarang dalam membangun relasi yang lebih baik dengan Allah.
+      Kitab Suci Perjanjian Lama bukan buku yang pertama-tama hendak menguraikan fakta-fakta
+      sejarah, melainkan dan terutama hendak mengungkapkan Allah yang berfirman, yang
+      menyampaikan rencana dan tindakan penyelamatan kepada manusia. '
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Perjanjian Lama adalah Firman Allah. Karena Firman Allah, maka manusia
+      diminta untuk mau mendengarkan dan menjalankan apa yang difirmankan-Nya.\r\n\r\nKITAB
+      SUCI PERJANJIAN BARU\n\r\nGereja Katolik mengakui bahwa jumlah tulisan atau
+      Kitab dalam Perjanjian Baru ada 27 tulisan atau Kitab. Semua Kitab pada intinya
+      berbicara tentang Yesus Kristus, karya-Nya, sabda-Nya, tuntutan-Nya, dan hidup-Nya,
+      dengan cara dan gaya penulisan masing-masing. Meskipun Perjanjian Baru berpusat
+      pada Yesus Kristus, namun di dalamnya juga tercantum beberapa hal mengenai mereka
+      (jemaat perdana) yang percaya kepada Yesus Kristus. "
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Secara umum, Kitab Suci Perjanjian Baru bentuknya bersifat kisah (baik
+      perjalanan atau mukjizat) perumpamaan, ajaran, surat, dan nubuat.\r\n\nEmpat
+      Injil\n\r\nKitab Suci Perjanjian Baru dibuka dengan empat tulisan yang disebut
+      Injil (Matius, Markus, Lukas dan Yohanes). Sebagian besar isinya berupa cerita
+      mengenai Yesus yang hidup di dunia, karya-Nya, wejangan-wejangan-Nya, dan perjuangan-Nya
+      Tulisan mereka berhenti dengan kisah tentang Yesus yang menampakkan diri sesudah
+      bangkit dari antara orang mati. "
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Mengingat isinya, maka keempat Kitab Injil itu dipandang sebagai Kitab
+      yang paling utama (paling penting).\n\r\nKisah Para Rasul\n\r\n\u201CKisah Para
+      Rasul\u201D sebenarnya bukan berisi kisah tentang semua rasul, melainkan lebih
+      bercerita tentang apa yang terjadi setelah Yesus wafat dan bangkit. Intinya,
+      berkisah tentang munculnya jemaat kristen pertama dan perkembangannya selama
+      kurang lebih 30 tahun dengan dua tokoh utama yaitu Petrus dan Paulus\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Surat-surat\r\n\nTulisan berikutnya adalah 21 tulisan yang gaya penulisannya
+      semacam \u201Csurat\u201D. Isinya lebih merupakan wejangan, anjuran, dan ajaran
+      yang bermacam-macam tentang hidup sesuai dengan Yesus Kristus. Wejangan, anjuran
+      dan ajaran itu diajarkan oleh Santo Paulus, Yakobus dan tokoh-tokoh lain yang
+      ditujukan kepada jemaat tertentu atau orang tertentu. \r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Wahyu\r\n\nTulisan terakhir adalah Kitab Wahyu Yohanes. Kitab ini berisi
+      serangkaian penglihatan mengenai  umat Kristen dan dunia seluruhnya. Kitab ini
+      terarah ke masa depan atau akhir zaman, dan sekaligus merupakan rangkuman atau
+      penegasan tentang karya keselamatan Allah.\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Hubungan Kitab Suci Perjanjian Lama dengan Perjanjian Baru\r\n\nDokumen
+      Konsili Vatikan II tentang Wahyu Ilahi (Dei Verbum), artikel 16, menyatakan
+      sebagai berikut: \r\nAllah, pengilham dan pengarang kitab-kitab Perjanjian Lama
+      maupun Baru, dalam kebijaksanaan-Nya mengatur (Kitab Suci) sedemikian rupa,
+      sehingga Perjanjian Baru tersembunyi dalam Perjanjian Lama dan Perjanjian Lama
+      terbuka dalam Perjanjian Baru. "
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: Sebab meskipun Kristus mengadakan Perjanjian yang Baru dalam darah-Nya
+      (lih. Lukas 22:20; 1Korintus 11:25), namun Kitab-Kitab Perjanjian Lama seutuhnya
+      ditampung dalam pewartaan Injil, dan dalam Perjanjian Baru memperoleh dan memperlihatkan
+      maknanya yang penuh (lihat Matius 5:17; Lukas 24:27; Roma 16:25-26; 2Korintus
+      3:14-16) dan sebaliknya juga menyinari dan menjelaskan Perjanjian Baru.
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Pentingnya membaca Kitab Suci\r\n\nSanto Paulus dalam suratnya kepada
+      Timotius menegaskan, \u201Csegala tulisan yang diilhamkan oleh Allah memang
+      bermanfaat untuk mengajar, untuk menyatakan kesalahan, untuk memperbaiki kelakuan,
+      dan mendidik orang dalam kebenaran\u201D (2 Timotius 3:16-17). St. Hironimus
+      juga mengatakan, \u201CTidak mengenal Kitab Suci berarti tidak mengenal Kristus\u201D.
+      Kutipan inilah yang akhirnya juga dikutip kembali oleh Konsili Vatikan II dalam
+      dokumen Dei Verbum. Kutipan itu hendak menegaskan bahwa sarana utama untuk dapat
+      mengenal Kristus adalah Kitab Suci.\r\n\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "TRADISI GEREJA\r\n\nGereja memiliki tradisi yang sangat kaya. Tradisi
+      yang dimaksud bukan sekedar upacara, ajaran atau kebiasaan kuno. Tradisi yang
+      hidup dalam Gereja lebih merupakan ungkapan pengalaman iman Gereja akan Yesus
+      Kristus, yang diterima, diwartakan, dirayakan, dan diwariskan kepada generasi
+      selanjutnya. Konsili Vatikan II memandang penting peran Tradisi \u201DDemikianlah
+      Gereja dalam ajaran, hidup, serta ibadatnya melestarikan serta meneruskan kepada
+      semua keturunan, dirinya seluruhnya, imannya seutuhnya\u201D. "
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Tradisi \u201Dberkat bantuan Roh Kudus\u201D berkembang dalam Gereja,
+      \u201Dsebab berkembanglah pengertian tentang kenyataan-kenyataan maupun kata-kata
+      yang ditanamkan,\u201D dan \u201DGereja tiada hentinya berkembang menuju kepenuhan
+      kebenaran Ilahi\u201D (D8). Dalam arti ini tradisi mempunyai orientasi ke masa
+      depan. "
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Hubungan Tradisi dengan Kitab Suci\r\n\nTradisi Suci dan Kitab Suci
+      berhubungan erat sekali dan berpadu. Sebab keduanya mengalir dari sumber ilahi
+      yang sama, dan dengan cara tertentu bergabung menjadi satu dan menjurus ke arah
+      tujuan yang sama. Sebab Kitab suci itu pembicaraan Allah dan ilham Roh ilahi.
+      Sedangkan oleh Tradisi Suci sabda Allah, yang oleh Kristus Tuhan dan Roh Kudus
+      dipercayakan kepada para Rasul, disalurkan seutuhnya kepada para pengganti mereka, "
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: supaya mereka ini dalam terang Roh kebenaran dengan pewartaan mereka
+      memelihara, menjelaskan, dan menyebarkannya dengan setia. Dengan demikian Gereja
+      menimba kepastian tentang segala sesuatu yang diwahyukan bukan hanya melalui
+      Kitab Suci. Maka dari itu keduanya (baik Tradisi maupun Kitab Suci) harus diterima
+      dan dihormati dengan cita-rasa kesalehan dan hormat yang sama.
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Menghayati Tradisi Gereja\r\nBeberapa orang setelah melihat pagelaran
+      suatu tradisi tidak merasa mendapatkan apa-apa bahkan sekalipun ia ikut terlibat
+      di dalamnya, ia seolah pulang dengan kosong, kecuali rasa lelah. Tradisi seolah-olah
+      tidak bermakna bagi hidupnya. Tentu hal tersebut sangat disayangkan. Oleh karena
+      itu, supaya teman-teman tidak jatuh pada pengalaman yang sama, kita semua harus
+      mengembangkan sikap dan tindakan yang dirasa perlu dilakukan agar kita semakin
+      menghayati Tradisi yang ada dalam Gereja.\r\n"

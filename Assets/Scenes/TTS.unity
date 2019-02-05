@@ -175,25 +175,12 @@ MonoBehaviour:
   row: 10
   widthSpace: 1
   heightSpace: 1
-  parent: {fileID: 8267612242617274051, guid: 85d7d27a2eb09584e92756c5b570af28, type: 3}
   boxPrefabs: {fileID: 621792108, guid: 85d7d27a2eb09584e92756c5b570af28, type: 3}
   soals:
-  - pertanyaan: nama kucing
-    jawaban:
-      jaw: anjing
-      cek: 0
-    datar: 0
-  - pertanyaan: nama semut
-    jawaban:
-      jaw: ant
-      cek: 0
-    datar: 0
-  - pertanyaan: nama semut
-    jawaban:
-      jaw: babi
-      cek: 0
-    datar: 0
-  check: 0
+    pertanyaan: 
+    jawaban: 
+    horizontal: 0
+    vertikal: 0
 --- !u!4 &703461740
 Transform:
   m_ObjectHideFlags: 0

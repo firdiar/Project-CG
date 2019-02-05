@@ -15,10 +15,181 @@ MonoBehaviour:
   learnCard:
   - GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 
+    isiCard: "GEREJA\r\n\tMenjadi seorang yang beriman tentu selalu terarah kepada
+      Yesus Kristus. Untuk dapat menampak kita seorang yang beriman kepada Yesus perlu
+      kita tunjukkan dalam kegiatan kita sehari-hari bersama orang-orang disekitar
+      kita misalnya dengan orangtua, teman, guru, dan lainnya. \r\n"
+  - GambarLandscape: {fileID: 2800000, guid: 266a46202719c894085ef19211c97299, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Beriman berarti kita memiliki kepercayaan kepada Tuhan, untuk dapat
+      percaya kepada Tuhan tentunya kita perlu mengenal Tuhan.\tBagaimana caranya
+      kita mengenal Tuhan?? "
+  - GambarLandscape: {fileID: 2800000, guid: c941f8ef9e174cd48a1d712a569d3a6f, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Yuk kita mengenal sosok St. Agustinus terlebih dahulu..... \r\n\r\nApakah
+      kalian mengenal beliau? Ya, beliau adalah Santo Agustinus. Seorang yang tidak
+      percaya pada Tuhan dan pada masa mudanya penuh dengan kehidupan liar, namun
+      hatinya merasa gelisah dan kosong. Dia mencari-cari sesuatu dalam berbagai aliran
+      kepercayaan untuk mengisi kekosongan jiwanya."
+  - GambarLandscape: {fileID: 2800000, guid: c941f8ef9e174cd48a1d712a569d3a6f, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Tetapi tanpa kehadiran Tuhan dalam hidupnya, jiwanya tetap kosong. Semua
+      buku-buku ilmu pengetahuan telah dibacanya, tapi Dia tidak menemukan kebenaran
+      dan ketenteraman jiwa. \r\nPada usia 31 tahun Agustinus mulai tergerak hatinya
+      untuk kembali kepada Tuhan, berkat doa-doa ibunya dan berkat ajaran St. Ambrosius,
+      Uskup kota Milan. Namun demikian Dia belum bersedia dibaptis karena belum siap
+      untuk mengubah sikap hidupnya. "
+  - GambarLandscape: {fileID: 2800000, guid: c941f8ef9e174cd48a1d712a569d3a6f, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: . Suatu hari, Dia mendengar tentang dua orang yang sudah bertobat setelah
+      membaca riwayat hidup St. Antonius Pertapa. Agustinus merasa malu. Sejak saat
+      itu, Agustinus memulai hidup baru. Kita sungguh senang karena dapat mengenal
+      Tuhan. Kita mengenal Tuhan melalui Yesus Kristus. Pengenalan akan Tuhan itu
+      bukan usaha kita. Itu semua anugerah dari Tuhan Allah.
   - GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 
+    isiCard: "Iman adalah percaya dan taat akan perintah Tuhan. Iman adalah Anugerah
+      dari Allah. Melalui kisah Santo Agustinus, mengenalkan kita tentang iman yang
+      sesungguhnya. St. Agustinus bisa kita jadikan teladan untuk menjadi seorang
+      yang beriman. \r\n(1) Beriman berarti juga berbuat sesuatu demi Allah. Taukah
+      kalian bahwa Yesus wafat dikayu salib? Mengapa? Sebagai tanda cinta-Nya kepada
+      Allah dan kepada kita manusia. Dia wafat untuk menebus dosa manusia. Karena
+      itu Tanda Salib yang saat ini selalu kita lakukan memiliki makna yang begitu
+      mendalam. \r\n"
+  - GambarLandscape: {fileID: 2800000, guid: efc21535f75b08049b1229929da1cf44, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Mari Mengamati Gambar \r\nSumber : Chrisanthana.blogspot\r\nYesus dibawa
+      kehadapan Pilatus \r\n"
+  - GambarLandscape: {fileID: 2800000, guid: d9220446d577e9146a13db36d5f0c897, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Sumber : Chrisanthana.blogspot\r\nYesus disiksa\r\n"
+  - GambarLandscape: {fileID: 2800000, guid: 2504d253a7eb6a54e865156829ddfa6a, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Sumber : Chrisanthana.blogspot\r\nYesus di salibkan\r\n"
+  - GambarLandscape: {fileID: 2800000, guid: bb6ebb318cb4bd647bcdb1ebc2c37bb5, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Sumber : Chrisanthana.blogspot\r\nYesus Diturunkan dari salib\r\n"
+  - GambarLandscape: {fileID: 2800000, guid: b756b36482c2b814f9cb80369e73fdb5, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Sumber : Chrisanthana.blogspot\r\nKubur Yesus Kosong\r\n"
+  - GambarLandscape: {fileID: 2800000, guid: dce2f7dde489dc44da214300ded52db2, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Sumber : Chrisanthana.blogspot\r\nYesus Menampakkan diri Kepada Murid-MuridNya
+      \r\n"
   - GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 
+    isiCard: "Yesus mengajarkan hal baik kepada orang banyak, sehingga orang Farisi
+      membenci Yesus. Karena itu Yeus ditangkap ketika Yesus sedang berdoa di taman
+      Getsemani, akhirnya orang banyak mendesak pilatus untuk menyalibkan Yesus. Disalibkan
+      lah Yesus disebuah bukit yaitu bukit Golgota. \r\nYesus mengorbankan dirinya
+      demi menebus dosa umat manusia. Yesus sangat mencintai umat manusia. \r\n\r\nSudahkah
+      kalian berbuat baik demi Allah ??\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Yesus tentu tidak menuntut berbuat hal yang besar, tetapi Yesus ingin
+      kita tetap setia kepada-Nya, dengan cara melaksanakan perintah Allah. Ketika
+      kita mampu melaksanaannya kita adalah orang beriman dan orang beriman akan diselamatkan. '
+  - GambarLandscape: {fileID: 2800000, guid: 2dafd5d72c1348d4586028d5cf0e11ce, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Yuk Membaca Kitab Suci\r\n(Kitab kejadian 22: 1-19)\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Abraham mengorbankan anak yang dikasihinya Ishak karena ia taat kepada
+      Allah. Abraham selalu mendengar dan melaksanakan kehendak Allah, karena itu
+      ia dikenal sebagai \u201CBapa orang beriman\u201D. Maka menurut Bapa Abraham,
+      beriman itu berarti taat akan kehendak Allah. Tentunya kita pernah tidak taat
+      pada perintah dan nasehat dari orang tua. \r\nOrang tua pasti senang ketika
+      anak-anaknya mendengarkan perintah dan nasehat mereka. Apakah kalian ingin membuat
+      orang tua kalian senang ? Tentu bukan, ketika kita sebagai anak mampu melakukan
+      hal itu, kita akan senang dan bangga menjadi anak yang baik. \r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: (2) Beriman juga berarti berjuang melawan godaan. Melaksanakan perintah
+      Allah tentunya tidak mudah, pasti banyak godaan yang akan kita temui. Godaannya
+      seperti malas mandi akhirnya terlambat pergi sekolah, malas mengerjakan tugas
+      akhirnya nilainya tidak baik, malas berdoa, tidak mau membantu orangtua, berbohong,
+      dan masih banyak lagi yang kita temui dalam kegiatan kita baik di rumah maupun
+      disekolah. Apa yang kamu lakukan terhadap semua godaan itu? Mari kita belajar
+      dari Yesus yang berhasil melawan godaan.
+  - GambarLandscape: {fileID: 2800000, guid: 1c66714b1253c424b87ce66bac7be06c, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Mari Mengamati Gambar \r\n\r\nYesus digoda di padang gurun\r\nSumber
+      : parkreatif.blogspot\r\n"
+  - GambarLandscape: {fileID: 2800000, guid: 611eaebc0cf20834790950c6a7502407, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Mari Mengamati Gambar \r\n\r\nYesus digoda di padang gurun\r\n        Sumber
+      : parkreatif.blogspot\r\n"
+  - GambarLandscape: {fileID: 2800000, guid: 812b7a981c321be42a8f5acd51f7ea21, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Mari Mengamati Gambar \r\n\r\nYesus digoda di padang gurun\r\n        Sumber
+      : parkreatif.blogspot\r\n"
+  - GambarLandscape: {fileID: 2800000, guid: d9aba1cc0735bb347b2a7466f34a0c9d, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Mari Mengamati Gambar \r\n\r\nYesus digoda di padang gurun\r\n        Sumber
+      : parkreatif.blogspot\r\n"
+  - GambarLandscape: {fileID: 2800000, guid: 812b7a981c321be42a8f5acd51f7ea21, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Pendalaman : \r\nKetika Yesus menghadapi godaan dipadang gurun, Yesus
+      dengan tegas mengatakan tidak pada godaan tersebut. Terlihat dari jawaban Yesus
+      ketika Yesus di goda sebanyak 3 kali yaitu mengubah batu menjadi roti, menjatuhkan
+      diri kebubungan Bait Allah dan menyembah setan. Tetapi Yesus menolak, Yesus
+      juga mengatakan kepada iblis untuk \u201Ctidak mencobai Allah\u201D. \u201CMencobai
+      Allah\u201Dberarti tidak sungguh-sungguh percaya kepada Allah. \r\n"
+  - GambarLandscape: {fileID: 2800000, guid: 74f7ec106da212a4ca2723b4d4300c3e, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Kita harus mengikuti Yesus ketika kita menghadapi godaan-godaan yakni
+      dengan tegas mengatakan tidak dan melaksanakan yang sesuai dengan kehendak Allah,
+      rajin berdoa dan selalu berusaha berbuat baik kepada siapa.\r\nSIAP UNTUK MELAWAN
+      GODAAN ??\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Berdoa menjadi salah satu cara kita melawan godaan. Mengapa? Karena
+      dengan berdoa kita mampu berkomunikasi dengan Allah dan kita akan semakin mengenal
+      Allah. Ada macam-macam maksud dari doa yaitu memuji, memuliakan Tuhan, bersyukur
+      dan juga memohon. Taukah kalian doa yang diajarkan Yesus Kristus sendiri ? ............
+      Ya, Doa Bapa Kami. \r\nYUK BERDOA \u201CDOA BAPA KAMI\u201D\r\n"
+  - GambarLandscape: {fileID: 2800000, guid: 9a758566cb7746b4c87704846a8f4016, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: (Tanda Salib)
+  - GambarLandscape: {fileID: 2800000, guid: 0562e115f171a314b9fc7e6a36847214, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Bapa kami yang ada disurga \nDimuliakanlah nama-Mu"
+  - GambarLandscape: {fileID: 2800000, guid: 455117588036f0e46844f740efb6762f, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Datanglah kerajaan-Mu
+
+      Jadilah kehendak-Mu
+
+      Diatas bumi seperti didalam
+
+      Surga'
+  - GambarLandscape: {fileID: 2800000, guid: fbf908fece915144aa7045d6b98f1765, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: Berilah kami rejeki pada hari ini
+  - GambarLandscape: {fileID: 2800000, guid: ff6412c5af4bdfb4b84de888e90e44e0, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Dan ampunilah kesalahan Kami
+
+      Seperti kamipun mengampuni yang
+
+      Bersalah kepada kami'
+  - GambarLandscape: {fileID: 2800000, guid: e44a299e906606147899f9cdc821b2ae, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Dan janganlah masukkan kami
+
+      kedalam pencobaan, tetapi
+
+      bebaskanlah kami dari yang jahat, Amin'
+  - GambarLandscape: {fileID: 2800000, guid: 9a758566cb7746b4c87704846a8f4016, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: ' (Tanda Salib)'
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Yesus mengajarkan doa yang begitu indah kepada kita. Dalam doa Bapa
+      Kami, kita memuliakan Bapa, kehendakNya terlaksana dalam diri kita, memberikan
+      rezeki, serta memohon pengampunan atas dosa-dosa kita. Isi dari doa tidak hanya
+      meminta apa yang kita butuhkan tetapi pujian kepada Allah, ucapan syukur atas
+      segala hal baik maupun buruk yang terjadi, lalu permohonan. \r\nYesus meminta
+      kita untuk berdoa secara sederhana dan tidak dipamerkan kepada orang lain, Bapa
+      tau apa yang kita butuhkan tetapi dia akan senang ketika kita meminta kepadaNya.
+      \r\n"

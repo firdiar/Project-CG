@@ -1,52 +1,64 @@
 [
 	{
-		"courseName":"Tes 123",
+		"courseName":"SD",
 		"lessons":[
 			{
-				"lessonName":"lesson Tes 1",
+				"lessonName":"Kelas 1",
 				"lessonData":"Lesson1"
 			},
 			{
-				"lessonName":"lesson Tes 1",
-				"lessonData":"Lesson1"
-			},
-			{
-				"lessonName":"lesson Tes 2",
+				"lessonName":" Kelas 2",
 				"lessonData":"Lesson2"
+			},
+			{
+				"lessonName":"Kelas 3",
+				"lessonData":"Lesson3"
+			},{
+			
+				"lessonName":"Kelas 4",
+				"lessonData":"Lesson4"
+			},
+			{
+				"lessonName":"Kelas 5",
+				"lessonData":"Lesson5"
+			},{
+			
+				"lessonName":"Kelas 6",
+				"lessonData":"Lesson6"
 			}
 		]
 	},
 	{
-		"courseName":"Tes 321",
+		"courseName":"SMP",
 		"lessons":[
 			{
-				"lessonName":"lesson Tes 1",
-				"lessonData":"Lesson1"
+				"lessonName":"Kelas 7",
+				"lessonData":"Lesson7"
 			},
 			{
-				"lessonName":"lesson Tes 1",
-				"lessonData":"Lesson1"
+				"lessonName":" Kelas 8",
+				"lessonData":"Lesson8"
 			},
 			{
-				"lessonName":"lesson Tes 1",
-				"lessonData":"Lesson1"
+				"lessonName":"Kelas 9",
+				"lessonData":"Lesson9"
 			}
 		]
 	},
 	{
-		"courseName":"Tes 321",
+		"courseName":"SMA",
 		"lessons":[
 			{
-				"lessonName":"lesson Tes 1",
-				"lessonData":"Lesson1"
+				"lessonName":"Kelas 10",
+				"lessonData":"Lesson10"
 			},
 			{
-				"lessonName":"lesson Tes 1",
-				"lessonData":"Lesson1"
+				"lessonName":" Kelas 11",
+				"lessonData":"Lesson11"
 			},
 			{
-				"lessonName":"lesson Tes 1",
-				"lessonData":"Lesson1"
+				"lessonName":"Kelas 12",
+				"lessonData":"Lesson12"
 			}
 		]
 	}

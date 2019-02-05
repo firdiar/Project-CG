@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9f5ac730b7934d47857496e6046b223, type: 3}
+  m_Name: Lesson4
+  m_EditorClassIdentifier: 
+  learnCard:
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: MASYARAKAT
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Lingkungan pertama yang sangat berperan penting dalam hidup kita adalah
+      keluarga. Disinilah anak dilahirkan, dirawat dan dibesarkan oleh orang tua.
+      Oleh karena itu, pendidikan berasal dari orang tua. Orang tua adalah guru pertama
+      dan utama dalam hidup kita. Orang tua adalah orang yang pertama kali mengajarkan
+      kita berbicara, mengucapkan kata \u201CAYAH\u201D dan \u201CIBU\u201D. Orang
+      tualah yang membimbing, mengajar dan mengarahkan anaknya agar dapat tumbuh dan
+      berkembang dengan baik. Dengan begitu, peran orang tua sangatlah penting dalam
+      hidup kita. "
+  - GambarLandscape: {fileID: 2800000, guid: e022453285a916840ab39c0487fb69f7, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Siapa nama Ibuku?...
+
+
+      Tempat dan tanggal lahir Ibuku?...'
+  - GambarLandscape: {fileID: 2800000, guid: 653b5b27b1942c84794e0f7bcb3fdda9, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Siapa nama Ayahku?...
+
+
+      Tempat dan tanggal lahir Ayahku?...'
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Sebagai anak, hendaknya kita memiliki sikap dan kewajiban kita terhadap
+      orang tua adalah :\n\r\nHormat Kepada Orang Tua\r\nBentuk hormat yang hendaknya
+      kita lakukan adalah harus berbicara sopan, ramah, rendah hati, tidak merendahkan
+      dan menghina mereka sebagai orang tua kita.\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Cinta Terhadap Orang Tua \r\nSikap cinta terhadap orang tua sungguh
+      mereka perlukan, dengan cara memberikan perhatian kepada orang tua kita ketika
+      sedang sakit ataupun capek, menolong mereka ketika membutuhkan bantuan, mendoakan
+      serta menunjukkan rasa terimakasih atas kebaikan mereka kepada kita. \r\nTaat
+      Kepada Orang Tua \r\nSebagai anak, hendaknya kita menaati segala perintah dan
+      nasehat yang diberikan kepada kita. Karena perintah dan nasehat tersebut merupakan
+      salah satu bentuk rasa sayang mereka kepada anak-anaknya\r\n"
+  - GambarLandscape: {fileID: 2800000, guid: 0410189688d55fd46b710d2cad900a2c, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Membantu Orang Tua \r\nSebagai anak, hendaknya kita harus selalu siap
+      sedia untuk membantu dan menolong orang tua kita ketika sedang membutuhkan bantuan.
+      Seperti membantu menyapu, mencuci piring, membersihkan tempat tidur, dan lain-lain\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Sama seperti yang diajarkan oleh Allah kepada kita dalam 10 Perintah
+      Allah yang terdapat pada Firman Ke Empat (4) adalah :
+
+      Orang tua adalah orang yang pertama mengajarkan anak untuk bersosialisasi dengan
+      lingkungan sekitar seperti di lingkungan sekolah dan masyarakat. Dengan mengenalkan
+      anak untuk dapat bersosialisasi dengan saudara dan teman-teman yang ada disekitarnya
+      diharapkan mereka dapat membangun hubungan yang harmonis dengan saudara dan
+      teman-temannya. '
+  - GambarLandscape: {fileID: 2800000, guid: d847ef8b28efecd48b651b247eb46e53, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "BUKA KITAB SUCI YUKSSSSS\r\n(LUKAS 10: 25-37)\r\nAPA KISAHNYA YAAAAA?\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Melalui kisah dalam kitab suci yakni \u201COrang Samaria Yang Murah
+      Hati\u201D, Yesus mengajarkan bahwa sesama adalah mereka yang menunjukkan belas
+      kasih, khususnya mereka yang membutuhkan pertolongan. Melalui kisah itu, Yesus
+      menegaskan bahwa sesama kita adalah semua orang. Dengan demikian, bagi kita
+      tidak ada orang lain atau orang asing, karena semua orang adalah sesama kita;
+      semua orang saudara kita. "
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: Apabila kita memandang semua orang sebagai saudara, kita patut menunjukkan
+      belas kasih kepada semua orang. Itulah yang diajarkan Yesus melalui Kisah Orang
+      Samaria yang murah hati. Seperti orang samariakita diajak untuk belajar mencintai
+      dan peduli kepada siapapun tanpa membedakan latar belakang suku, agama, kaya,
+      miskin dan sebagainya.
+  - GambarLandscape: {fileID: 2800000, guid: 8cd18291c3a75ed46a366aaf5d3cfff7, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Cinta kasih merupakan hukum yang paling utama. Seperti yang dikatakan
+      dalam injil Lukas 10: 27 mengatakan bahwa :\r\n\u201CKasihilah Tuhan, Allahmu,
+      dengan segenap hatimu dan dengan segenap jiwamu dan dengan segenap kekuatanmu
+      dan dengan segenap akal budimu, dan kasihilah sesamamu manusia seperti dirimu
+      sendiri\u201D\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Menjalin hubungan dengan orang-orang yang ada disekitar kita hendaknya
+      harus didasari dengan cinta kasih, agar nantinya kita sebagai anak Allah hendaknya
+      dapat mengasihi dan mencintai sesama tanpa membedakan suku, ras dan agama serta
+      dapat terciptanya suatu hubungan yang harmonis dengan semua orang. '
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: Hidup setiap orang hendaknya harus dipelihara dengan kasih. Sebagaimana
+      orang Samaria yang murah hati berani mendobrak batas-batas adat istiadat, agama
+      dan kebangsaan, kita pun harus melindungi dan melestarikan kehidupan dengan
+      saling mengasihi tanpa memandang perbedaan, melainkan atas dasar keyakinan bahwa
+      semua manusia adalah anak Allah.
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Sebagai anak-anak Allah hendaknya kita mampu menghormati hidup kita
+      masing-masing. Mulai dari hal-hal kecil seperti makan dengan teraatur, menjaga
+      kesehatan tubuh agar tidak sakit, menjaga pola makan yang baik, dan lain-lain.
+      Tidak hanya hidup kita saja, hendaknya kita juga menghormati hidup orang lain
+      dengan tidak menyakiti orang-orang yang ada disekitar kita. '
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: BERILAH TANDA CENTANG PADA GAMBAR YANG SESUAI DENGAN MENGHORMATI HIDUP
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 

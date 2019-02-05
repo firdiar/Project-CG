@@ -15,16 +15,66 @@ MonoBehaviour:
   learnCard:
   - GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "test 123123 \n123123123\n1231231313\n12312\n12\n31\n23\n13\n1\n32\n123\n\n13\n1\n23\n12312312312\n123131\n123\n123\n123\n123\n12\n3\n12312\n31\n3\n131312312312\n3123123123\n12313123\n"
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 2800000, guid: 03181093d99b72746b406c37fcd75a3e, type: 3}
-    isiCard: tes2
-  - GambarLandscape: {fileID: 2800000, guid: 6176b61d87d7a4e408dd502eac9cfd20, type: 3}
+    isiCard: "MASYARAKAT\r\n\r\nHidup ditengah masyarakat dengan baik sangat disukai
+      oleh Tuhan, apalagi ketika kitameneladani Yesus di dalam kehidupan sehari-hari.
+      Tidak perlu berbuat hal-hal besar, melalui hal-hal kecil juga Tuhan senang.
+      Kita akan belajar mengenai lingkungan disekitar kita seperti rumah yang kita
+      tinggali, anggota keluarga, sekolah dan guru di sekolah. mari kita mulai dengan
+      rumah dan anggota keluarga.\r\n"
+  - GambarLandscape: {fileID: 2800000, guid: a4e1396041e534f498f3c83ed3424dd2, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: test3
+    isiCard: "Setiap keluarga pasti membutuhkan tempat tinggal atau sering disebut
+      dengan \u201Crumah\u201D. Pada umumnya rumah terdiri dari ruang tamu, kamar
+      tidur, dapur, gudang dan masih banyak lagi. Apakah dirumah kitapunya lebih banyak
+      ruangan dari yang tadi disebutkan? Ayo sebutkan? \uF04A. Nah ketika seluruh
+      ruangan digunakan dengan baik, anggota keluarga akan merasa aman dan nyaman. "
+  - GambarLandscape: {fileID: 2800000, guid: a4e1396041e534f498f3c83ed3424dd2, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Rumah sangat penting untuk melindungi kita dari teriknya matahari dan
+      hujan. Rumah yang bersih dan rapi akan terasa nyaman untuk ditinggali. Tuhanpun
+      senang dengan rumah yang bersih dan rapi. '
+  - GambarLandscape: {fileID: 2800000, guid: 57b5bd31e7103014bbc64c54cd01d686, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Sudah kah membersihkan rumah hari ini ??? \uF04A "
+  - GambarLandscape: {fileID: 2800000, guid: a436c0da2de2ed24fa2e67ce28cc7996, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: Nah, didalam rumah tentunya ada yang namanya anggota keluarga, anggota
+      keluarga itu siapa aja sih? Ya, ada ibu, ayah dan anak-anak. Tentunya juga setiap
+      anggota keluarga punya tanggung jawabnya masing-masing. Apakah kamu tau tanggung
+      jawab dari masing-masing anggota keluarga? Ayo sebutkan !
   - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 10906, guid: 0000000000000000f000000000000000, type: 0}
-    isiCard: test4
+    GambarKotak: {fileID: 0}
+    isiCard: "Bagaimana dengan tanggung jawab seorang ayah dan ibu? Ya, ibu dan ayah
+      bertanggung jawab untuk melindungi, mendidik serta memberi nafkah seluruh anggota
+      keluarganya. Seorang ibu juga bertanggung jawab untuk menyiapkan makanan untuk
+      keluarga dan erawat rumah. Untuk anggota keluarga yang lain bagaimana? Anak
+      ? apakah tugas kalian sebagai anak dalam keluarga? \uF04A"
+  - GambarLandscape: {fileID: 2800000, guid: ef9ee9f79251c5c499499babedd526c3, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: Apa tugasku ?
   - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 2800000, guid: 62488aeba9bbc3242806eff5a841a560, type: 3}
-    isiCard: test5
+    GambarKotak: {fileID: 0}
+    isiCard: "Pernahkah kalian mendengar tentang perintah Allah yang ke 4? \r\n\r\n\r\n\u201CHORMATILAH
+      IBU BAPAMU\u201D\r\n\r\n\r\nBagaimana caranya? Dengan melaksanakan nasihat orangtua,
+      rajin untuk berbuat baik misalnya dengan rajin belajar dan juga ketika ibu atau
+      ayah meminta bantuan segera dilaksanakan.\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Selain di rumah dan di dalam keluarga, sekolah juga menjadi bagian lingkungan
+      sekitar kita. Setiap sesuatu yang kita lakukan pasti punya tujuan misalnya makan,
+      untuk apa kita makan? Tujuannya supaya kita kenyang, energi tubuh bertambah
+      dan bisa beraktivitas. Sama hal dengan bersekolah, apakah kalian tau tujuan
+      dari bersekolah? .........tujuan dari bersekolah supaya menjadi seorang anak
+      yang pintar dan baik hati. Guru disekolah mengajarkan banyak pengetahuan kepada
+      adik-adik, tidak hanya pengetahuan tetapi diajarkan juga untuk membedakan mana
+      yang salah dan mana yang benar? '
+  - GambarLandscape: {fileID: 2800000, guid: 2e8dd119d87700b448eb56df8e482cd7, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Dari gambar diatas kita tentu tau sikap mana yang baik dan perlu dicontoh
+      dan sikap yang tidak. baik dan tidak boleh dicontoh. \uF04A "
+  - GambarLandscape: {fileID: 2800000, guid: 6f61236527229824fa2e9eed0ee1fa55, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Perbuatan yang baik hasilnya akan membuat gembira tetapi perbuatan yang
+      jahat akan. merugikan diri sendiri dan orang lain. untuk itu kita diajak untuk
+      berusaha selalu berbuat baik dan menolak hal-hal yang jahat. \r\n\r\n\r\nNah,
+      sudah berbuat baik kah kita hari ini ? Yuk berbuat baik! \uF04A \r\n"

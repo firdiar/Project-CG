@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9f5ac730b7934d47857496e6046b223, type: 3}
+  m_Name: Lesson12
+  m_EditorClassIdentifier: 
+  learnCard:
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "DIALOG DAN KERJA SAMA\r\nANTAR UMAT BERAGAMA\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Kemajemukan, termasuk kemajemukan agama dan keyakinan merupakan ciri,
+      jati diri bangsa Indonesia yang tak terbantahkan. Inilah realitas kebangsaan
+      kita, \u201Cberbeda-beda tetapi tetap satu\u201D. Bagaimana mengelola perbedaan-perbedaan
+      ini sehingga menjadi kekuatan yang besar dan bersinergi dalam membangun bangsa
+      dan negara ini? Salah satu caranya adalah menciptakan kerukunan hidup lewat
+      dialog dan kerja sama antarumat beragama. Tanpa dialog dan kerja sama yang baik
+      maka negeri ini akan terseok-seok dalam pembangunan dan dengan sendirinya semakin
+      tertinggal dari bangsa-bangsa lain."
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Kekhasan Agama-Agama di Indonesia\r\n\nDi Indonesia terdapat beberapa
+      agama dan kepercayaan yang secara undang-undang diakui keberadaannya. Agama-agama
+      yang dimaksud adalah Islam, Katolik, Kristen (Protestan), Hindu, Buddha dan
+      Khonghucu. Selain itu ada keyakinan atau kepercayaan lain termasuk agama-agama
+      asli pribumi yang tersebar di setiap wilayah nusantara.\r\n"
+  - GambarLandscape: {fileID: 2800000, guid: d8dd8286c197a05499c2f9befbc8abe5, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Agama Asli dan Aliran Kepercayaan\r\n\nAgama asli masih tetap berpengaruh
+      dalam hidup keagamaan banyak orang, walaupun telah menganut salah satu agama
+      yang ada di dunia, khususnya Agama Kristen Katolik. Terdapat berbagai macam
+      agama asli di Indonesia, antara lain, Lera wulan Tana Ekan di Flores Timur dan
+      Lembata; wiwitan di Sunda; Aluk To Dollo di Sulawesi; Sabulungan di Mentawai;
+      Merapu di Sumba; Kaharingan di Kalimantan. "
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: Ada pula yang disebut agama-agama suku, seperti yang dianut oleh penduduk
+      beberapa pulau sebelah barat Sumatera beberapa suku kecil dan bagian suku-suku
+      yang besar di Sumatera; kelompok-kelompok besar dari suku Dayak di Kalimantan;
+      Toraja di Sulawesi; penduduk pulau Sumba; dan penduduk Irian Jaya. Selain itu,
+      masih terdapat apa yang kini dinamakan kepercayaan kepada Tuhan Yang Maha Esa,
+      yang menurut negara sama kedudukannya dengan agama dalam hal pengalaman ke-Tuhanan
+      Yang Maha Esa.
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Aliran kepercayaan dalam dokumen Nostra Aetate disebut juga kepercayaan
+      terhadap Yang Mahatinggi. Aliran Kepercayaan mengajarkan tentang sikap batin
+      dan berkisar pada ilham dari diri sendiri, yakni:\r\na) Peningkatan integrasi
+      diri manusia (melawan pengasingan)\r\nb) Pengalaman batin bahwa diri pribadi
+      beralih ke kesatuan dan persatuan yang lebih tinggi\r\nc) Partisipasi dalam
+      tata tertib sempurna yang mengatasi daya kemampuan manusia biasa.\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Sikap Gereja Katolik terhadap Aliran Kepercayaan dan Agama Asli\r\n\nSejak
+      Konsili Vatikan II, Gereja dengan penuh keyakinan menegaskan bahwa iman dan
+      wahyu orang bukan Kristen dapat bersifat menyelamatkan dan bahwa Gereja harus
+      menolak \u2018semua sarana yang memaksa\u2019 dalam pewartaan imannya. Sarana
+      yang dimaksud adalah semacam sifat fanatisme berlebihan dan sifat menakut-nakuti
+      kebudayaan lain. \u201CGereja Katolik tidak menolak apa pun, yang dalam agama-agama
+      itu serba benar dan suci. "
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Dengan sikap hormat yang tulus, Gereja merenungkan cara-cara bertindak
+      dan hidup, kaidah-kaidah serta ajaran-ajaran, yang memang dalam banyak hal berbeda
+      dari apa yang diyakini dan diajarkannya sendiri, tetapi tidak jarang memantulkan
+      sinar kebenaran, yang menerangi semua orang\u201D (NA art. 2) Dalam pernyataan
+      ini dapat dilihat bahwa di dalam Lembaga gereja dan tradisinya; dalam orang-orang
+      kudus dan kitab-kitab sucinya, \u2018pesan kristiani\u2019 secara aktif disingkapkan
+      oleh Roh Kudus di tengah-tengah kita dan melampaui rintangan-rintangan budaya,
+      seturut janji yang Yesus berikan kepada para Rasul-Nya."
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Persaudaraan Antar Umat Beragama dan Kepercayaan Lain\r\n\nKehidupan
+      rukun dan damai antarpemeluk agama menjadi dambaan seluruh masyarakat. Namun
+      kehidupan rukun dan damai tersebut belum dapat dinikmati sepenuhnya. karena
+      masih ada konflik yang bernuansa agama baik di dalam maupun di luar negeri.
+      Konflik ini terjadi, antara lain karena orang sering kali menyalahgunakan agama
+      untuk kepentingan tertentu, misalnya demi kekuasaan. Selain itu, orang kurang
+      mendalami agamanya dan kurang memahami agama orang lain sehingga mudah diadu
+      domba.\r\n"
+  - GambarLandscape: {fileID: 2800000, guid: d50fabcd495e7394ebaf23d57eef59a4, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Upaya menghargai keberagaman sebagai wujud toleransi antarumat beragama
+      ditunjukkan Uskup Amboina Mgr Petrus Canisius Mandagi MSC dengan menampung kafilah
+      (kontingen) Musabaqah Tilawatil Quran (MTQ) asal Provinsi Banten di kediamannya
+      di Kawasan Batu Gaja, Ambon. Anggota kafilah yang menempati wisma Keuskupan
+      Amboina dari Provinsi Banten di antaranya adalah Wakil Ketua DPRD Kabupaten
+      Banten, Asisten III Pemkab Banten, '
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: ', Rektor Universitas Tirta Yasa Banten, Prof Dr Hidayat, dan belasan
+      anggota kafilah lainnya. Saat ditemui di Keuskupan Amboina, Kamis (7/6/2012)
+      pagi, sejumlah anggota kafilah tengah menikmati sarapan pagi Bersama Uskup Mandagi,
+      suasana hangat penuh kekeluargaan terlihat jelas saat para anggota kafilah dan
+      uskup duduk semeja memulai sarapan pagi. Uskup mengatakan, apa yang dilakukannya
+      merupakan wujud tanggung jawab moral sebagai anak bangsa untuk terus memupuk
+      tali persaudaraan antarsesama umat beragama. Baginya, selain ingin menghargai
+      pelaksanaan MTQ yang sarat makna keagamaan, apa yang dilakukan merupakan bentuk
+      dukungan nyata umat Katolik di Maluku terhadap suksesnya MTQ tingkat nasional
+      ke XXIV di Kota Ambon.'
+  - GambarLandscape: {fileID: 2800000, guid: 3a7aa7d1e162deb43a3e81ff947d5039, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: Ningrum mengaku kaget pertemanannya dengan biarawati yang diabadikan
+      oleh Lexy Rambadeta pada 8 Januari 2014 lalu menjadi istimewa. Padahal, pertemanan
+      antarumat beragama merupakan hal yang wajar dan biasa di Yogyakarta. Hal ini
+      pun membuat Ningrum bertanya, mengapa hal yang biasa di sini menjadi hal yang
+      begitu istimewa. Menurut Ningrum jika manusia hanya melihat perbedaan, maka
+      masing-masing tidak akan menemukan titik kebersamaan. Karena setiap individu
+      diciptakan berbeda, baik fisik maupun sifatnya.
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: Dari kedua kisah tersebut tentunya teman-taman pasti mulai memahami apa
+      penyebab konflik antar umat beagama. Tentunya bukan karena ajaran dari Agama-Agama
+      tertentu, namun penyebab utamanya adalah dari dalam diri manusia, apakah ia
+      memeluk Agama yang diyakininya demi menemukan Allah dan menciptakan perdamaian
+      dalam masyarakat atau hanya memeluk agama sebagai kepentingan dirinya sendiri
+      sehingga dapat merugikan orang lain.  Oleh karena itu teman-teman hendaknya
+      mengembangkan sikap atau tindakan yang dirasa harus dilakukan demi terwujudnya
+      kerukunan antar umat beragama.
