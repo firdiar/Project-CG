@@ -103,7 +103,7 @@ public class MateriManager : MonoBehaviour
             {
                 g.transform.GetChild(1).gameObject.SetActive(false);
                 g.transform.GetChild(0).GetComponent<UnityEngine.UI.Text>().text = s.isiCard;
-                g.transform.GetChild(2).GetComponent<UnityEngine.UI.RawImage>().texture = s.GambarLandscape;
+                g.transform.GetChild(2).GetComponent<UnityEngine.UI.RawImage>().texture = s.GambarKotak;
                 g.transform.GetChild(3).gameObject.SetActive(false);
             }
             else
