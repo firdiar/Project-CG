@@ -1,0 +1,54 @@
+[
+{
+		"id": 1,
+		"StartPos": {
+			"x": 0,
+			"y": 0
+		},
+		"pertanyaan": "Gereja diperuntukan bagi semua manusia merupakan ciri-ciri Gereja yang...",
+		"jawaban": "KATOLIK",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 2,
+		"StartPos": {
+			"x": -10,
+			"y": -4
+		},
+		"pertanyaan": "Koinonia sering juga disebut sebagai tugas...",
+		"jawaban": "PERSEKUTUAN",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 3,
+		"StartPos": {
+			"x": 0,
+			"y": -7
+		},
+		"pertanyaan": "Gereja berasal dari para rasul dan berpegang  pada kesaksian mereka merupakan ciri-ciri Gereja yang ...",
+		"jawaban": "APOSTOLIK",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 4,
+		"StartPos": {
+			"x": 5,
+			"y": -3
+		},
+		"pertanyaan": "Gereja mempunyai banyak anggota tetapi satu...",
+		"jawaban": "TUBUH",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 5,
+		"StartPos": {
+			"x": -7,
+			"y": -10
+		},
+		"pertanyaan": "Calon Imam disebut sebagai...",
+		"jawaban": "FRATER",
+		"arah": "Horizontal"
+	}
+
+
+]

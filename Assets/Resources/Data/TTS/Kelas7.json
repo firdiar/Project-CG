@@ -1,0 +1,203 @@
+[{
+		"id": 1,
+		"StartPos": {
+			"x": 0,
+			"y": 0
+		},
+		"pertanyaan": "Menurut Amsal, kita harus menjaga hati kita dengan .",
+		"jawaban": "KEWASPADAAN",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 2,
+		"StartPos": {
+			"x": 7,
+			"y": 3
+		},
+		"pertanyaan": "Rasa cinta diri yang menghambat pertemanan adalah... ",
+		"jawaban": "Egois",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 3,
+		"StartPos": {
+			"x": 10,
+			"y": 2
+		},
+		"pertanyaan": "Sinonim sikap berpura-pura. ",
+		"jawaban": "MUNAFIK",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 4,
+		"StartPos": {
+			"x": 13,
+			"y": -1
+		},
+		"pertanyaan": "Bahasa Inggris cinta. ",
+		"jawaban": "LOVE",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 5,
+		"StartPos": {
+			"x": 11,
+			"y": -6
+		},
+		"pertanyaan": "Sikap menganggap orang lain lebih utama  dari dirinya  sendiri disebut... hati",
+		"jawaban": "RENDAH",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 6,
+		"StartPos": {
+			"x": 8,
+			"y": -8
+		},
+		"pertanyaan": "Sikap yang mau memberikan diri untuk sahabat kita seperti teladan Yonathan adalah rela . ",
+		"jawaban": "BERKORBAN",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 7,
+		"StartPos": {
+			"x": -1,
+			"y": -10
+		},
+		"pertanyaan": "Paulus menuliskan nasihat dalam berteman dalam suratnya bagi jemaat di... ",
+		"jawaban": "FILIPI",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 8,
+		"StartPos": {
+			"x": 12,
+			"y": -10
+		},
+		"pertanyaan": "Kedekatan dengan lawan jenis yang menunjukkan perilaku saling menyayangi disebut . ",
+		"jawaban": "PACARAN",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 9,
+		"StartPos": {
+			"x": -3,
+			"y": -6
+		},
+		"pertanyaan": "Bahasa Inggris teman... ",
+		"jawaban": "FRIEND",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 10,
+		"StartPos": {
+			"x": -4,
+			"y": -1
+		},
+		"pertanyaan": "Sahabat Yonathan adalah . ",
+		"jawaban": "DAUD",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 1,
+		"StartPos": {
+			"x": 1,
+			"y": 1
+		},
+		"pertanyaan": "Hubungan  atau relasi antara dua orang atau lebih dengan tujuan untuk  bersosialisasi ataupun untuk mencapai  sesuatu yang akan dicapai bersama disebut...",
+		"jawaban": "BERTEMAN",
+		"arah": "Vertical"
+	},
+	{
+		"id": 2,
+		"StartPos": {
+			"x": 4,
+			"y": 2
+		},
+		"pertanyaan": "Lawan kata teman ....",
+		"jawaban": "MUSUH",
+		"arah": "Vertical"
+	},
+	{
+		"id": 3,
+		"StartPos": {
+			"x": 10,
+			"y": 3
+		},
+		"pertanyaan": "Pertemanan yang selaras dengan nilai-niilai Kristus berarti memiliki dimensi... ",
+		"jawaban": "IMAN",
+		"arah": "Vertical"
+	},
+	{
+		"id": 4,
+		"StartPos": {
+			"x": 13,
+			"y": 6
+		},
+		"pertanyaan": "Menurut 1 Korintus, dalam berpacaran kita harus menjauhkan diri dari . ",
+		"jawaban": "PERCABULAN",
+		"arah": "Vertical"
+	},
+	{
+		"id": 5,
+		"StartPos": {
+			"x": 12,
+			"y": -5
+		},
+		"pertanyaan": "Lagu yang dinyanyikan Sindentosca menceritakan persahabatan berjudul . ",
+		"jawaban": "KEPOMPONG",
+		"arah": "Vertical"
+	},
+	{
+		"id": 6,
+		"StartPos": {
+			"x": 15,
+			"y": -5
+		},
+		"pertanyaan": "Teman yang lebih dekat dan hubungannya lebih intensif disebut...",
+		"jawaban": "SAHABAT",
+		"arah": "Vertical"
+	},
+	{
+		"id": 7,
+		"StartPos": {
+			"x": 17,
+			"y": -10
+		},
+		"pertanyaan": "Menurut Kitab Suci, sebaiknya kita harus berpacaran dengan berlandaskan pada kasih. ",
+		"jawaban": "ALLAH",
+		"arah": "Vertical"
+	},
+	{
+		"id": 8,
+		"StartPos": {
+			"x": 0,
+			"y": -5
+		},
+		"pertanyaan": "Menurut Paulus, salah satu  sikap  agar pertemanan menjadi  indah adalah sehati  ... ",
+		"jawaban": "SEPIKIR",
+		"arah": "Vertical"
+	},
+	{
+		"id": 9,
+		"StartPos": {
+			"x": -1,
+			"y": -1
+		},
+		"pertanyaan": "Sahabat selalu ada dalam suka maupun .",
+		"jawaban": "DUKA",
+		"arah": "Vertical"
+	},
+	{
+		"id": 10,
+		"StartPos": {
+			"x": -3,
+			"y": 0
+		},
+		"pertanyaan": "Ayah Yonathan yang memusuhi sahabat anaknya sendiri bernama .",
+		"jawaban": "SAUL",
+		"arah": "Vertical"
+	}
+
+
+]
