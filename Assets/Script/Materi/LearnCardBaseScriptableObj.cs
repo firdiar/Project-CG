@@ -11,8 +11,10 @@ public class LearnCardBaseScriptableObj : ScriptableObject
 
 [System.Serializable]
 public class LearnCard {
+	
     public Texture GambarLandscape;
     public Texture GambarKotak;
     [TextArea]
     public string isiCard;
+	
 }
