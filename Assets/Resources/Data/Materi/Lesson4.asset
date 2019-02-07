@@ -115,46 +115,51 @@ MonoBehaviour:
       dengan tidak menyakiti orang-orang yang ada disekitar kita. '
   - GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: BERILAH TANDA CENTANG PADA GAMBAR YANG SESUAI DENGAN MENGHORMATI HIDUP
-  - GambarLandscape: {fileID: 0}
+    isiCard: BERIKUT ADALAH GAMBAR YANG SESUAI DENGAN CARA MENGHORMATI HIDUP
+  - GambarLandscape: {fileID: 2800000, guid: b63e860d69e73a74bae7457ff03a8910, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: 
   - GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 
-  - GambarLandscape: {fileID: 0}
+    isiCard: BERIKUT ADALAH GAMBAR YANG TIDAK SESUAI DENGAN CARA MENGHORMATI HIDUP
+  - GambarLandscape: {fileID: 2800000, guid: c0f11afcc7cfa594bb70050d96d36f78, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: 
+  - GambarLandscape: {fileID: 2800000, guid: 94a141310c26d3f43b0155987b505ab5, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Sama seperti yang diajarkan oleh Allah kepada kita dalam 10 Perintah
+      Allah yang terdapat pada Firman Ke Empat (4) adalah :'
   - GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 
+    isiCard: 'Sebagai pemberian Tuhan yang amat baik hendaknya hidup yang kita miliki
+      harus kita rawat, jaga dan pelihara. Hal tersebut merupakan tugas paling penting
+      bagi setiap makhluk hidup. Selain itu, sebagai makhluk ciptaanNya hendaknya
+      kita mampu mengasihi sesama kita, menghormati hidup dan melestarikan kehidupan. '
   - GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 
+    isiCard: 'Kita adalah makhluk sosial yang hidup bersama. Tak jarang bahwa dalam
+      kehidupan sehari-hari kita terlibat dalam situasi saling membutuhkan satu dengan
+      yang lain. Seperti contohnya adalah kita meminjam barang milik orang lain, dengan
+      begitu akan ada tanggung jawab untuk menjaga dan mengembalikan barang tersebut
+      dalam keadaan yang baik. Selain itu, sebelum kita meminjam barang milik orang
+      lain hendaknya kita mengatakannya terlebih dahulu agar tidak dikira mencuri
+      atau merampok barang milik orang lain. '
   - GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 
+    isiCard: Namun, terkadang hal tersebut didasari oleh sifat manusia yang serakah
+      dan ingin menang sendiri. Maka tak jarang tindakan mencuri atau merampok sering
+      terjadi disekitar kita. Sebagai anak Allah kita diajak untuk tetap menaati perintahNya.
+      Hayoooo, apakah masih ingat apa yang tertulis dalam 10 Perintah Allah mengenai
+      tema ini? Yukkk, sekarang kita mencoba untuk mengingat-ingat!
+  - GambarLandscape: {fileID: 2800000, guid: 0e069ee3a73b3514791487dc7b2623e3, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: INI ADALAH CONTOH DARI PENERAPAN 10 PERINTAH ALLAH
   - GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: 
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: 
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: 
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: 
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: 
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: 
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: 
+    isiCard: "Hal itu dinasehatkan pula oleh Santo Paulus bahwa di dalam harta milik
+      terdapat hak bagi mereka yang kurang beruntung , \u201CHai tuan-tuan, berlakulah
+      adil dan jujur terhadap hambamu; ingatlah, kamu juga mempunyai tuan di Sorga\u201D
+      (Kol.41). Setiap kekayaan memiliki aspek sosial, di mana ada orang-orang yang
+      berkekurangan memiliki sebagian hak atasnya. Mengapa? Karena dunia diciptakan
+      Tuhan untuk kesejahteraan mereka juga. Tuhan menghendaki agar orang yang lebih
+      mampu mau berbagi dengan mereka yang membutuhkan."

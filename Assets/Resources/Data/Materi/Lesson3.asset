@@ -53,8 +53,9 @@ MonoBehaviour:
       kabar gembira. Pembaptisan Yesus menjadi dasar pembaptisan dalam Gereja Katolik.
   - GambarLandscape: {fileID: 2800000, guid: 1db388490805cd947bc647cf10a6dd81, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: "Apa yang mereka lakukan ?\r\n                                     ................................................................................................\r\n
-      \                                    ................................................................................................\r\n"
+    isiCard: "                                                                   Apa
+      yang mereka lakukan ?\r\n\n( Imam/Romo/Pastor  menuangkan air sebagai tanda
+      sakramen baptis diatas kepala penerima sakramen) \r\n"
   - GambarLandscape: {fileID: 2800000, guid: 1db388490805cd947bc647cf10a6dd81, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: 'Gambar diatas menunjukkan tanda dari sakramen baptis. Rahmat Sakramen
@@ -189,10 +190,10 @@ MonoBehaviour:
   - GambarLandscape: {fileID: 2800000, guid: d3cd3eebabd50fe448a71f0f464306fa, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "Untuk meraih cita-cita apa yang perlu kalian lakukan ? (Ayo sebutkan!)\r\n\r\nBerusaha
-      ,\t\u2026\u2026\u2026\u2026 , \t\u2026\u2026\u2026\u2026..\r\n\r\n\tHarapan
-      tentu dimiliki semua orang. Menurut iman kristiani, harapan adalah sesuatu yang
-      ingin dicapai dengan berdasar pada iman akan cinta kasih Allah. Ketika mengandalkan
-      Tuhan untuk mencapai cita-cita kita, kita tidak akan takut untuk mencoba. \r\n"
+      ,Berdoa Dan Belajar\r\n\r\n\tHarapan tentu dimiliki semua orang. Menurut iman
+      kristiani, harapan adalah sesuatu yang ingin dicapai dengan berdasar pada iman
+      akan cinta kasih Allah. Ketika mengandalkan Tuhan untuk mencapai cita-cita kita,
+      kita tidak akan takut untuk mencoba. \r\n"
   - GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Harapan itu juga dapat semakin kita kuatkan dengan berusaha menyampaikan
@@ -203,24 +204,3 @@ MonoBehaviour:
       kepada semua umat manusia. Seperti kisah dalam Kitab Suci \u201Cmemberi makan
       5000 orang\u201D, kisah tersebut menunjukkan belas kasih Yesus. Yesus sangat
       menekankan pentingnya hidup saling mengasihi."
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: 
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: 
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: 
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: 
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: 
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: 
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: 

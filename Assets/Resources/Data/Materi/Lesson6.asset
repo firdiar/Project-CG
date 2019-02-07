@@ -1,0 +1,233 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9f5ac730b7934d47857496e6046b223, type: 3}
+  m_Name: Lesson6
+  m_EditorClassIdentifier: 
+  learnCard:
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'MASYARAKAT '
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Dijaman yang semakin berkembang ini, kita semua umat beriman dipanggil
+      oleh Allah untuk melanjutkan karya Kristus di dunia yaitu mewartakan Kerajaan
+      Allah. Namun dapat kita ketahui bahwa Gereja sekarang ini memiliki berbagai
+      aneka macam tantangan. Oleh karena itu, harapannya adalah kita sebagai umat
+      beriman harus menjadi kritis dan berani dalam menghadapi segala tantangan tersebut. '
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Mewartakan Kerajaan Allah berarti kita menjunjung nilai-nilai perdamaian,
+      persaudaraan cinta kasih dan pengampunan. Selain itu kita juga diajak untuk
+      bersama-sama menegakkan keadilan dan kebenaran. Berbagai macam cara yang dilakukan
+      oleh Gereja untuk berpikir mencari jalan keluar dari berbagai macam permasalahan
+      baru yang dihadapi dari zaman ke zaman. '
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Dengan berkembangnya jaman sekarang ini mulai dari teknologi informasi
+      dan komunikasi menyebabkan banyak terjadinya perubahan nilai-nilai kehidupan
+      seperti budaya materialisme yang lebih mengutamakan harta dan kekayaan sehingga
+      membuat manusia buta akan segalanya dan menimbulkan dampak negative seperti
+      korupsi besar-besaran, kekerasan dan keadilan yang semakin marak terjadi di
+      dalam masyarakat. Oleh karena itu, Gereja harus dapat membangun sikap iman yang
+      lebih kritis dan berani  dalam menghadapi berbagai macam tantangan zaman sebagai
+      bentuk keterlibatan kita dalam mewartakan Kerajaan Allah. '
+  - GambarLandscape: {fileID: 2800000, guid: a74e68e3f0d488d4ea5fc971508a5beb, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "LIHAT, APA YANG TERJADI?\r\nCOBA KITA DESKRIPSIKAN GAMBAR DIBAWAH DI
+      ATAS! \r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Jawaban : Perkembangan jaman sekarang ini membuat orang terlalu sibuk
+      dengan dunia masing-masing tanpa memperhatikan bagaimana situasi dan kondisi
+      yang sedang terjadi disekitarnya. Karena dengan adanya berbagai macam perkembangan
+      zaman pasti akan diikuti dengan permasalahan-permasalahan baru dan perubahan
+      hidup masyarakat sekitar. '
+  - GambarLandscape: {fileID: 2800000, guid: 630588bc8d8575e43b77693412231d4e, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: Apa dampak yang akan terjadi yaa?
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Jawab :  \n\n(+) : Orang dapat berkomunikasi jarak jauh\r\n(-) : lebih
+      asyik dengan dunianya sendiri \r\n"
+  - GambarLandscape: {fileID: 2800000, guid: 26885e8450e1f4b4eb7055c6aecfbe89, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: Apa dampak yang akan terjadi yaa?
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Jawab :\n\n(+) : dimudahkan jik ingin pergi kemana-mana \r\n(-) : menambah
+      polusi udara\r\n"
+  - GambarLandscape: {fileID: 2800000, guid: 6b26bcb8e0ef27040885af8300c2e79d, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: Apa dampak yang akan terjadi yaa?
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Jawab : \n\n(+) : terlihat lebih cantik \r\n(-) : meninggalkan peninggalan
+      yang lama\r\n\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Setelah kita melihat beberapa macam contoh perkembangan jaman yang terjadi
+      disekitar kita serta melihat apa yang menjadi dampak positif dan dampak negative
+      yang dihasilkan dari perkembangan zaman tersebut. Semakin jelas bahwa banyak
+      alasan yang mendorong manusia untuk dapat melakukan ketidakadilan, permusuhan
+      seperti kesombongan, ego pribadi dank arena alasan perekonomian. Dengan begitu
+      kemajuan dan persoalan yang dihadapi menjadi persoalan bersama termasuk Gereja
+      juga turut ambil bagian untuk dapat mengatasi berbagai macam permasalahan tersebut. '
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: LALU, BAGAIMANA SIKAP GEREJA TERHADAP TANTANGAN ZAMAN INI?
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Terdapat persoalan ketidakjujuran, korupsi, ketidakadilan yang masih
+      menjadi permasalahan nyata yang terjadi pada zaman sekarang. Sabda Yesus:  Jika
+      ya, hendaklah kamu katakan: ya, jika tidak, hendaklah kamu katakan: tidak. Apa
+      yang lebih dari pada itu berasal dari si jahat, merupakan ajakan untuk hidup
+      di dalam kejujuran, bertindak adil dan tidak mencari keuntungan pribadi.'
+  - GambarLandscape: {fileID: 2800000, guid: 94a141310c26d3f43b0155987b505ab5, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Dokumen Gereja Gaudium et Spes art.6 menjelaskan tentang alat-alat komunikasi
+      sosial yang baru dan lebih canggih menunjang pemberitaan peristiwa-peristiwa
+      maupun penyebaran cara-cara berpikir dan berperasaan secepat dan seluas mungkin,
+      sambil menimbulkan pelbagai reaksi beruntun. '
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Begitulah hubungan-hubungan manusia dengan sesamanya tiada hentinya
+      berlipat ganda; dan serta-merta proses \u201Csosialisasi\u201D sendiri menimbulkan
+      relasi-relasi baru, tanpa selalu mendukung pendewasaan pribadi yang serasi dan
+      mempererat hubungan-hubungan pribadi yang sesungguhnya (\u201Cpersonalisasi\u201D).
+      Perkembangan seperti itu memang lebih jelas nampak pada bangsa-bangsa yang sudah
+      menikmati keuntungan-keuntungan kemajuan ekonomi dan teknik."
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "SIKAP YANG PERLU SAYA LAKUKAN\r\nDALAM MENGHADAPI PERKEMBANGAN ZAMAN
+      ADALAH\u2026\u2026\r\n\nKritis, Tanggung jawab, Tegas, Berani, Jujur\n\n\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: Setelah mengetahui sikap apa saja yang harus dilakukan dalam menghadapi
+      perkembangan zaman ini hendaknya kita sebagai manusia harus memiliki tanggung
+      jawab untuk melaksanakannya demi terwujudnya negara yang lebih baik. Tanggung
+      jawab atas kebebasan pribadi manusia dihayati melalui keputusan hati nurani
+      dari masing-masing orang.
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Apa itu Hati Nurani?\n\nDalam arti luas:\r\nKesadaran moral yang timbul
+      dan tumbuh dalam hati manusia.\r\n\nDalam arti sempit:\r\nPenerapan kesadaran
+      moral dalam situasi konkret yang menilai suatu tindakan manusia atas baik buruknya.\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Oleh karena itu, Hati Nurani perlu dibina\r, agar dapat mengarahkan
+      kita pada sesuatu yang baik\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "BAGAIMANA CARA MEMBINA SUARA HATI?\n\nMengikuti keputusan suara hati\t\t\r\nMembiasakan
+      diri berbuat baik\t\t\r\nMengikuti rekolesi atau retret\r\nMembaca berita dan
+      Kitab Suci\t\t\t\r\nMembiasakan diri memeriksa perbuatan kita\r\n\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: APA YANG AKAN KITA LAKUKAN JIKA MENEMUKAN SEBUAH MASALAH SEPERTI INI?
+  - GambarLandscape: {fileID: 2800000, guid: b6d8824bbb690934d8add78f4faa14c6, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Kita menemukan sebuah dompet yang didalamnya terdapat uang, KTP, kartu
+      ATM dan identitas pemiliknya. Tapi sayangnya si pemilik dompet ini tinggal jauh
+      dari tempat tinggal kita.\r\n\nApa yang hendak kita lakukan?\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Dalam kehidupan sehari-hari pasti kita sering menjumpai beberapa masalah
+      seperti contoh diatas dan tentunya akan melibatkan hati nurani ketika sedang
+      dilanda kebingungan. Disitulah hati nurani kita bekerja untuk dapat mengarahkan
+      kita kepada sesuatu yang baik. Namun ada kalanya orang terkalahkan dengan hati
+      nuraninya sendiri sehingga malah membuat diri kita sendiri yang kesusahan. '
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: Hati nurani bekerja untuk dapat memberikan suatu pertimbangan dalam membuat
+      suatu keputusan yang tepat. Sebab keinginan, kebutuhan atau cita-cita yang sangat
+      baik, menjadi tidak baik jika ditempuh dengan cara-cara yang tidak baik dan
+      tidak wajar.
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "LUKAS 22: 54 \u2013 62\r\n\n\u201CPETRUS MENYANGKAL YESUS\u201D\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Ketika suasana sulit, terjepit dan mengancam yang pada akhirnya memaksa
+      Petrus untuk menyangkal Yesus sebanyak tiga kali. Ia terpaksa melakukan penyangkalan,
+      dengan berbagai pertimbangan: demi keselamatan pribadi, demi nama baik, dan
+      demi kepentingan diri sendiri.\r\nDalam lubuk hati setiap orang, hati nurani
+      bekerja. Ia memberikan perintah untuk melakukan yang baik dan menghindari perbuatan
+      jahat. Hati nurani juga menilai keputusan kita, keputusan itu baik atau jahat.\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Petrus menyadari bahwa dirinya telah mengingkari hati nuraninya. Petrus
+      menyadari bahwa tindakannya itu salah. Hati nuraninya menyalahkan. Ia menangis
+      menyesali perbuatannya.
+
+'
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "JADI, APAKAH SELAMA INI \r\nKITA SUDAH MENGIKUTI HATI NURANI DENGAN
+      BAIK????\r\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Di zaman sekarang ini terkadang memang sulit untuk dapat mengikuti hati
+      nurani, padahal dengan kita dapat mengikuti hati nuari khususnya di zaman yang
+      semakin berkembang ini sedikit demi sedikit kita sudah mencoba untuk bertindak
+      adil dan jujur. Oleh karenanya, apabila kita belum bisa mengikuti hati nurani
+      dengan baik pasti akan timbul perilaku yang kurang baik seperti tidak jujur
+      dan tidak adil sehingga terjadi ketidakadilan dan keserakahan yang terjadi disekitar
+      kita. '
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "BACA KITAB SUCI YOKKKKKKKKK!!\r\n\nYesus mengajarkan bahwa kejujuran
+      adalah sikap hati yang tegas. Jujur adalah mengatakan sesuai dengan sebenarnya.
+      Jika ya katakan ya, dan jika tidak katakan tidak. Yesus menghendaki kita untuk
+      bersikap jujur, karena sikap jujur selain sesuai dengan hati nurani, sesuai
+      dengan kebenaran, sikap jujur juga berguna untuk membangun sendisendi kepercayaan
+      di dalam kehidupan bersama.  Perilaku tidak jujur akan mengakibatkan kerugian
+      serta ketidakadilan. "
+  - GambarLandscape: {fileID: 2800000, guid: 0569b63561d4de64eb9e27df9cf35432, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: Mereka yang benar diperlakukan salah, sedangkan yang bersalah seolah
+      diperlakukan sebagai orang benar. Menurut Matius 20:1-16, keadilan adalah sikap
+      memberikan kepada orang lain sesuai dengan haknya. Keadilan adalah kesesuaian
+      antara hak dan kewajiban. Keadilan adalah wujud dari kebaikan dan cinta Allah
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "CONTOH KETIDAKJUJURAN DAN KETIDAKADILAN DI SEKOLAH\n\n-MEREBUT MILIK
+      ORANG LAIN \r\n-MENCONTEK SAAT ULANGAN\r\n-TIDAK AMBIL BAGIAN DALAM PIKET DIKELAS
+      \r\n-PILIH-PILIH TEMAN\r\n\n\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Apakah selama ini saya sudah bersikap jujur dan adil?
+
+
+      Selain itu, kita juga diajarkan untuk selalu berdoa. Doa sama halnya dengan
+      kita berbicara dengan Allah. Dengan berdoa kita dapat menyampaikan segala permohonan
+      kita kepada Allah. '
+  - GambarLandscape: {fileID: 2800000, guid: cea845572c62692498d1afd2ad44438a, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: MENGAPA KITA PERLU BERDOA?
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: Bagi Yesus, doa memberi kekuatan bagi diri-Nya, untuk setia dan melaksanakan
+      apa yang menjadi kehendak Allah. Berdasarkan teks Kitab Suci menekankan bahwa
+      doa berperan memberikan peneguhan. Terkabulnya doa tidak tergantung pada rumusan,
+      tempat dan waktu, melainkan kehendak Allah. Dalam hal ini, doa-doa semua orang
+      akan dikabulkan, jika sesuai dengan Allah sendiri. Berjaga dan berdoa, memberikan
+      kekuatan agar kita tidak jatuh ke dalam pencobaan. Artinya, doa dapat meneguhkan
+      rencana, sikap dan perbuatan kita sesuai dengan kehendak Allah. Jika kita hidup
+      sesuai dengan kehendak Allah, kita tidak akan jatuh ke dalam pencobaan.
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "BERIKUT ADALAH WAKTU DIMANA KITA HARUS BERDOA...\n\n-Bangun tidur\r\n-Tidur
+      \r\n-Pergi kesuatu tempat \r\n-Sebelum dan sesudah belajar\r\n-Sebelum dan sesudah
+      makan\r\n\n\n"
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: SUDAHKAH KITA BERDOA SETIAP HARINYA???
