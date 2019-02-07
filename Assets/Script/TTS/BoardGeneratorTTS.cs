@@ -51,6 +51,9 @@ public class BoardGeneratorTTS : MonoBehaviour
     public Vector2 width;//x for min and y for max
     public Vector2 height;//x for min and y for max
 
+    Vector3 cameraTarget;
+    bool movingCamera = false;
+
     bool showing = false;
     bool showInProgress = false;
 
@@ -80,6 +83,8 @@ public class BoardGeneratorTTS : MonoBehaviour
 
     }
 
+  
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape)) {
@@ -89,6 +94,12 @@ public class BoardGeneratorTTS : MonoBehaviour
             }
             else {
                 optionMenu.SetActive(true);
+            }
+        }
+        if (movingCamera) {
+            Camera.main.transform.position = Vector3.Lerp(Camera.main.transform.position, cameraTarget, 4*Time.deltaTime);
+            if (Vector3.Distance(Camera.main.transform.position, cameraTarget) < 1) {
+                movingCamera = false;
             }
         }
     }
@@ -117,6 +128,7 @@ public class BoardGeneratorTTS : MonoBehaviour
 
     public void Generate(string data)
     {
+        movingCamera = false;
         string a = Resources.Load<TextAsset>("Data/TTS/"+data).text;
         Debug.Log(a);
         soals = JsonConvert.DeserializeObject<List<Soal>>(a);
@@ -155,6 +167,19 @@ public class BoardGeneratorTTS : MonoBehaviour
 
     }
 
+    public void CekJawaban() {
+        if (currentBtts == null) {
+            return;
+        }
+
+        bool result = currentBtts.CheckAnswerAllBox(currentArah);
+        Debug.Log(" The Answer : " + result);
+        if (result) {
+            RightSoal.GetChild(1).gameObject.SetActive(true);
+        }
+
+    }
+
   
     public void ShowLeft() {
         Vector2 target = LeftSoal.localPosition;
@@ -189,12 +214,29 @@ public class BoardGeneratorTTS : MonoBehaviour
 
         if (currentArah == Arah.Vertical)
         {
-            RightSoal.GetChild(0).GetComponent<UnityEngine.UI.Text>().text = currentBtts.soalVertical.pertanyaan;
-            RightSoal.GetChild(1).GetComponent<UnityEngine.UI.Text>().text = currentBtts.soalVertical.jawaban;
+            RightSoal.GetChild(0).GetChild(0).GetComponent<UnityEngine.UI.Text>().text = currentBtts.soalVertical.pertanyaan;
+            RightSoal.GetChild(1).GetChild(0).GetComponent<UnityEngine.UI.Text>().text = currentBtts.soalVertical.jawaban;
+            if (currentBtts.wasAnswer)
+            {
+               
+                RightSoal.GetChild(1).gameObject.SetActive(true);
+            }
+            else {
+                RightSoal.GetChild(1).gameObject.SetActive(false);
+            }
         }
         else {
-            RightSoal.GetChild(0).GetComponent<UnityEngine.UI.Text>().text = currentBtts.soalHorizontal.pertanyaan;
-            RightSoal.GetChild(1).GetComponent<UnityEngine.UI.Text>().text = currentBtts.soalHorizontal.jawaban;
+            RightSoal.GetChild(0).GetChild(0).GetComponent<UnityEngine.UI.Text>().text = currentBtts.soalHorizontal.pertanyaan;
+            RightSoal.GetChild(1).GetChild(0).GetComponent<UnityEngine.UI.Text>().text = currentBtts.soalHorizontal.jawaban;
+            if (currentBtts.wasAnswer)
+            {
+                
+                RightSoal.GetChild(1).gameObject.SetActive(true);
+            }
+            else
+            {
+                RightSoal.GetChild(1).gameObject.SetActive(false);
+            }
         }
 
         
@@ -219,7 +261,7 @@ public class BoardGeneratorTTS : MonoBehaviour
     IEnumerator Show(RectTransform obj, Vector3 target) {
         showInProgress = true;
         while (Vector3.Distance( obj.localPosition, target) > 0.2f) {
-            obj.localPosition = Vector3.Lerp(obj.localPosition, target, 10*0.02f);
+            obj.localPosition = Vector3.Lerp(obj.localPosition, target, 12*0.02f);
             yield return new WaitForSeconds(0.02f);
         }
         showInProgress = false;
@@ -229,6 +271,12 @@ public class BoardGeneratorTTS : MonoBehaviour
 
     public void SetObjSelected(BoxTTS box)
     {
+
+        if ((box.nextHorizontal != null || box.prevHorizontal != null) && (box.nextVertical != null || box.prevVertical != null)) {
+            Debug.Log("Persimpangan");
+            SetObjSelected(box, Arah.Horizontal);
+            return;
+        }
 
         int count = boxSelectedParent.childCount;
         for (int i = 0; i < count; i++)
@@ -256,6 +304,12 @@ public class BoardGeneratorTTS : MonoBehaviour
             obj.transform.SetParent(boxSelectedParent);
         }
         currentBtts.setToFocus();
+
+        cameraTarget = currentBtts.transform.position;
+        cameraTarget.z = -10;
+        cameraTarget.y -= 3;
+        movingCamera = true;
+
     }
 
 
@@ -288,7 +342,15 @@ public class BoardGeneratorTTS : MonoBehaviour
             obj.transform.SetParent(boxSelectedParent);
         }
         currentBtts.setToFocus();
+
+        cameraTarget = currentBtts.transform.position;
+        cameraTarget.z = -10;
+        cameraTarget.y -= 3;
+        movingCamera = true;
+
     }
+
+    
 
     public void InputText(UnityEngine.UI.Text text) {
         if (currentBtts == null) {

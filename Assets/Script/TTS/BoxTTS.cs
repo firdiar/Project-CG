@@ -21,8 +21,15 @@ public class BoxTTS : MonoBehaviour
     public Soal soalHorizontal;
 
 
-
-    public bool wasAnswer = false;
+    bool _wasAnswer;
+    public bool wasAnswer { get { return _wasAnswer; }
+        set {
+            _wasAnswer = value;
+            if (wasAnswer) {
+                backCol.color = colorAnswered;
+            }
+        }
+    }
 
     bool _isFocus;
     public bool isFocus {
@@ -80,6 +87,61 @@ public class BoxTTS : MonoBehaviour
             backCol.transform.position = p;
         }
         
+    }
+
+    public bool CheckAnswerAllBox(Arah arah ) {
+
+        bool isTrue = false;
+        List<GameObject> box = new List<GameObject>();
+        box.Add(this.gameObject);
+        switch (arah) {
+            case Arah.Vertical:
+                isTrue = (nextVertical !=null ? nextVertical.CheckAnswerAllBox(arah, ref box, true):true) &&  ( prevVertical != null ? prevVertical.CheckAnswerAllBox(arah, ref box, false):true) && _currentAnswer == boxAnswer;
+                break;
+            case Arah.Horizontal:
+                isTrue = (nextHorizontal != null ? nextHorizontal.CheckAnswerAllBox(arah, ref box, true) : true) && (prevHorizontal != null ? prevHorizontal.CheckAnswerAllBox(arah, ref box, false) : true) && _currentAnswer == boxAnswer;
+                break;
+
+        }
+        Debug.Log("Answer is : " + isTrue);
+        if (isTrue) {
+            foreach (GameObject b in box) {
+                b.GetComponent<BoxTTS>().wasAnswer = true;
+
+            }
+        }
+        return isTrue;
+    }
+
+    public bool CheckAnswerAllBox(Arah arah, ref List<GameObject> box, bool toNext)
+    {
+        bool isTrue = false;
+        box.Add(this.gameObject);
+        switch (arah)
+        {
+            case Arah.Vertical:
+                if (toNext)
+                {
+                    isTrue = (nextVertical != null ? nextVertical.CheckAnswerAllBox(arah, ref box, true) : true) && _currentAnswer == boxAnswer;
+                }
+                else {
+                    isTrue = (prevVertical != null ? prevVertical.CheckAnswerAllBox(arah, ref box, false) : true) && _currentAnswer == boxAnswer;
+                }
+
+                break;
+            case Arah.Horizontal:
+                if (toNext)
+                {
+                    isTrue = (nextHorizontal != null ? nextHorizontal.CheckAnswerAllBox(arah, ref box, true) : true) && _currentAnswer == boxAnswer;
+                }
+                else
+                {
+                    isTrue = (prevHorizontal != null ? prevHorizontal.CheckAnswerAllBox(arah, ref box, false) : true) && _currentAnswer == boxAnswer;
+                }
+                break;
+        }
+
+        return isTrue;
     }
 
     public BoxTTS ClearAll(Arah arah) {
