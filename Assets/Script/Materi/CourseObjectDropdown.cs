@@ -10,6 +10,7 @@ public class ObjectCourse {
     public List<ObjectLesson> lessons;
     
 }
+[System.Serializable]
 public class ObjectLesson {
     public ObjectLesson(string lessonName , string lessonData) {
         this.lessonName = lessonName;
@@ -108,20 +109,20 @@ public class CourseObjectDropdown : MonoBehaviour
         while (isChangeSize)
         {
             
-            rotator.eulerAngles = Vector3.Lerp(rotator.eulerAngles , tempEuler , 7*Time.deltaTime);
+            rotator.eulerAngles = Vector3.Lerp(rotator.eulerAngles , tempEuler , 5*Time.deltaTime);
 
-            objSizer.sizeDelta = Vector2.Lerp(objSizer.sizeDelta, targetSize, 6*Time.deltaTime);
+            objSizer.sizeDelta = Vector2.Lerp(objSizer.sizeDelta, targetSize, 12*Time.deltaTime);
 
-            if (Vector2.Distance(objSizer.sizeDelta, targetSize) <= 0.5f)
-            {
-                isChangeSize = false;
-            }
+            
 
             for (int i = 0; i < objPlace.childCount; i++)
             {
-                
-                if (Vector2.Distance(objPlace.GetChild(i).localPosition, tempTarget[i]) < 1) continue;
-                objPlace.GetChild(i).localPosition = Vector2.Lerp(objPlace.GetChild(i).localPosition, tempTarget[i], 7*Time.deltaTime);
+                objPlace.GetChild(i).localPosition = Vector2.Lerp(objPlace.GetChild(i).localPosition, tempTarget[i], 5*Time.deltaTime);
+            }
+
+            if (Vector2.Distance(objPlace.GetChild(objPlace.childCount-1).localPosition, tempTarget[objPlace.childCount-1]) <= 0.5f)
+            {
+                isChangeSize = false;
             }
 
             yield return null;

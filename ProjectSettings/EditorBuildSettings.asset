@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: 
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Home.unity
@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UlarTangga.unity
     guid: 47996342a9f951349a567ff6dfa99555
+  - enabled: 1
+    path: Assets/Scenes/TTS.unity
+    guid: bd801f2a27d243f45be4ae8eff02f6cb
+  - enabled: 1
+    path: Assets/Scenes/Materi.unity
+    guid: 4fe29898cfd85d6448e18cd4e51cc6a3
   m_configObjects: {}

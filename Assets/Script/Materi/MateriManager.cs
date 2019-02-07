@@ -148,7 +148,7 @@ public class MateriManager : MonoBehaviour
         }
         if (end.childCount >= 1)
         {
-            Transform rt = end.GetChild(0);
+            Transform rt = end.GetChild(end.childCount-1);
             rt.SetParent(current);
         }
     }
