@@ -83,8 +83,8 @@ MonoBehaviour:
       turun agar alam semakin indah dna hal ini menunjukan cintanya anak muda terhadap
       alam. Namun tanpa disadari juga ada beberapa manusia yang tidak membuat pencemaran
       diantaranya pencemaran udara melalui asap kendaraan.
-  - GambarLandscape: {fileID: 2800000, guid: dae771fc6a69d9c4eafb3ee8afc31b5b, type: 3}
-    GambarKotak: {fileID: 0}
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 2800000, guid: dae771fc6a69d9c4eafb3ee8afc31b5b, type: 3}
     isiCard: Gambar 2.1
   - GambarLandscape: {fileID: 2800000, guid: 41e6b5601e8c3b44185ff78afe34a18d, type: 3}
     GambarKotak: {fileID: 0}

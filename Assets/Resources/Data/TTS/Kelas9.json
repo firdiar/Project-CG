@@ -1,0 +1,205 @@
+[
+{
+		"id": 1,
+		"StartPos": {
+			"x": 0,
+			"y": 0
+		},
+		"pertanyaan": "Allah telah menciptakan alam bagi manusia, sebaiknya kita ... ",
+		"jawaban": "BERSYUKUR",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 2,
+		"StartPos": {
+			"x": -2,
+			"y": -6
+		},
+		"pertanyaan": "Kebersihan sebagian dari...",
+		"jawaban": "IMAN",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 3,
+		"StartPos": {
+			"x": -10,
+			"y": -10
+		},
+		"pertanyaan": "Tempat perlindungan untuk hewan langka disebut sebagai suaka...",
+		"jawaban": "MARGASATWA",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 4,
+		"StartPos": {
+			"x": -1,
+			"y": -8
+		},
+		"pertanyaan": "Penumpukan sampah dapat menyebabkan bencana...",
+		"jawaban": "BANJIR",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 5,
+		"StartPos": {
+			"x": -16,
+			"y": -19
+		},
+		"pertanyaan": "Salah satu hewan yang dilindungi dan mempunyai satu cula adalah ...",
+		"jawaban": "BADAK ",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 6,
+		"StartPos": {
+			"x": -10,
+			"y": -14
+		},
+		"pertanyaan": "Singkatan World Wide Fund adalah ...",
+		"jawaban": "WWF",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 7,
+		"StartPos": {
+			"x": -9,
+			"y": -18
+		},
+		"pertanyaan": "Hewan yang membuat Adam dan Hawa tergoda untuk makan buah larangan Allah adalah ... ",
+		"jawaban": "ULAR",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 8,
+		"StartPos": {
+			"x": -13,
+			"y": -21
+		},
+		"pertanyaan": "Santo yang menjadi teladan persahabatannya dengan alam adalah Fransiskus dari...",
+		"jawaban": "ASISI",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 9,
+		"StartPos": {
+			"x": -4,
+			"y": -23
+		},
+		"pertanyaan": "Manusia banyak menebang pohon menunjukan bahwa sifat manusia adalah...",
+		"jawaban": "SERAKAH",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 10,
+		"StartPos": {
+			"x": -5,
+			"y": -26
+		},
+		"pertanyaan": "Allah menciptkan binatang pada hari ke-...",
+		"jawaban": "LIMA",
+		"arah": "Horizontal"
+	},
+	
+	{
+		"id": 1,
+		"StartPos": {
+			"x": 1,
+			"y": 1
+		},
+		"pertanyaan": "Kisah penciptaan dituliskan dalam kitab...",
+		"jawaban": "KEJADIAN",
+		"arah": "Vertical"
+	},
+	{
+		"id": 2,
+		"StartPos": {
+			"x": -1,
+			"y": -4
+		},
+		"pertanyaan": "Flora merupakan bahasa latin dari ... ",
+		"jawaban": "TUMBUHAN",
+		"arah": "Vertical"
+	},
+	{
+		"id": 3,
+		"StartPos": {
+			"x": -10,
+			"y": -10
+		},
+		"pertanyaan": "Salah satu  bentuk kita menjaga alam sekitar dengan... Alam . ",
+		"jawaban": "MERAWAT",
+		"arah": "Vertical"
+	},
+	{
+		"id": 4,
+		"StartPos": {
+			"x": -15,
+			"y": -12
+		},
+		"pertanyaan": "Adam dan Hawa mendapatkan tugas untuk ... atas ciptaan Allah lainnya. ",
+		"jawaban": "BERKUASA",
+		"arah": "Vertical"
+	},
+	{
+		"id": 5,
+		"StartPos": {
+			"x": -6,
+			"y": -10
+		},
+		"pertanyaan": "Lingkungan tempat tinggal flora dan fauna adalah ...",
+		"jawaban": "ALAM",
+		"arah": "Vertical"
+	},
+	{
+		"id": 6,
+		"StartPos": {
+			"x": -3,
+			"y": -10
+		},
+		"pertanyaan": "Allah menciptkan tumbuh-tumbuhan pada hari  ke-...",
+		"jawaban": "TIGA",
+		"arah": "Vertical"
+	},
+	{
+		"id": 7,
+		"StartPos": {
+			"x": -13,
+			"y": -18
+		},
+		"pertanyaan": "Kedelai bermanfaat bagi manusia dengan menghasilkan protein ... ",
+		"jawaban": "NABATI",
+		"arah": "Vertical"
+	},
+	{
+		"id": 8,
+		"StartPos": {
+			"x": -8,
+			"y": -14
+		},
+		"pertanyaan": "Hewan dapat disebut dalam bahasa latin sebagai...",
+		"jawaban": "FAUNA",
+		"arah": "Vertical"
+	},
+	{
+		"id": 9,
+		"StartPos": {
+			"x": -4,
+			"y": -18
+		},
+		"pertanyaan": "Salah satu bentuk sikap peduli terhadapa hutan yang gundul dengan melakukan...",
+		"jawaban": "REBOISASI",
+		"arah": "Vertical"
+	},
+	{
+		"id": 10,
+		"StartPos": {
+			"x": 1,
+			"y": -22
+		},
+		"pertanyaan": "Usaha konservasi flora dan fauna adalah dengan membangun ... alam. ",
+		"jawaban": "CAGAR",
+		"arah": "Vertical"
+	}
+
+
+]

@@ -36,8 +36,8 @@ MonoBehaviour:
   - GambarLandscape: {fileID: 2800000, guid: 57b5bd31e7103014bbc64c54cd01d686, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "Sudah kah membersihkan rumah hari ini ??? \uF04A "
-  - GambarLandscape: {fileID: 2800000, guid: a436c0da2de2ed24fa2e67ce28cc7996, type: 3}
-    GambarKotak: {fileID: 0}
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 2800000, guid: a436c0da2de2ed24fa2e67ce28cc7996, type: 3}
     isiCard: Nah, didalam rumah tentunya ada yang namanya anggota keluarga, anggota
       keluarga itu siapa aja sih? Ya, ada ibu, ayah dan anak-anak. Tentunya juga setiap
       anggota keluarga punya tanggung jawabnya masing-masing. Apakah kamu tau tanggung

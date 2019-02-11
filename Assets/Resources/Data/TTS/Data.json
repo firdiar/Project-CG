@@ -2,6 +2,14 @@
 	{
 		"lessonName" : "Kelas7",
 		"lessonData" : "Kelas7"
+	},
+	{
+		"lessonName" : "Kelas8",
+		"lessonData" : "Kelas8"
+	},
+	{
+	"lessonName" : "Kelas9",
+		"lessonData" : "Kelas9"
 	}
 
 ]

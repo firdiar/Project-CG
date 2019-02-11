@@ -42,12 +42,163 @@
 	{
 		"id": 5,
 		"StartPos": {
-			"x": -7,
+			"x": 7,
 			"y": -10
 		},
 		"pertanyaan": "Calon Imam disebut sebagai...",
 		"jawaban": "FRATER",
 		"arah": "Horizontal"
+	},
+	{
+		"id": 6,
+		"StartPos": {
+			"x": -11,
+			"y": -6
+		},
+		"pertanyaan": "Anggota Gereja yang mempunyai tugas untuk pelayanan rohani melalui perayaan sakramen adalah...",
+		"jawaban": "KLERUS",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 7,
+		"StartPos": {
+			"x": -15,
+			"y": -9
+		},
+		"pertanyaan": "Seorang laki-laki atau perempuan yang memilih untuk hidup tidak menikah dan melayani sesama dapat disebut...",
+		"jawaban": "SELIBAT",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 8,
+		"StartPos": {
+			"x": -12,
+			"y": -11
+		},
+		"pertanyaan": "Ciri-ciri gereja  sering kita ungkapkan dalam doa ... para rasul ",
+		"jawaban": "SYAHADAT",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 9,
+		"StartPos": {
+			"x": -19,
+			"y": -16
+		},
+		"pertanyaan": "Putra putri altar disebut juga...",
+		"jawaban": "MISDINAR",
+		"arah": "Horizontal"
+	},
+	{
+		"id": 10,
+		"StartPos": {
+			"x": -5,
+			"y": -14
+		},
+		"pertanyaan": "Putra putri altar disebut juga...",
+		"jawaban": "MISDINAR",
+		"arah": "Horizontal"
+	},
+	
+	{
+		"id": 1,
+		"StartPos": {
+			"x": 0,
+			"y": 0
+		},
+		"pertanyaan": "Nama lain dari Paguyuban...",
+		"jawaban": "KOMUNITAS",
+		"arah": "Vertical"
+	},
+	{
+		"id": 2,
+		"StartPos": {
+			"x": -10,
+			"y": -4
+		},
+		"pertanyaan": "Diakonia sering juga disebut sebagai tugas....",
+		"jawaban": "PELAYANAN",
+		"arah": "Vertical"
+	},
+	{
+		"id": 3,
+		"StartPos": {
+			"x": 8,
+			"y": -7
+		},
+		"pertanyaan": "Tugas perutusan Gereja dalam bidang pewartaan disebut...",
+		"jawaban": "KEYRGMA",
+		"arah": "Vertical"
+	},
+	{
+		"id": 4,
+		"StartPos": {
+			"x": -4,
+			"y": -1
+		},
+		"pertanyaan": "Kesatuan yang tampak dalam gereja dengan adanya satu Injil dan satu pembaptisan merupakan ciri-ciri Gereja yang...",
+		"jawaban": "SATU",
+		"arah": "Vertical"
+	},
+	{
+		"id": 5,
+		"StartPos": {
+			"x": 6,
+			"y": 0
+		},
+		"pertanyaan": "Gereja menjadi perwujudan kehendak Allah yang kudus dan mempersatukan manusia dalam kekudusan merupakan ciri-ciri Gereja yang...",
+		"jawaban": "KUDUS",
+		"arah": "Vertical"
+	},
+	{
+		"id": 6,
+		"StartPos": {
+			"x": -14,
+			"y": -8
+		},
+		"pertanyaan": "Dalam Kis 2: 41-47 kita diminta untuk memberikan bantuan secara ekonomi hal itu disebut sikap saling...",
+		"jawaban": "BERBAGI",
+		"arah": "Vertical"
+	},
+	{
+		"id": 7,
+		"StartPos": {
+			"x": -12,
+			"y": -11
+		},
+		"pertanyaan": "Seorang wanita yang membaktikan diri untuk pelayanan Gereja dan memilih hidup dalam tarekat religius disebut...",
+		"jawaban": "SUSTER",
+		"arah": "Vertical"
+	},
+	{
+		"id": 8,
+		"StartPos": {
+			"x": -5,
+			"y": -11
+		},
+		"pertanyaan": "Ikut serta dalam tugas Gereja disebut juga...",
+		"jawaban": "TERLIBAT",
+		"arah": "Vertical"
+	},
+	{
+		"id": 9,
+		"StartPos": {
+			"x": 1,
+			"y": -13
+		},
+		"pertanyaan": "Singkatan dari Pendampingan Iman Remaja ...",
+		"jawaban": "PIR",
+		"arah": "Vertical"
+	},
+	{
+		"id": 10,
+		"StartPos": {
+			"x": -13,
+			"y": -16
+		},
+		"pertanyaan": "Umat yang mengemban tugas perutusan dalam Gereja dan dunia sering juga disebut sebagai kaum ...",
+		"jawaban": "AWAM",
+		"arah": "Vertical"
 	}
 
 

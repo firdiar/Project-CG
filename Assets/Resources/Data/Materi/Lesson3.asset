@@ -35,11 +35,11 @@ MonoBehaviour:
       ekaristi dan krisma. \r\nMengapa disebut pintu gerbang ? karena semua anggota
       gereja perlu menerima sakramen inisiasi terlebih dahulu sebelum sakramen lainnya.
       \r\n"
-  - GambarLandscape: {fileID: 2800000, guid: 85d16544092963c4eb798be82c013f47, type: 3}
-    GambarKotak: {fileID: 0}
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 2800000, guid: 85d16544092963c4eb798be82c013f47, type: 3}
     isiCard: MARI MENGAMATI
-  - GambarLandscape: {fileID: 2800000, guid: e42f431afc184a946b7bb451cc0ebfc1, type: 3}
-    GambarKotak: {fileID: 0}
+  - GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 2800000, guid: e42f431afc184a946b7bb451cc0ebfc1, type: 3}
     isiCard: '
 
       Dari gambar tersebut kita-kira mau menjelaskan tentang apa ya ?'
