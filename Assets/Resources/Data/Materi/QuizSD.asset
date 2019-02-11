@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9f5ac730b7934d47857496e6046b223, type: 3}
+  m_Name: QuizSD
+  m_EditorClassIdentifier: 
+  learnCard:
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: Jawabannya A
+    A:
+      value: a
+      isTrue: 1
+    B:
+      value: b
+      isTrue: 0
+    C:
+      value: c
+      isTrue: 0
+    D:
+      value: d
+      isTrue: 0
+    ifTrueMsg: Betul
+    ifFalseMsg: Salah
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: tes123123
+    soal: Jawabannya A
+    A:
+      value: a
+      isTrue: 1
+    B:
+      value: b
+      isTrue: 0
+    C:
+      value: c
+      isTrue: 0
+    D:
+      value: d
+      isTrue: 0
+    ifTrueMsg: Betul
+    ifFalseMsg: Salah
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: Jawabannya A
+    A:
+      value: a
+      isTrue: 1
+    B:
+      value: b
+      isTrue: 0
+    C:
+      value: c
+      isTrue: 0
+    D:
+      value: d
+      isTrue: 0
+    ifTrueMsg: Betul
+    ifFalseMsg: Salah
