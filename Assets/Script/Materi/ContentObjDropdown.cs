@@ -33,9 +33,11 @@ public class ContentObjDropdown : MonoBehaviour
 
     void initializeObj()
     {
+        //this.GetComponent<UnityEngine.UI.VerticalLayoutGroup>().spacing = 50 * (Screen.height / 1280f);
         foreach (ObjectCourse oc in data) {
             CourseObjectDropdown COD = Instantiate(coursePrefabs, Vector3.zero, Quaternion.identity, this.transform).GetComponent<CourseObjectDropdown>();
             COD.data = oc;
+            //COD.transform.localScale *= Screen.width / 720f;
         }
     }
 

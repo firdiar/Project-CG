@@ -13,7 +13,9 @@ public class MateriManager : MonoBehaviour
 
     [Header("LearnScreen")]
     [SerializeField] GameObject LearnScreen;
-    [SerializeField] GameObject CardPrefabs;
+    [SerializeField] GameObject CardMateriPrefabs;
+    [SerializeField] GameObject CardSoalPrefabs;
+    [SerializeField] GameObject CardSelesaiPrefabs;
     [SerializeField] RectTransform start;
     [SerializeField] RectTransform current;
     [SerializeField] RectTransform end;
@@ -88,37 +90,99 @@ public class MateriManager : MonoBehaviour
     }
 
     void initializeCard() {
+        
         foreach (LearnCard s in dataLearn.learnCard) {
-            GameObject g = Instantiate(CardPrefabs, start.position, Quaternion.identity, start);
+            
 
+            if (s.type == CardType.Materi)
+            {
+                GameObject g = Instantiate(CardMateriPrefabs, start.position, Quaternion.identity, start);
+                if (s.GambarLandscape != null)
+                {
+                    g.transform.GetChild(1).GetComponent<UnityEngine.UI.RawImage>().texture = s.GambarLandscape;
+                    g.transform.GetChild(0).GetComponent<UnityEngine.UI.Text>().text = s.isiCard;
+                    g.transform.GetChild(2).gameObject.SetActive(false);
+                    g.transform.GetChild(3).gameObject.SetActive(false);
+                }
+                else if (s.GambarKotak != null)
+                {
+                    g.transform.GetChild(1).gameObject.SetActive(false);
+                    g.transform.GetChild(0).GetComponent<UnityEngine.UI.Text>().text = s.isiCard;
+                    g.transform.GetChild(2).GetComponent<UnityEngine.UI.RawImage>().texture = s.GambarKotak;
+                    g.transform.GetChild(3).gameObject.SetActive(false);
+                }
+                else
+                {
+                    g.transform.GetChild(3).GetComponent<UnityEngine.UI.Text>().text = s.isiCard;
+                    g.transform.GetChild(1).gameObject.SetActive(false);
+                    g.transform.GetChild(0).gameObject.SetActive(false);
+                    g.transform.GetChild(2).gameObject.SetActive(false);
+                }
+            }
+            else {
+                GameObject g = Instantiate(CardSoalPrefabs,  start);
+                LearnCard so = s;
+                g.transform.GetChild(0).GetChild(0).GetComponent<UnityEngine.UI.Text>().text = so.soal;
 
-            if (s.GambarLandscape != null)
-            {
-                g.transform.GetChild(1).GetComponent<UnityEngine.UI.RawImage>().texture = s.GambarLandscape;
-                g.transform.GetChild(0).GetComponent<UnityEngine.UI.Text>().text = s.isiCard;
-                g.transform.GetChild(2).gameObject.SetActive(false);
-                g.transform.GetChild(3).gameObject.SetActive(false);
-            }
-            else if (s.GambarKotak != null)
-            {
-                g.transform.GetChild(1).gameObject.SetActive(false);
-                g.transform.GetChild(0).GetComponent<UnityEngine.UI.Text>().text = s.isiCard;
-                g.transform.GetChild(2).GetComponent<UnityEngine.UI.RawImage>().texture = s.GambarKotak;
-                g.transform.GetChild(3).gameObject.SetActive(false);
-            }
-            else
-            {
-                g.transform.GetChild(3).GetComponent<UnityEngine.UI.Text>().text = s.isiCard;
-                g.transform.GetChild(1).gameObject.SetActive(false);
-                g.transform.GetChild(0).gameObject.SetActive(false);
-                g.transform.GetChild(2).gameObject.SetActive(false);
+               
+
+                g.transform.GetChild(1).GetChild(0).GetComponent<UnityEngine.UI.Text>().text = so.ifTrueMsg;
+                g.transform.GetChild(2).GetChild(0).GetComponent<UnityEngine.UI.Text>().text = so.ifFalseMsg;
+
+                g.transform.GetChild(0).GetChild(1).GetChild(0).GetComponent<UnityEngine.UI.Text>().text = so.A.value;
+
+                g.transform.GetChild(0).GetChild(1).GetComponent<UnityEngine.UI.Button>().onClick.AddListener(()=> {
+                    
+                    if (so.A.isTrue)
+                        g.transform.GetChild(1).gameObject.SetActive(true);
+                    else
+                        g.transform.GetChild(2).gameObject.SetActive(true);
+
+                    g.transform.GetChild(0).gameObject.SetActive(false);
+                } );
+
+                g.transform.GetChild(0).GetChild(2).GetChild(0).GetComponent<UnityEngine.UI.Text>().text = so.B.value;
+
+                g.transform.GetChild(0).GetChild(2).GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => {
+                    
+                    if (so.B.isTrue)
+                        g.transform.GetChild(1).gameObject.SetActive(true);
+                    else
+                        g.transform.GetChild(2).gameObject.SetActive(true);
+                    g.transform.GetChild(0).gameObject.SetActive(false);
+                });
+
+                g.transform.GetChild(0).GetChild(3).GetChild(0).GetComponent<UnityEngine.UI.Text>().text = so.C.value;
+
+                g.transform.GetChild(0).GetChild(3).GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => {
+                    
+                    if (so.C.isTrue)
+                        g.transform.GetChild(1).gameObject.SetActive(true);
+                    else
+                        g.transform.GetChild(2).gameObject.SetActive(true);
+                    g.transform.GetChild(0).gameObject.SetActive(false);
+                });
+
+                g.transform.GetChild(0).GetChild(4).GetChild(0).GetComponent<UnityEngine.UI.Text>().text = so.D.value;
+
+                g.transform.GetChild(0).GetChild(4).GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => {
+                    
+                    if (so.D.isTrue)
+                        g.transform.GetChild(1).gameObject.SetActive(true);
+                    else
+                        g.transform.GetChild(2).gameObject.SetActive(true);
+                    g.transform.GetChild(0).gameObject.SetActive(false);
+                });
+
             }
 
         }
+        GameObject go = Instantiate(CardSelesaiPrefabs,  start);
+        go.transform.GetChild(1).GetComponent<UnityEngine.UI.Button>().onClick.AddListener(() => { ChangeScreen(0); });
         next();
     }
     public void next() {
-        if (start.childCount == 0) {
+        if (start.childCount == 0 || (current.childCount >= 1 && current.GetChild(0).gameObject.name.Contains("Soal") && current.GetChild(0).GetChild(0).gameObject.activeInHierarchy)) {
             return;
         }
 
@@ -145,6 +209,7 @@ public class MateriManager : MonoBehaviour
         {
             Transform rt = current.GetChild(0);
             rt.SetParent(start);
+            rt.SetAsFirstSibling();
         }
         if (end.childCount >= 1)
         {

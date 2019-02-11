@@ -1,0 +1,601 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9f5ac730b7934d47857496e6046b223, type: 3}
+  m_Name: QuizSMA
+  m_EditorClassIdentifier: 
+  learnCard:
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "1.\tManusia diciptakan oleh Allah sangat baik adanya. Apa arti manusia
+      diciptakan sangat baik adanya ..."
+    A:
+      value: "a.\tKekal"
+      isTrue: 0
+    B:
+      value: "b.\tSempurna"
+      isTrue: 0
+    C:
+      value: "c.\tIstimewa"
+      isTrue: 1
+    D:
+      value: "d.\tTidak dapat dikalahkan"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "2.\tKitab suci Perjanjian Lama terdiri dari ... kitab"
+    A:
+      value: "a.\t39"
+      isTrue: 0
+    B:
+      value: "b.\t46"
+      isTrue: 1
+    C:
+      value: "c.\t20"
+      isTrue: 0
+    D:
+      value: "d.\t73"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "3.\tKitab Kejadian, Keluaran, Imamat, Bilangan, Ulangan bagian dari kitab
+      ..."
+    A:
+      value: "a.\tKebijaksanaan"
+      isTrue: 0
+    B:
+      value: "b.\tInjil"
+      isTrue: 0
+    C:
+      value: "c.\tTaurat"
+      isTrue: 1
+    D:
+      value: "d.\tDeutrokanonika"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "4.\tTidak jarang kaum remaja menjadi sasaran dari penyebaran gaya hidup
+      yang memprihatinkan. Gaya hidup yang perlu ditanggapi secara kritis adalah ..."
+    A:
+      value: "a.\tSeks bebas, pergaulan bebas"
+      isTrue: 1
+    B:
+      value: "b.\tMaterialisma, hedonism"
+      isTrue: 0
+    C:
+      value: "c.\tMaterialisme, seks bebas"
+      isTrue: 0
+    D:
+      value: "d.\tNasionalisme, wawasan kebangsaan"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "5.\tHari Raya Gerejawi yang berpusat pada sengsara, wafat dan kebangkitan
+      Kristus adalah ..."
+    A:
+      value: "a.\tPaska"
+      isTrue: 1
+    B:
+      value: "b.\tPrapaska"
+      isTrue: 0
+    C:
+      value: "c.\tNatal"
+      isTrue: 0
+    D:
+      value: "d.\tAdven "
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "6.\tYesus mewartakan Kerajaan Allah tidak hanya dengan sabda-Nya, namun
+      \ melalui tindakan-Nya. Dengan mukjizat  yang  dibuat-Nya  tersebut,  sebenarnya
+      \ Allah  dalam diri Yesus mau menyatakan ..."
+    A:
+      value: "a.\tKeperkasaan badan-Nya"
+      isTrue: 0
+    B:
+      value: "b.\tKemuliaan hati-Nya"
+      isTrue: 1
+    C:
+      value: "c.\tKemenangan-Nya atas segala yang di bumi"
+      isTrue: 0
+    D:
+      value: "d.\tKekuasaan diri-Nya"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "7.\tTuhan Yesus mewartakan Kerajaan Allah melalui \u2026"
+    A:
+      value: "a.\tSahabat-Nya"
+      isTrue: 0
+    B:
+      value: "b.\tOrang farisi"
+      isTrue: 0
+    C:
+      value: "c.\tPerumpamaan dan perbuatan"
+      isTrue: 1
+    D:
+      value: "d.\tMedia massa"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "8.\tYesus rela mati dikayu salib untuk ..."
+    A:
+      value: "a.\tMembebaskan  bangsa Israel"
+      isTrue: 0
+    B:
+      value: "b.\tMenyelamatkan umat manusia"
+      isTrue: 1
+    C:
+      value: "c.\tMenunjukan kegagahannya"
+      isTrue: 0
+    D:
+      value: "d.\tMenunjukan kekuatannya"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "9.\tSikap yang dibutuhkan dalam persahabatan sejati adalah ..."
+    A:
+      value: "a.\tMenjatuhkan, rendah hati"
+      isTrue: 0
+    B:
+      value: "b.\tTegas, hedonism"
+      isTrue: 0
+    C:
+      value: "c.\tHumoris, minder"
+      isTrue: 0
+    D:
+      value: "d.\tSaling mendukung, saling menolong"
+      isTrue: 1
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "10.\tRoh Kudus yang turun atas para rasul pada Hari Raya Pentakosta dilambangkan
+      dengan ..."
+    A:
+      value: "a.\tSungai"
+      isTrue: 0
+    B:
+      value: "b.\tHutan"
+      isTrue: 0
+    C:
+      value: "c.\tLidah-lidah api"
+      isTrue: 1
+    D:
+      value: "d.\tAwan"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "11.\tPaguyuban/ persekutuan  umat- umat beriman yang percaya kepada Allah
+      yaitu  ..."
+    A:
+      value: "a.\tGereja"
+      isTrue: 1
+    B:
+      value: "b.\tgereja"
+      isTrue: 0
+    C:
+      value: "c.\tKomunitas"
+      isTrue: 0
+    D:
+      value: "d.\tKapel "
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "12.\tSebagai umat Alalh yang terbuka terhadap sesama, maka kita perlu menunjukan
+      sikap ..."
+    A:
+      value: "a.\tTidak peduli "
+      isTrue: 0
+    B:
+      value: "b.\tSaling menghina"
+      isTrue: 0
+    C:
+      value: "c.\tSaling peduli"
+      isTrue: 1
+    D:
+      value: "d.\tSaling menjatuhkan"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "13.\tAjaran  Gereja menyebutkan bahwa sifat-sifat Gereja Katolik adalah
+      \u2026"
+    A:
+      value: "a.\tSatu, kudus, katolik, apostolic"
+      isTrue: 1
+    B:
+      value: "b.\tGereja yang melayani"
+      isTrue: 0
+    C:
+      value: "c.\tKatolik, kudus"
+      isTrue: 0
+    D:
+      value: "d.\tGereja yang rukun"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "14.\tSusunan hirarki gereja katolik ..."
+    A:
+      value: "a.\tDiakon,  imam, awam"
+      isTrue: 0
+    B:
+      value: "b.\tProdiaokon, katekis, suster"
+      isTrue: 0
+    C:
+      value: "c.\tPaus, uskup, imam, daikon"
+      isTrue: 1
+    D:
+      value: "d.\tUskup, pastor paroki, paus"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "15.\tPeranan awam dalam Perayaan Ekaristi sebagai ..."
+    A:
+      value: "a.\tMenggangkat Tubuh dan darh Kristus"
+      isTrue: 0
+    B:
+      value: "b.\tProdiakon dan putra- putri altar"
+      isTrue: 1
+    C:
+      value: "c.\tMemimpin jalannya Perayaan Ekaristi"
+      isTrue: 0
+    D:
+      value: "d.\tMebagikan komuni pada Romo"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "16.\tYang merupakan tugas gereja ialah ..."
+    A:
+      value: "a.\tLiturgia, kerygma, martyria,diakonia"
+      isTrue: 1
+    B:
+      value: "b.\tKenabian, guru"
+      isTrue: 0
+    C:
+      value: "c.\tMengajar, menguduskan"
+      isTrue: 0
+    D:
+      value: "d.\tMelayani, melindungi"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "17.\tDalam menghadapi situasi sulit ditengah-tengah masyarakat, Gereja
+      diutus ke tengah-tengah dunia untuk ..."
+    A:
+      value: "a.\tMenciptakan lapangan pekerjaan dan membawa damai kesejahteraan"
+      isTrue: 1
+    B:
+      value: "b.\tMenciptakan suasana acuh tak acuh"
+      isTrue: 0
+    C:
+      value: "c.\tMenciptakan suasana yang damai"
+      isTrue: 0
+    D:
+      value: "d.\tMenghapus struktur dan sistem dalam masyarakat"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "18.\tHak asasi pertama-tama harus diperjuangkan untuk..."
+    A:
+      value: "a.\tOrang  kaya"
+      isTrue: 0
+    B:
+      value: "b.\tPara pejabat"
+      isTrue: 0
+    C:
+      value: "c.\tKelompok tertentu"
+      isTrue: 0
+    D:
+      value: "d.\tOrang miskin dan tertindas"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "19.\tBagi para remaja, usaha preventif untuk mencegah aborsi adalah ..."
+    A:
+      value: "a.\tPergaulan bebas"
+      isTrue: 0
+    B:
+      value: "b.\tBerpacaran secara bebas"
+      isTrue: 0
+    C:
+      value: "c.\tBerpacaran secara sehat"
+      isTrue: 1
+    D:
+      value: "d.\tMenikah pada usia dini"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "20.\tSalah satu akibat dari HIV/AIDS adalah..."
+    A:
+      value: "a.\tMenurunkan kekebalan daya tahan tubuh"
+      isTrue: 1
+    B:
+      value: "b.\tPerilaku menyimpang"
+      isTrue: 0
+    C:
+      value: "c.\tPenyimpangan sosial"
+      isTrue: 0
+    D:
+      value: "d.\tKecanduan obat"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "21.\tDasar utama dari perkawinan Katolik adalah..."
+    A:
+      value: "a.\tSudah melewati tahap tunangan"
+      isTrue: 0
+    B:
+      value: "b.\tTidak halangan pernikahan"
+      isTrue: 1
+    C:
+      value: "c.\tsudah mengikuti kursus perkawinan"
+      isTrue: 0
+    D:
+      value: "d.\tCinta kasih"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "22.\tSyarat sah umur perkawinan menurut hukum Gereja Katolik adalah..."
+    A:
+      value: "a.\tPria 16 tahun dan wanita 14 tahun"
+      isTrue: 1
+    B:
+      value: "b.\tPria 19 tahun dan wanita 20 tahun"
+      isTrue: 0
+    C:
+      value: "c.\tPria 24 tahun dan wanita 22 tahun"
+      isTrue: 0
+    D:
+      value: "d.\tPria 19 tahun dan wanita 16 tahun"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "23.\tHarapan Gereja terhadap  keluarga ..."
+    A:
+      value: "a.\tCerai"
+      isTrue: 0
+    B:
+      value: "b.\tHidup rukun"
+      isTrue: 1
+    C:
+      value: "c.\tSaling menjatuhkan"
+      isTrue: 0
+    D:
+      value: "d.\tKeluarga  yang acuh tak acuh"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "24.\tPengertian dari makna hidup selibat adalah..."
+    A:
+      value: "a.\tOrang yang trauma akan hidup perkawinan"
+      isTrue: 0
+    B:
+      value: "b.\tOrang yang tidak ingin melakukan hubungan dengan lawan jenis"
+      isTrue: 0
+    C:
+      value: "c.\tOrang yang mengalami kegagalan dalam berkeluarga"
+      isTrue: 0
+    D:
+      value: "d.\tOrang yang hidup menyendiri demi pelayanannya"
+      isTrue: 1
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "25.\tOrang yang hidup menyendiri demi pelayanannya\u2026"
+    A:
+      value: "a.\tAgar selamat dalam pekerjaan"
+      isTrue: 1
+    B:
+      value: "b.\tAgar pekerjaan dapat berhasil dengan baik"
+      isTrue: 0
+    C:
+      value: "c.\tAgar pekerjaan dapat diselesaikan dengan baik"
+      isTrue: 0
+    D:
+      value: "d.\tAgar selalu konsentrasi"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "26.\tKetika umat beragama lain sedang menjalankan sholat magrib, maka kita
+      sebagai orang katolik harus bersikap ..."
+    A:
+      value: "a.\tMembuat keributan"
+      isTrue: 0
+    B:
+      value: "b.\tSaling menghormat"
+      isTrue: 1
+    C:
+      value: "c.\tSaling menjatuhkan"
+      isTrue: 0
+    D:
+      value: "d.\tMemberhentikan mereka yang sedang sholat"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "27.\tTuhan menginginkan Negara dan Bangsa kita yang ..."
+    A:
+      value: "a.\tRukun"
+      isTrue: 1
+    B:
+      value: "b.\tBerantakan"
+      isTrue: 0
+    C:
+      value: "c.\tPeperangan"
+      isTrue: 0
+    D:
+      value: "d.\tSaling menjatuhkan"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "28.\tDi suatu desa terjadi banjir akibat hujan yang turun dalam beberapa
+      hari ini yang mengakibatkan rumah mereka dipenuhi dengan lumpur. Maka sikap
+      kita sebagai makhluk sosial ialah ..."
+    A:
+      value: "a.\tMembantu"
+      isTrue: 0
+    B:
+      value: "b.\tGotong royong untuk membersihkan lumpur"
+      isTrue: 1
+    C:
+      value: "c.\tMendoakan"
+      isTrue: 0
+    D:
+      value: "d.\tMelihat saja"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "29.\tDi lingkungan tempat tinggal, tetangga kita beragama non katolik.
+      Maka siakp kita terhadap mereka dalam kehidupan seharai-hari ialah ..."
+    A:
+      value: "a.\tMembuat keributan"
+      isTrue: 0
+    B:
+      value: "b.\tSaling mendukung"
+      isTrue: 1
+    C:
+      value: "c.\tSaling acuh tak acuh"
+      isTrue: 0
+    D:
+      value: "d.\tSaling mengganggu ketika menjalani ibadah"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "30.\tBerikut ini tidak termasuk kewajiban anak-anak terhadap orang tuanya
+      dalam sebuah keluarga yaitu ..."
+    A:
+      value: "a.\tMencintai orang tuanya"
+      isTrue: 0
+    B:
+      value: "b.\tBersikap dan berperilaku hormat"
+      isTrue: 0
+    C:
+      value: "c.\tMelawan orang tuanya"
+      isTrue: 1
+    D:
+      value: "d.\tBersikap dan berperilaku penuh syukur"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat

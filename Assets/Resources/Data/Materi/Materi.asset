@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 346506c6dcd0f994882c2784db2553f5, type: 3}
+  m_Name: Materi
+  m_EditorClassIdentifier: 
+  list:
+  - texture: {fileID: 2800000, guid: 74f0616122dd4b24e84d7c27f8c9a7dd, type: 3}
+    courseName: PAK dan Budi Pekerti
+    dataRef:
+    - lessonName: Budi Pekerti
+      lessonData: Lesson1
+  - texture: {fileID: 2800000, guid: fe5264d20a16a9841ae57055c5c4b562, type: 3}
+    courseName: Materi SD
+    dataRef:
+    - lessonName: Kelas 1
+      lessonData: Lesson1
+    - lessonName: Kelas 2
+      lessonData: Lesson2
+    - lessonName: Kelas 3
+      lessonData: Lesson3
+    - lessonName: Kelas 4
+      lessonData: Lesson4
+    - lessonName: Kelas 5
+      lessonData: Lesson5
+    - lessonName: Kelas 6
+      lessonData: Lesson6
+  - texture: {fileID: 2800000, guid: 9c802c3f91a2bd24ba7f02794914a3be, type: 3}
+    courseName: Materi SMP
+    dataRef:
+    - lessonName: Kelas 1
+      lessonData: Lesson7
+    - lessonName: Kelas 2
+      lessonData: Lesson8
+    - lessonName: Kelas 3
+      lessonData: Lesson9
+  - texture: {fileID: 2800000, guid: c6558ec9d6a6d454dbd80db2bcf5e196, type: 3}
+    courseName: Materi SMA
+    dataRef:
+    - lessonName: Kelas 1
+      lessonData: Lesson10
+    - lessonName: Kelas 2
+      lessonData: Lesson11
+    - lessonName: Kelas 3
+      lessonData: Lesson12
+  - texture: {fileID: 2800000, guid: 1991244ddc22db347b1153f4a232b6c3, type: 3}
+    courseName: Quiz SD
+    dataRef:
+    - lessonName: Quiz SD
+      lessonData: QuizSD
+  - texture: {fileID: 2800000, guid: ae95ee0153aadcc4e9d1f127df8e6e2b, type: 3}
+    courseName: Quiz SMP
+    dataRef:
+    - lessonName: Quiz SMP
+      lessonData: QuizSMP
+  - texture: {fileID: 2800000, guid: c96546b151f74014685a0636e48483d2, type: 3}
+    courseName: Quiz SMA
+    dataRef:
+    - lessonName: Quiz SMA
+      lessonData: QuizSMA

@@ -13,50 +13,200 @@ MonoBehaviour:
   m_Name: Lesson3
   m_EditorClassIdentifier: 
   learnCard:
-  - GambarLandscape: {fileID: 0}
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "GEREJA\r\nMenjadi anggota Gereja berarti secara otomatis ikut terlibat
       dalam tugas pelayanan yang dinyatakan dalam kehidupan sehari-hari. Oleh karena
       itu, penting halnya mengenal sakramen-sakramen dan keutamaan kristiani yang
       dapat diterapkan baik dilingkungan sekolah, gereja dan masyarakat. \r\n"
-  - GambarLandscape: {fileID: 2800000, guid: 513157b80794e8440b71b31455bf05b5, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 513157b80794e8440b71b31455bf05b5, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "Untuk dapat mengenal dan memahami sakramen-sakramen dalam Gereja Katolik,
       kita perlu mengetahui terlebih dahulu pengertian dari sakramen itu sendiri.
       \r\nSakramen itu apa sih ??\r\nSakramen berarti suatu hal yang tersembunyi.
       Apa yang tersembunyi? Yaitu karya Allah yang menyelamatkan manusia. Karya itu
-      perlu ditampakkan secara nyata dengan suatu tanda. \r\nJadi, Sakramen adalah
-      tanda dan sarana keselamatan dari Allah untuk menyelamatkan umat manusia. \r\n"
-  - GambarLandscape: {fileID: 0}
+      perlu ditampakkan secara nyata dengan suatu tanda. \r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "Dalam Gereja Katolik terdapat 7 sakramen yaitu Baptis, Krisma, Ekaristi,
-      Tobat, Pengurapan orang sakit, Perkawinan, dan Imamat. Namun yang menjadi pintu
-      gerbang dari ke 7 sakramen disebut sakramen inisiasi yakni sakramen baptis,
-      ekaristi dan krisma. \r\nMengapa disebut pintu gerbang ? karena semua anggota
-      gereja perlu menerima sakramen inisiasi terlebih dahulu sebelum sakramen lainnya.
-      \r\n"
-  - GambarLandscape: {fileID: 0}
+    isiCard: "Jadi, Sakramen adalah tanda dan sarana keselamatan dari Allah untuk
+      menyelamatkan umat manusia. \r\nDalam Gereja Katolik terdapat 7 sakramen yaitu
+      Baptis, Krisma, Ekaristi, Tobat, Pengurapan orang sakit, Perkawinan, dan Imamat.
+      Namun yang menjadi pintu gerbang dari ke 7 sakramen disebut sakramen inisiasi
+      yakni sakramen baptis, ekaristi dan krisma. \r\nMengapa disebut pintu gerbang
+      ? karena semua anggota gereja perlu menerima sakramen inisiasi terlebih dahulu
+      sebelum sakramen lainnya. \r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 2800000, guid: 85d16544092963c4eb798be82c013f47, type: 3}
     isiCard: MARI MENGAMATI
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 2800000, guid: e42f431afc184a946b7bb451cc0ebfc1, type: 3}
     isiCard: '
 
       Dari gambar tersebut kita-kira mau menjelaskan tentang apa ya ?'
-  - GambarLandscape: {fileID: 2800000, guid: 974e5c98a6f8a494c90b2efc7f6cad92, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 974e5c98a6f8a494c90b2efc7f6cad92, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "Untuk lebih jelasnya, Yuk membaca Kitab Suci !\r\n  (Matius 3: 13-17)\r\n"
-  - GambarLandscape: {fileID: 2800000, guid: a382b7c83248e4044a4c2678242d8232, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: a382b7c83248e4044a4c2678242d8232, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: Dengan kerendahan hati Yesus ia membiarkan Yohanes Membatis diri-Nya,
       hal ini dilakukan sebelum Yesus tampil di tengah masyarakat untuk menyampaikan
       kabar gembira. Pembaptisan Yesus menjadi dasar pembaptisan dalam Gereja Katolik.
-  - GambarLandscape: {fileID: 2800000, guid: 1db388490805cd947bc647cf10a6dd81, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 1db388490805cd947bc647cf10a6dd81, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: "                                                                   Apa
-      yang mereka lakukan ?\r\n\n( Imam/Romo/Pastor  menuangkan air sebagai tanda
-      sakramen baptis diatas kepala penerima sakramen) \r\n"
-  - GambarLandscape: {fileID: 2800000, guid: 1db388490805cd947bc647cf10a6dd81, type: 3}
+    isiCard: '
+
+      Perhatikan gambar diatas.'
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 1
+    GambarLandscape: {fileID: 2800000, guid: 1db388490805cd947bc647cf10a6dd81, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "                                                                   Apa
+      yang mereka lakukan ?\r"
+    A:
+      value: ' Imam/Romo/Pastor  menuangkan air sebagai tanda sakramen baptis diatas
+        kepala penerima sakramen'
+      isTrue: 1
+    B:
+      value: Mandi
+      isTrue: 0
+    C:
+      value: Berenang
+      isTrue: 0
+    D:
+      value: Menangis
+      isTrue: 0
+    ifTrueMsg: Jawaban yang tepat
+    ifFalseMsg: Jawaban anda kurang tepat
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 1db388490805cd947bc647cf10a6dd81, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: 'Gambar diatas menunjukkan tanda dari sakramen baptis. Rahmat Sakramen
       Baptis yaitu dibersihkan dalam arti lahir kembali, dipersatukan dengan Kristus
@@ -64,13 +214,45 @@ MonoBehaviour:
       berarti secara resmi kita diterima menjadi anggota Gereja . Tentunya seorang
       yang telah di baptis memiliki tugas yakni hidup sebagai orang katolik yang baik
       dan terlibat dalam kegiatan Gereja. '
-  - GambarLandscape: {fileID: 2800000, guid: af4675dfcf615844d96c795ee44a2cfe, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: af4675dfcf615844d96c795ee44a2cfe, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "Sakramen kedua adalah sakramen ekaristi.\r\nDalam sakramen ekaristi,
       kita mengenang kembali kisah perjamuan terakhir Yesus bersama murid-murid-Nya.
       Yesus sendiri berpesan kepada murid-murid-Nya untuk selalu mengenang malam perjamuan
       terakhir sebagai kenangan akan Yesus Kristus.  \r\n"
-  - GambarLandscape: {fileID: 2800000, guid: 83fff4b7491bcab45920d084d6a36f6e, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 83fff4b7491bcab45920d084d6a36f6e, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: 'Mari Membaca Kitab Suci
 
@@ -81,13 +263,45 @@ MonoBehaviour:
       Dalam injil, dikisahkan Yesus mengadakan perjamuan malam terakhir bersama para
       murid-murid-Nya untuk memperingati Paskah. Dalam Perjamuan Terakhir, Yesus mengubah
       makna perjamuan, yaitu roti dan anggur dipakai sebagai lambang Yesus sendiri. '
-  - GambarLandscape: {fileID: 2800000, guid: 508bf971014faad46a64740146e1cbba, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 508bf971014faad46a64740146e1cbba, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "Roti adalah Tubuh Kristus dan anggur adalah darah Kristus. \r\nSetiap
       kita merayakan Ekaristi, kita bukan hanya mengenangkan peristiwa Perjamuan Malam
       Terakhir, tetapi juga kita mengenangkan peristiwa penyerahan diri Yesus dalam
       rupa roti dan anggur yang sungguh terjadi kembali. \r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "PERAYAAN EKARISTIdibagi menjadi 2 bagian yaitu liturgi sabda dan ekaristi.
       \r\nNamun sebelum itu ada .... \r\n1.Pembukaan : terdiri dari doa-doa pernyataan
@@ -96,13 +310,45 @@ MonoBehaviour:
       diselingi dengan mazmur/lagu antar bacaan), lalu homili (pemimpin memberi penjelasan
       atas bacaan-bacaan yang telah didengarkan umat), dan doa umat (umat memanjatkan
       doa kepada Tuhan)\r\n"
-  - GambarLandscape: {fileID: 2800000, guid: 508bf971014faad46a64740146e1cbba, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 508bf971014faad46a64740146e1cbba, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "\r3.Liturgi Ekaristi : terdiri dari persembahan (mempersiapkan roti
       dan anggur menjadi tubuh dan darah Kristus), lalu doa syukur agung (bersyukur
       kepada Allah, mengenangkan perjamuan terakhir), dan komuni (menerima dan bersatu
       dengan tubuh dan darah Kristus sebagai saudara)\r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Sakramen selanjutnya adalah sakramen Tobat.\r\nPernahkah kalian berbuat
       kesalahan baik kepada orang tua, teman, guru, maupun diri kalian sendiri? \r\n\r\nPastinya
@@ -111,38 +357,145 @@ MonoBehaviour:
       menyakiti hati Allah dan orang-orang disekitar kita. \r\n\r\nNamun Tuhan sangat
       mencintai umat manusia, sehingga Tuhan mau manusia yang berbuat dosa segera
       bertobat. Untuk itulah adanya sakramen tobat dalam Gereja Katolik. \r\n"
-  - GambarLandscape: {fileID: 2800000, guid: c22ff080c1f7e6f4493b5529a48cb1e3, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: c22ff080c1f7e6f4493b5529a48cb1e3, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: '               Gambar 1 (Sumber:borneochannel.com)
 
-      .................................................................................
+
 
       MARI MENGAMATI GAMBAR
 
 
-      Apakah kalian tau cerita ini ? Beri judul cerita dan isilah kejadian yang terjadi
+      Apakah kalian tau cerita ini ? Coba tebak judul cerita dan kejadian yang terjadi
       berdasarkan gambar!'
-  - GambarLandscape: {fileID: 2800000, guid: 2f0a2024447391b40a60f7cadd7a0979, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 2f0a2024447391b40a60f7cadd7a0979, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: 'Gambar 2 (Sumber:borneochannel.com)                  ...................................................................................      '
-  - GambarLandscape: {fileID: 2800000, guid: e4a6e6ded4fad584ebad8c2ca3cbb649, type: 3}
+    isiCard: 'Gambar 2 (Sumber:borneochannel.com) '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: e4a6e6ded4fad584ebad8c2ca3cbb649, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: 'Gambar 3 (Sumber:borneochannel.com)
-
-      ............................................................................... '
-  - GambarLandscape: {fileID: 2800000, guid: 1522a10fbc3ce3f469e77cff9890b225, type: 3}
+    isiCard: Gambar 3 (Sumber:borneochannel.com)
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 1522a10fbc3ce3f469e77cff9890b225, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: "Gambar 4 (Sumber:borneochannel.com)\r\n   ............................................................................... "
-  - GambarLandscape: {fileID: 2800000, guid: 6412c93bd05e4b149bbf9a48127289e6, type: 3}
+    isiCard: "Gambar 4 (Sumber:borneochannel.com)\r\n   "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 6412c93bd05e4b149bbf9a48127289e6, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: 'Gambar 5 (Sumber:borneochannel.com)
-
-      ..................................................................................          '
-  - GambarLandscape: {fileID: 2800000, guid: 5527a333b42c7104d85e1ba9c78c7f0c, type: 3}
+    isiCard: Gambar 5 (Sumber:borneochannel.com)
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 5527a333b42c7104d85e1ba9c78c7f0c, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: "Gambar 6 (Sumber:borneochannel.com)\r\n  ..................................................................................
-      \         "
-  - GambarLandscape: {fileID: 0}
+    isiCard: "Gambar 6 (Sumber:borneochannel.com)\r"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Dalam kisah tersebut diceritakan seorang anak yang durhaka kepada orangtua.
       Dalam perintah Allah yang ke-4 dikatakan bahwa \u201CHormatilah Ibu Bapamu\u201D.
@@ -153,14 +506,46 @@ MonoBehaviour:
       Bertobat berarti  kembali kepada Tuhan, orang-orang disekitar dan lingkungan.
       Sebesar dan sesering apapun kita melakukan dosa, Tuhan selalu terbuka untuk
       mengampuni asalkan manusia sungguh-sungguh bertobat. \r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Orang lain juga tentu pernah menyakiti hati kita, tetapi sudah kalian
       memberi pengampunan tanpa perlu orang tersebut mengucapkan kata maaf ?\r\nTuhan
       juga mengajarkan k\nita untuk saling menganmpuni kesalahan orang lain. Yesus
       memberi teladan agar kita saling mengampuni dan jangan menganggap diri kita
       lebih baik dari orang lain.\r\n"
-  - GambarLandscape: {fileID: 2800000, guid: 181e5083e97f4d441800ae798ea1b484, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 181e5083e97f4d441800ae798ea1b484, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "Kuasa pengampunan dosa diberikan Tuhan Yesus kepada para Rasul, yang
       diserahkan kepada para penggantinya, yaitu kepada Uskup-Uskup dan Imam-Imam
@@ -168,7 +553,23 @@ MonoBehaviour:
       bukan mengaku dosa kepada imam/romo/pastor. Ini hanyalahatanda dan sarana dari
       Gereja, pengampunan yang kita terima bukanlah dari imam tetapi langsung dari
       Tuhan. \r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "upacara pengakuan dan pengampunan merupakan tanda Tuhan telah mengampuni
       dosa kita dan kita sungguh-sungguh bertobat. \r\nTanda pertobatan terlihat dari
@@ -178,7 +579,23 @@ MonoBehaviour:
       proses upacara pengakuan dosa, setelah kita mengakukan dosa-dosa kita imam/romo/pastor,
       akan memberi kita nasihat serta denda/penitensi atas dosa-dosa yang kita lakukan.
       \r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "IMAN, HARAPAN DAN KASIH\r\nDalam hidup Kristiani, ada tiga keutamaan
       yaitu iman, harapan dan kasih. Ketiga keutamaan ini perlu kita pahami dan kita
@@ -187,14 +604,64 @@ MonoBehaviour:
       Tuhan dalam perjalanan hidup kita. \r\nSetiap dari kalian tentunya punya harapan
       untuk meraih sesuatu. Ya, itulah yang disebut dengan sebuah harapan. Harapan
       adalah sesuatu yang ingin kita capai. \r\n"
-  - GambarLandscape: {fileID: 2800000, guid: d3cd3eebabd50fe448a71f0f464306fa, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 1
+    GambarLandscape: {fileID: 2800000, guid: d3cd3eebabd50fe448a71f0f464306fa, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: "Untuk meraih cita-cita apa yang perlu kalian lakukan ? (Ayo sebutkan!)\r\n\r\nBerusaha
-      ,Berdoa Dan Belajar\r\n\r\n\tHarapan tentu dimiliki semua orang. Menurut iman
-      kristiani, harapan adalah sesuatu yang ingin dicapai dengan berdasar pada iman
-      akan cinta kasih Allah. Ketika mengandalkan Tuhan untuk mencapai cita-cita kita,
-      kita tidak akan takut untuk mencoba. \r\n"
-  - GambarLandscape: {fileID: 0}
+    isiCard: 
+    soal: "Untuk meraih cita-cita apa yang perlu kalian lakukan ? (Ayo sebutkan!)\r"
+    A:
+      value: Bersikap tidak peduli
+      isTrue: 0
+    B:
+      value: 'Berusaha ,Berdoa Dan Belajar '
+      isTrue: 1
+    C:
+      value: Bermalas-malasan
+      isTrue: 0
+    D:
+      value: Menangis
+      isTrue: 0
+    ifTrueMsg: Jawaban yang tepat
+    ifFalseMsg: Jawaban anda kurang tepat
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: d3cd3eebabd50fe448a71f0f464306fa, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Unruk meraih cita-cita, kalian harus\n\r\nBerusaha ,Berdoa Dan Belajar\r\n\r\n\tHarapan
+      tentu dimiliki semua orang. Menurut iman kristiani, harapan adalah sesuatu yang
+      ingin dicapai dengan berdasar pada iman akan cinta kasih Allah. Ketika mengandalkan
+      Tuhan untuk mencapai cita-cita kita, kita tidak akan takut untuk mencoba. \r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Harapan itu juga dapat semakin kita kuatkan dengan berusaha menyampaikan
       rasa kasih kita kepada sesama. Karena Tuhan Yesus sendiri yang mengajarkan kita
@@ -204,3 +671,18 @@ MonoBehaviour:
       kepada semua umat manusia. Seperti kisah dalam Kitab Suci \u201Cmemberi makan
       5000 orang\u201D, kisah tersebut menunjukkan belas kasih Yesus. Yesus sangat
       menekankan pentingnya hidup saling mengasihi."
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 

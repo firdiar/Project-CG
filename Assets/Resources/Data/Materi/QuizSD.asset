@@ -1,0 +1,970 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9f5ac730b7934d47857496e6046b223, type: 3}
+  m_Name: QuizSD
+  m_EditorClassIdentifier: 
+  learnCard:
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "1.\tAllah menciptakan Adam dan..."
+    A:
+      value: "a.\tHawa"
+      isTrue: 1
+    B:
+      value: "b.\tAdam"
+      isTrue: 0
+    C:
+      value: "c.\tNuh"
+      isTrue: 0
+    D:
+      value: "d.\tMaria "
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "2.\tNuh menciptakan\u2026"
+    A:
+      value: "a.\tBahtera"
+      isTrue: 1
+    B:
+      value: "b.\tRumah"
+      isTrue: 0
+    C:
+      value: "c.\tKapal"
+      isTrue: 0
+    D:
+      value: "d.\tManusia "
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "3.\tDi kota manakah Yesus dilahirkan..."
+    A:
+      value: "a.\tYogyakarta"
+      isTrue: 0
+    B:
+      value: "b.\tJakarta"
+      isTrue: 0
+    C:
+      value: "c.\tNazaret"
+      isTrue: 1
+    D:
+      value: "d.\tBetlehem "
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "4.\tHari keberapa Allah menciptakan manusia..."
+    A:
+      value: "a.\tSatu "
+      isTrue: 0
+    B:
+      value: "b.\tTiga"
+      isTrue: 0
+    C:
+      value: "c.\tEnam"
+      isTrue: 1
+    D:
+      value: "d.\tTujuh "
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "5.\tSiapa yang mengajarkan doa Bapa Kami..."
+    A:
+      value: "a.\tYesus"
+      isTrue: 1
+    B:
+      value: "b.\tPastor Paroki"
+      isTrue: 0
+    C:
+      value: "c.\tGuru Agama "
+      isTrue: 0
+    D:
+      value: "d.\tOrang Tua "
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "6.\tNatal merupakan peristiwa..."
+    A:
+      value: "a.\tKebangkitan Yesus"
+      isTrue: 0
+    B:
+      value: "b.\tKelahiran Yesus"
+      isTrue: 1
+    C:
+      value: "c.\tWafat Kristus"
+      isTrue: 0
+    D:
+      value: "d.\tRoh Kudus turun bersama dengan para rasul"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "7.\tTempat ibadah umat beragama Katolik..."
+    A:
+      value: "a.\tPura"
+      isTrue: 0
+    B:
+      value: "b.\tMasjid"
+      isTrue: 0
+    C:
+      value: "c.\tGereja"
+      isTrue: 1
+    D:
+      value: "d.\tVihara"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "8.\tSiapa nama orang tua dari Yohanes Pembaptis..."
+    A:
+      value: "a.\tYusuf dan Maria"
+      isTrue: 0
+    B:
+      value: "b.\tYakobus dan Marta"
+      isTrue: 0
+    C:
+      value: "c.\tAnna Yoakim"
+      isTrue: 0
+    D:
+      value: "d.\tElisabeth dan Zakharia"
+      isTrue: 1
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "9.\tAnugerah tertinggi dari Tuhan adalah..."
+    A:
+      value: "a.\tIman"
+      isTrue: 1
+    B:
+      value: "b.\tGereja"
+      isTrue: 0
+    C:
+      value: "c.\tRoh Kudus"
+      isTrue: 0
+    D:
+      value: "d.\tKeselamatan "
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "10.\tApa maksud dari kerajaan Allah..."
+    A:
+      value: "a.\tAllah meraja sendiri dan selalu ada kedamaian dan sukacita"
+      isTrue: 1
+    B:
+      value: "b.\tKerajaan Mataram"
+      isTrue: 0
+    C:
+      value: "c.\tKerajaan Yesuralem"
+      isTrue: 0
+    D:
+      value: "d.\tKerajaan Israel"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "11.\tDalam peristiwa Pentakosta Roh Kudus turun dalam rupa..."
+    A:
+      value: "a.\tBurung Merpati"
+      isTrue: 0
+    B:
+      value: "b.\tLilin dan Air"
+      isTrue: 0
+    C:
+      value: "c.\tLidah-lidah api"
+      isTrue: 1
+    D:
+      value: "d.\tSuara Allah"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "12.\tBartimeus disembuhkan oleh karena..... akan Yesus Kristus"
+    A:
+      value: "a.\tDukun"
+      isTrue: 0
+    B:
+      value: "b.\tIman"
+      isTrue: 1
+    C:
+      value: "c.\tTobat "
+      isTrue: 0
+    D:
+      value: "d.\tSakit "
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "13.\tGereja Katolik merayakan Natal pada tanggal..."
+    A:
+      value: "a.\t1 Januari"
+      isTrue: 0
+    B:
+      value: "b.\t15 Desember"
+      isTrue: 0
+    C:
+      value: "c.\t3 Januari"
+      isTrue: 0
+    D:
+      value: "d.\t25 Desember"
+      isTrue: 1
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "14.\tSetiap orang tua menginginkan anaknya untuk bersikap\u2026"
+    A:
+      value: "a.\tBaik"
+      isTrue: 1
+    B:
+      value: "b.\tSombong dan Jujur"
+      isTrue: 0
+    C:
+      value: "c.\tJahat"
+      isTrue: 0
+    D:
+      value: "d.\tBaik dan Sombong"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "15.\tTuhan pasti menolong umat-Nya yang  sedang mengalami\u2026"
+    A:
+      value: "a.\tSukacita"
+      isTrue: 0
+    B:
+      value: "b.\tKegembiraan"
+      isTrue: 0
+    C:
+      value: "c.\tPenderitaan"
+      isTrue: 1
+    D:
+      value: "d.\tKejahatan"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "16.\tTindakan dibawah ini merupakan sikap..."
+    A:
+      value: "a.\tPeduli"
+      isTrue: 1
+    B:
+      value: "b.\tMenghormati"
+      isTrue: 0
+    C:
+      value: "c.\tMembenci"
+      isTrue: 0
+    D:
+      value: "d.\tMembenci"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "17.\tTalenta yang kita miliki merupakan anugrah dari..."
+    A:
+      value: "a.\tOrang Tua"
+      isTrue: 0
+    B:
+      value: "b.\tDiri Sendiri"
+      isTrue: 0
+    C:
+      value: "c.\tAllah "
+      isTrue: 1
+    D:
+      value: "d.\tIblis"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "18.\tApabila tetanggaku yang terkena bencana kelaparan maka tindakan yang
+      saya lakukan adalah\u2026"
+    A:
+      value: "a.\tTidak perlu membantunya"
+      isTrue: 0
+    B:
+      value: "b.\tMembiarkan mereka kelaparan"
+      isTrue: 0
+    C:
+      value: "c.\tMembantu memberikan makanan"
+      isTrue: 1
+    D:
+      value: "d.\tMembantu melaporkan ke pihak kepolisian"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "19.\tMusa membelah Laut Merah dengan menggunakan\u2026"
+    A:
+      value: "a.\tPedang "
+      isTrue: 0
+    B:
+      value: "b.\tKapak "
+      isTrue: 0
+    C:
+      value: "c.\tTongkat "
+      isTrue: 1
+    D:
+      value: "d.\tPistol "
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "20.\tYakub mempunyai anak berjumlah\u2026"
+    A:
+      value: "a.\t12 orang"
+      isTrue: 1
+    B:
+      value: "b.\t13 orang "
+      isTrue: 0
+    C:
+      value: "c.\t14 orang "
+      isTrue: 0
+    D:
+      value: "d.\t15 orang "
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "21.\tDasar kita mengampuni sesama adalah\u2026"
+    A:
+      value: "a.\tTuhan mengampuni kita"
+      isTrue: 1
+    B:
+      value: "b.\tKeinginan sendiri"
+      isTrue: 0
+    C:
+      value: "c.\tKeinginan orang tua"
+      isTrue: 0
+    D:
+      value: "d.\tMenikmati"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "22.\tMenurut injil Lukas 10:25-37, siapakah orang yang murah hati..."
+    A:
+      value: "a.\tImam"
+      isTrue: 0
+    B:
+      value: "b.\tLewi"
+      isTrue: 0
+    C:
+      value: "c.\tSamaria"
+      isTrue: 1
+    D:
+      value: "d.\tAhli Taurat"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "23.\tMengapa Maria mengunjungi Elisabeth?"
+    A:
+      value: "a.\tMembagikan kabar gembira atau sukacita yang diterima"
+      isTrue: 1
+    B:
+      value: "b.\tKarena Elisabeth adalah saudaranya"
+      isTrue: 0
+    C:
+      value: "c.\tKarena Elisabeth tinggal jauh"
+      isTrue: 0
+    D:
+      value: "d.\tKarena Elisabeth mengandung"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "24.\tApa yang dibawa oleh ketiga orang Majus tersebut..."
+    A:
+      value: "a.\tEmas, Kemenyan, dan Moor"
+      isTrue: 1
+    B:
+      value: "b.\tKado untuk Yesus"
+      isTrue: 0
+    C:
+      value: "c.\tRoti dan Anggur"
+      isTrue: 0
+    D:
+      value: "d.\tSapi"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "25.\tApa yang menjadi petunjuk ketiga majus dari Timur saat datang berkunjung
+      untuk menyembah Yesus?"
+    A:
+      value: "a.\tMatahari"
+      isTrue: 0
+    B:
+      value: "b.\tGembala"
+      isTrue: 0
+    C:
+      value: "c.\tBintang "
+      isTrue: 1
+    D:
+      value: "d.\tYesus"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "26.\tBagaimana cara mengembangkan talenta yang dimiliki?"
+    A:
+      value: "a.\tMembiarkan dia berkembang"
+      isTrue: 0
+    B:
+      value: "b.\tMenguburkannya"
+      isTrue: 0
+    C:
+      value: "c.\tMengikuti kata hati"
+      isTrue: 0
+    D:
+      value: "d.\tMelatih diri"
+      isTrue: 1
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "27.\tSyarat menjadi pengikut Kristus adalah harus..."
+    A:
+      value: "a.\tBertobat"
+      isTrue: 0
+    B:
+      value: "b.\tDiutus"
+      isTrue: 0
+    C:
+      value: "c.\tDibaptis"
+      isTrue: 1
+    D:
+      value: "d.\tDipenjara"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "28.\tSemua karunia yang diberikan Tuhan bertujuan untuk ... sesama"
+    A:
+      value: "a.\tMelayani"
+      isTrue: 1
+    B:
+      value: "b.\tMemuji"
+      isTrue: 0
+    C:
+      value: "c.\tBerbuat Jahat"
+      isTrue: 0
+    D:
+      value: "d.\tMelindungi"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "29.\tKebangkitan Yesus kita peringati pada hari..."
+    A:
+      value: "a.\tPaskah"
+      isTrue: 1
+    B:
+      value: "b.\tNatal"
+      isTrue: 0
+    C:
+      value: "c.\tPentakosta"
+      isTrue: 0
+    D:
+      value: "d.\tAdven"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "30.\tYesus disalibkan di bukit..."
+    A:
+      value: "a.\tBintang "
+      isTrue: 0
+    B:
+      value: "b.\tSinai"
+      isTrue: 0
+    C:
+      value: "c.\tGolgota"
+      isTrue: 1
+    D:
+      value: "d.\tGetsemani"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "31.\tSalah satu sifat  baik Yusuf dan disenangi oleh Yakub  adalah\u2026"
+    A:
+      value: "a.\tPemalas"
+      isTrue: 0
+    B:
+      value: "b.\tBandel"
+      isTrue: 0
+    C:
+      value: "c.\tJujur"
+      isTrue: 1
+    D:
+      value: "d.\tTidak "
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "32.\tSikap iri hati akan menjadikan perpecahan dalam\u2026"
+    A:
+      value: "a.\tPersaudaraan"
+      isTrue: 1
+    B:
+      value: "b.\tKebencian "
+      isTrue: 0
+    C:
+      value: "c.\tPermusuhan"
+      isTrue: 0
+    D:
+      value: "d.\tKesengsaraan"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "33.\tAllah menciptakan matahari, bulan dan bintang pada hari ke..."
+    A:
+      value: 4
+      isTrue: 1
+    B:
+      value: 3
+      isTrue: 0
+    C:
+      value: 2
+      isTrue: 0
+    D:
+      value: 1
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "34.\tAturan itu dibuat agar hidup menjadi lebih..."
+    A:
+      value: "a.\tRamai"
+      isTrue: 0
+    B:
+      value: "b.\tMerepotkan"
+      isTrue: 0
+    C:
+      value: "c.\tLebih Tertib"
+      isTrue: 1
+    D:
+      value: "d.\tMenyesakkan"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "35.\tAllah memberi aturan kepada bangsa Israel berupa..."
+    A:
+      value: "a.\tUndang-undang"
+      isTrue: 0
+    B:
+      value: "b.\tSepuluh Perintah Allah"
+      isTrue: 1
+    C:
+      value: "c.\tHukum-hukum"
+      isTrue: 0
+    D:
+      value: "d.\tKebijaksanaan"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "36.\tKita telah diciptakan Allah baik sebagai laki- laki maupun perempuan
+      sikap yang perlu kita wujudkan adalah..."
+    A:
+      value: "a.\tBersyukur"
+      isTrue: 1
+    B:
+      value: "b.\tMenolak"
+      isTrue: 0
+    C:
+      value: "c.\tMembenci"
+      isTrue: 0
+    D:
+      value: "d.\tPasrah"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "37.\tAllah menciptakan manusia pertama dan menempatkannya di..."
+    A:
+      value: "a.\tTaman Eden"
+      isTrue: 1
+    B:
+      value: "b.\tPadang Gurun"
+      isTrue: 0
+    C:
+      value: "c.\tTaman Zaitun"
+      isTrue: 0
+    D:
+      value: "d.\tTaman Getsemani"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "38.\tAllah menciptakan perempuan dari... laki- laki"
+    A:
+      value: "a.\tTulang rusuk"
+      isTrue: 1
+    B:
+      value: "b.\tTulang kaki"
+      isTrue: 0
+    C:
+      value: "c.\tTulang tangan"
+      isTrue: 0
+    D:
+      value: "d.\tTulang pipi"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "39.\tDihadapan Allah, perempuan dan laki- laki adalah..."
+    A:
+      value: "a.\tLaki-laki lebih tinggi derajatnya"
+      isTrue: 0
+    B:
+      value: "b.\tSederajat"
+      isTrue: 1
+    C:
+      value: "c.\tPerempuan lebih tinggi derajatnya"
+      isTrue: 0
+    D:
+      value: "d.\tPerempuan lebih rendah"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "40.\tAllah menciptakan bumi dan segala isinya, dapat kita baca dalam kitab..."
+    A:
+      value: "a.\tUlangan"
+      isTrue: 0
+    B:
+      value: "b.\tMazmur"
+      isTrue: 0
+    C:
+      value: "c.\tKejadian"
+      isTrue: 1
+    D:
+      value: "d.\tKisah Para Rasul"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "41.\tCiri-ciri laki-laki yang nampak dalam kehidupan sehari- hari adalah.."
+    A:
+      value: "a.\tMengerjakan yang lebih ringan"
+      isTrue: 0
+    B:
+      value: "b.\tTidak mau bekerja"
+      isTrue: 0
+    C:
+      value: "c.\tMengerjakan pekerjaan yang lebih berat"
+      isTrue: 1
+    D:
+      value: "d.\tMengurus keluarga"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "42.\tApa yang diberikan Allah kepada Musa di gunung Sinai?"
+    A:
+      value: "a.\tPasir"
+      isTrue: 0
+    B:
+      value: "b.\tAir"
+      isTrue: 0
+    C:
+      value: "c.\tApi"
+      isTrue: 0
+    D:
+      value: "d.\tDua loh batu"
+      isTrue: 1
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "43.\tDaud menjadi raja atas pilihan..."
+    A:
+      value: "a.\tTuhan"
+      isTrue: 1
+    B:
+      value: "b.\tPara nabi"
+      isTrue: 0
+    C:
+      value: "c.\tTeman-temannya"
+      isTrue: 0
+    D:
+      value: "d.\tGoliat"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "44.\tUntuk dapat memelihara dan membangun tanah air Indonesia kita harus..."
+    A:
+      value: "a.\tBersatu"
+      isTrue: 1
+    B:
+      value: "b.\tBekerja"
+      isTrue: 0
+    C:
+      value: "c.\tBerpisah"
+      isTrue: 0
+    D:
+      value: "d.\tBerdiam diri"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "45.\tContoh sikap berpaling dari Allah adalah..."
+    A:
+      value: "a.\tRajin ke gereja"
+      isTrue: 0
+    B:
+      value: "b.\tPeduli terhadap sesama"
+      isTrue: 0
+    C:
+      value: "c.\tTidak pernah berdoa"
+      isTrue: 1
+    D:
+      value: "d.\tMembantu orang yang kesusahan"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "46.\tSetelah Yesus dibaptis di sungai Yordan Yesus berpuasa di..."
+    A:
+      value: "a.\tPadang gurun"
+      isTrue: 1
+    B:
+      value: "b.\tDi atas bukit"
+      isTrue: 0
+    C:
+      value: "c.\tTaman eden"
+      isTrue: 0
+    D:
+      value: "d.\tGolgota"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "47.\tAkibat dari perbuatan dosa adalah..."
+    A:
+      value: "a.\tPenderitaan"
+      isTrue: 1
+    B:
+      value: "b.\tKemiskinan"
+      isTrue: 0
+    C:
+      value: "c.\tKesejahteraan"
+      isTrue: 0
+    D:
+      value: "d.\tKebahagiaan "
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "48.\tPerbedaan antara diriku dan diri orang lain adalah hal yang ..."
+    A:
+      value: "a.\tSama"
+      isTrue: 0
+    B:
+      value: "b.\tUnik"
+      isTrue: 1
+    C:
+      value: "c.\tMirip"
+      isTrue: 0
+    D:
+      value: "d.\tBiasa"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "49.\tManusia adalah makhluk ciptaan Tuhan yang istimewa karena memiliki
+      \u2026"
+    A:
+      value: "a.\tAkal Budi"
+      isTrue: 1
+    B:
+      value: "b.\tWatak"
+      isTrue: 0
+    C:
+      value: "c.\tSikap"
+      isTrue: 0
+    D:
+      value: "d.\tSifat "
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat
+  - type: 1
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 
+    soal: "50.\tMenghormati teman yang beragama lain dalam merayakan hari besarnya
+      dengan cara ..."
+    A:
+      value: "a.\tMengucapkan janji"
+      isTrue: 0
+    B:
+      value: "b.\tMengucapkan selamat"
+      isTrue: 1
+    C:
+      value: "c.\tMengucapkan sumpah"
+      isTrue: 0
+    D:
+      value: "d.\tMengejek"
+      isTrue: 0
+    ifTrueMsg: Selamat jawaban anda benar
+    ifFalseMsg: Maaf jawaban anda kurang tepat

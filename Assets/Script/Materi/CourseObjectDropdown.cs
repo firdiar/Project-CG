@@ -10,6 +10,7 @@ public class ObjectCourse {
     public List<ObjectLesson> lessons;
     
 }
+
 [System.Serializable]
 public class ObjectLesson {
     public ObjectLesson(string lessonName , string lessonData) {
@@ -53,6 +54,7 @@ public class CourseObjectDropdown : MonoBehaviour
             tex.transform.GetChild(0).GetComponent<Text>().text = data.lessons[i].lessonName;
             tex.GetComponent<Button>().onClick.AddListener(()=> {
                 Debug.Log(temp);
+                isOnProcess = false;
                 MateriManager.MAIN.LoadData(temp);
                 MateriManager.MAIN.ChangeScreen(1);
             });
