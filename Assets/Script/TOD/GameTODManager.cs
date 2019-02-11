@@ -65,8 +65,16 @@ public class GameTODManager : MonoBehaviour
         pcount.text = playerCount.ToString();
     }
 
-    public void GenerateBoard() {
+    public void ResetGame() {
+        isMovingCard = false;
+        isCanRollAgain = true;
+        isRolling = false;
+        card.localPosition = new Vector2(Screen.width * 2, card.localPosition.y);
+        bottle.eulerAngles = Vector3.zero;
+    }
 
+    public void GenerateBoard() {
+        ResetGame();
         menuScreen.SetActive(false);
         gameScreen.SetActive(true);
         currentPlayer = 1;
@@ -75,7 +83,7 @@ public class GameTODManager : MonoBehaviour
         Debug.Log(a);
         soal = JsonConvert.DeserializeObject<List<string>>(a);
 
-        bottle.eulerAngles = Vector3.zero;
+        
         isCanRollAgain = true;
 
         currentPLayerText.text = "Player "+(currentPlayer);
@@ -144,6 +152,8 @@ public class GameTODManager : MonoBehaviour
                 soalText.text = soal[Random.RandomRange( 0 , soal.Count)];
                 targetCard = new Vector2(0, card.localPosition.y); ;
                 isMovingCard = true;
+
+                
             }
             
 
