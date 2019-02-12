@@ -6,10 +6,11 @@ using Newtonsoft.Json;
 public class MateriManager : MonoBehaviour
 {
     public static MateriManager MAIN;
-
+    
     [Header("MenuScreen")]
     [SerializeField] GameObject menuScreen;
     [SerializeField] GameObject MenuOption;
+    
 
     [Header("LearnScreen")]
     [SerializeField] GameObject LearnScreen;

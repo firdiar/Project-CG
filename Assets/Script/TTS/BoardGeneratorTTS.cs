@@ -174,8 +174,13 @@ public class BoardGeneratorTTS : MonoBehaviour
 
         bool result = currentBtts.CheckAnswerAllBox(currentArah);
         Debug.Log(" The Answer : " + result);
-        if (result) {
+        if (result)
+        {
+            SoundBase.MAIN.PlaySound("JawabanBenar");
             RightSoal.GetChild(1).gameObject.SetActive(true);
+        }
+        else {
+            SoundBase.MAIN.PlaySound("JawabanSalah");
         }
 
     }
@@ -278,6 +283,9 @@ public class BoardGeneratorTTS : MonoBehaviour
             SetObjSelected(box, Arah.Horizontal);
             return;
         }
+
+        SoundBase.MAIN.PlaySound("Klik");
+
         if (Mathf.Abs(RightSoal.localPosition.x) < 1) {
             ShowRight();
         }
@@ -319,6 +327,8 @@ public class BoardGeneratorTTS : MonoBehaviour
 
     public void SetObjSelected(BoxTTS box , Arah arah)
     {
+
+        SoundBase.MAIN.PlaySound("Klik");
 
         if (Mathf.Abs(RightSoal.localPosition.x) < 1)
         {
