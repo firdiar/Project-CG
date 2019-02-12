@@ -156,11 +156,11 @@ public class BoardGeneratorTTS : MonoBehaviour
         }
 
         Vector2 target = LeftSoal.localPosition;
-        target.x = -Screen.width;
+        target.x = -2*Screen.width;
         LeftSoal.localPosition = target;
 
         target = RightSoal.localPosition;
-        target.x = Screen.width;
+        target.x = 2 * Screen.width;
         RightSoal.localPosition = target;
 
         Camera.main.transform.position = new Vector3(0, 0, -10);
@@ -188,8 +188,9 @@ public class BoardGeneratorTTS : MonoBehaviour
             Debug.Log("Tidak Dapat Show");
             return;
         }
-
         
+
+
         if (Mathf.Abs(target.x) > 1) { 
 
             target.x = 0;
@@ -197,7 +198,7 @@ public class BoardGeneratorTTS : MonoBehaviour
         }
         else {
             showing = false;
-            target.x = -Screen.width;
+            target.x = -2 * Screen.width;
         }
 
         Debug.Log(target);
@@ -250,7 +251,7 @@ public class BoardGeneratorTTS : MonoBehaviour
         else
         {
             showing = false;
-            target.x = Screen.width;
+            target.x = 2 * Screen.width;
         }
 
         Debug.Log(target);
@@ -276,6 +277,9 @@ public class BoardGeneratorTTS : MonoBehaviour
             Debug.Log("Persimpangan");
             SetObjSelected(box, Arah.Horizontal);
             return;
+        }
+        if (Mathf.Abs(RightSoal.localPosition.x) < 1) {
+            ShowRight();
         }
 
         int count = boxSelectedParent.childCount;
@@ -315,6 +319,11 @@ public class BoardGeneratorTTS : MonoBehaviour
 
     public void SetObjSelected(BoxTTS box , Arah arah)
     {
+
+        if (Mathf.Abs(RightSoal.localPosition.x) < 1)
+        {
+            ShowRight();
+        }
 
         int count = boxSelectedParent.childCount;
         for (int i = 0; i < count; i++)

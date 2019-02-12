@@ -1,10 +1,6 @@
 [
-	{
-		"value" : "1aku-2kamu-3kita-4mereka-5dia-6suka",
-		"answer" : "1aku 2kamu 3kita 4mereka 5dia 6suka"
-	},
-	{
-		"value" : "Tuhan–kepadamu–lanjut–umurmu–Hormatilah–ibumu–supaya–dan–ayahmu–di–tanah–diberikan–Allahmu–yang",
-		"answer" : "Hormatilah ayahmu dan ibumu supaya lanjut umurmu di tanah yang diberikan Tuhan Allahmu kepadamu"
-	}
+
+	"1aku 2kamu 3kita 4mereka 5dia 6suka",
+	"1 2 3 4 5 6"
+
 ]
