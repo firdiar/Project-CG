@@ -41,8 +41,9 @@ public class KataPlaceManager : MonoBehaviour
         string a = Resources.Load<TextAsset>("Data/SusunKata/"+soalData).text;
 
         data = JsonConvert.DeserializeObject<List<string>>(a);
-        int currentSoal = 0;
-        int currentIndexLevel = idx;
+        currentSoal = 0;
+        currentIndexLevel = idx;
+        Debug.Log("Current lv : "+(currentIndexLevel+1));
         StartGame();
     }
 
@@ -169,7 +170,10 @@ public class KataPlaceManager : MonoBehaviour
         
         if (currentIndexLevel + 1 < lv.Length)
         {
-            lv[currentIndexLevel+1] = "1";
+            lv[currentIndexLevel + 1] = "1";
+            for (int i = 0; i < lv.Length; i++) {
+                Debug.Log("is Locked lv "+ (i+1)+" : "+lv[i]);
+            }
             Debug.Log("saved");
         }
         

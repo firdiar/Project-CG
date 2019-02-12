@@ -12,11 +12,20 @@ public class SoundDatabase
 public class SoundBase : MonoBehaviour
 {
     public static SoundBase MAIN;
+    [SerializeField] AudioSource audio;
     [SerializeField] List<SoundDatabase> soundClips;
 
     public void Awake()
     {
         MAIN = this;
+    }
+
+    public void PlaySound(string soundName) {
+        audio.clip = GetSoundClip(soundName);
+        if (audio.clip != null)
+        {
+            audio.Play();
+        }
     }
 
     public AudioClip GetSoundClip(string name)

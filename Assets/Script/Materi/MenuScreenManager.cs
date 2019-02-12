@@ -12,6 +12,7 @@ public class MenuScreenManager : MonoBehaviour
     [SerializeField] GameObject Menu2;
     [SerializeField] GameObject lessonPrefabs;
     [SerializeField] Transform lessonParent;
+    [SerializeField] SoundBase sound;
 
     bool inProgress = false;
 
@@ -32,7 +33,7 @@ public class MenuScreenManager : MonoBehaviour
                     return;
 
                 GenerateLesson(cl.dataRef);
-                
+                sound.PlaySound("Klik");
                 HideMenu();
 
             } );
@@ -112,7 +113,9 @@ public class MenuScreenManager : MonoBehaviour
             GameObject c = Instantiate(lessonPrefabs, lessonParent);
             c.transform.GetChild(0).GetComponent<Text>().text = ol.lessonName;
             c.GetComponent<Button>().onClick.AddListener(() => {
+                sound.PlaySound("Klik");
                 MateriManager.MAIN.LoadData(ol.lessonData);
+
                 MateriManager.MAIN.ChangeScreen(1);
             });
         }
