@@ -17,6 +17,7 @@ public class Question
 public class GameUlarTanggaManager : MonoBehaviour {
 
     public static GameUlarTanggaManager MAIN;
+    [SerializeField] SoundBase sound;
 
     [Header("GameScreen")]
     [SerializeField] GameObject optionGame;
@@ -246,7 +247,7 @@ public class GameUlarTanggaManager : MonoBehaviour {
     public void setWinner() {
 
         Debug.Log("Player ke " + currentPlayer+"Winning The Game");
-
+        sound.PlaySound("TepukTangan");
         players.Sort((b,a)=>  a.GetComponent<Player>().GetCurrentPos().CompareTo(b.GetComponent<Player>().GetCurrentPos()));
         int loop = players.Count >= 3 ? 3 : players.Count;
         for (int i = 0; i < loop; i++) {

@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class HomeManager : MonoBehaviour
 {
+    [SerializeField] GameObject option;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +15,9 @@ public class HomeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            option.SetActive(true);
+        }
     }
 
     public void ChangeScene(string sceneName) {
@@ -22,6 +25,12 @@ public class HomeManager : MonoBehaviour
         SceneManager.LoadScene(sceneName);
         //StartCoroutine(ChangeSceneAsync(sceneName));
 
+    }
+
+    public void Keluar()
+    {
+        Debug.Log("Game Quit");
+        Application.Quit();
     }
 
 
