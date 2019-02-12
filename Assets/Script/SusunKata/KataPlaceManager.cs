@@ -20,7 +20,7 @@ public class KataPlaceManager : MonoBehaviour
     [SerializeField] List<RectTransform> lines;
     [SerializeField] GameObject kataPrefabs;
     [SerializeField] GameObject linePrefabs;
-    [SerializeField] List<DataSusunKata> data;
+    [SerializeField] List<string> data;
     
     [SerializeField] AudioSource AS;
     List<Transform> answer = new List<Transform>();
@@ -40,7 +40,7 @@ public class KataPlaceManager : MonoBehaviour
     public void StartGame(string soalData , int idx) {
         string a = Resources.Load<TextAsset>("Data/SusunKata/"+soalData).text;
 
-        data = JsonConvert.DeserializeObject<List<DataSusunKata>>(a);
+        data = JsonConvert.DeserializeObject<List<string>>(a);
         int currentSoal = 0;
         int currentIndexLevel = idx;
         StartGame();
@@ -50,7 +50,7 @@ public class KataPlaceManager : MonoBehaviour
     {
         panelLayer.transform.SetAsFirstSibling();
         panelLayer.GetComponent<Image>().CrossFadeAlpha(0, 0f, true);
-        string[] kata = data[0].value.Split('-');
+        string[] kata = data[currentSoal].Split(' ');
         currentLines = 0;
         currentIndex = 0;
         Shuffle<string>(kata);
@@ -134,7 +134,7 @@ public class KataPlaceManager : MonoBehaviour
         //panelLayer.transform.SetAsLastSibling();
         //panelLayer.GetComponent<Image>().CrossFadeAlpha(0.5f, 0.5f, true);
 
-        if (string.Join(" ", a).ToLower() == data[0].answer.ToLower())
+        if (string.Join(" ", a).ToLower() == data[currentSoal].ToLower())
         {
             Debug.Log("Jawaban Benar");
             AS.clip = SoundBase.MAIN.GetSoundClip("JawabanBenar");
@@ -143,6 +143,7 @@ public class KataPlaceManager : MonoBehaviour
             DeleteAll();
             if (nextSoal())
             {
+
                 StartGame();
             }
             else {

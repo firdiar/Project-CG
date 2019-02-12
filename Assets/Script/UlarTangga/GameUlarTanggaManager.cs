@@ -249,7 +249,7 @@ public class GameUlarTanggaManager : MonoBehaviour {
 
         players.Sort((b,a)=>  a.GetComponent<Player>().GetCurrentPos().CompareTo(b.GetComponent<Player>().GetCurrentPos()));
         int loop = players.Count >= 3 ? 3 : players.Count;
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < loop; i++) {
             podium.GetChild(i).GetComponent<UnityEngine.UI.Text>().text = "Player - "+players[i].GetComponent<Player>().id.ToString();
         }
 
