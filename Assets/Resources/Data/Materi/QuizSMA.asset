@@ -32,7 +32,7 @@ MonoBehaviour:
       value: "d.\tTidak dapat dikalahkan"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nc.\tIstimewa"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -51,7 +51,7 @@ MonoBehaviour:
       value: "d.\t73"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nb.\t46\n"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -71,7 +71,7 @@ MonoBehaviour:
       value: "d.\tDeutrokanonika"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nc.\tTaurat\n"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -91,7 +91,7 @@ MonoBehaviour:
       value: "d.\tNasionalisme, wawasan kebangsaan"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\na.\tSeks bebas, pergaulan bebas"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -99,7 +99,7 @@ MonoBehaviour:
     soal: "5.\tHari Raya Gerejawi yang berpusat pada sengsara, wafat dan kebangkitan
       Kristus adalah ..."
     A:
-      value: "a.\tPaska"
+      value: "a.\tPaskah"
       isTrue: 1
     B:
       value: "b.\tPrapaska"
@@ -111,7 +111,7 @@ MonoBehaviour:
       value: "d.\tAdven "
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\na.\tPaskah"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -132,7 +132,7 @@ MonoBehaviour:
       value: "d.\tKekuasaan diri-Nya"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nb.\tKemuliaan hati-Nya"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -151,7 +151,7 @@ MonoBehaviour:
       value: "d.\tMedia massa"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nc.\tPerumpamaan dan perbuatan"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -170,7 +170,7 @@ MonoBehaviour:
       value: "d.\tMenunjukan kekuatannya"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nb.\tMenyelamatkan umat manusia"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -189,7 +189,7 @@ MonoBehaviour:
       value: "d.\tSaling mendukung, saling menolong"
       isTrue: 1
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nd.\tSaling mendukung, saling menolong"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -209,7 +209,7 @@ MonoBehaviour:
       value: "d.\tAwan"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nc.\tLidah-lidah api"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -229,7 +229,7 @@ MonoBehaviour:
       value: "d.\tKapel "
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\na.\tGereja"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -249,7 +249,7 @@ MonoBehaviour:
       value: "d.\tSaling menjatuhkan"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nc.\tSaling peduli"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -269,7 +269,7 @@ MonoBehaviour:
       value: "d.\tGereja yang rukun"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\na.\tSatu, kudus, katolik, apostolic"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -288,7 +288,7 @@ MonoBehaviour:
       value: "d.\tUskup, pastor paroki, paus"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nc.\tPaus, uskup, imam, daikon"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -307,7 +307,7 @@ MonoBehaviour:
       value: "d.\tMebagikan komuni pada Romo"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nb.\tProdiakon dan putra- putri altar"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -326,7 +326,7 @@ MonoBehaviour:
       value: "d.\tMelayani, melindungi"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\na.\tLiturgia, kerygma, martyria,diakonia"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -346,7 +346,8 @@ MonoBehaviour:
       value: "d.\tMenghapus struktur dan sistem dalam masyarakat"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\na.\tMenciptakan lapangan pekerjaan dan
+      membawa damai kesejahteraan"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -363,9 +364,9 @@ MonoBehaviour:
       isTrue: 0
     D:
       value: "d.\tOrang miskin dan tertindas"
-      isTrue: 0
+      isTrue: 1
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nd.\tOrang miskin dan tertindas"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -384,7 +385,7 @@ MonoBehaviour:
       value: "d.\tMenikah pada usia dini"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nc.\tBerpacaran secara sehat"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -403,7 +404,8 @@ MonoBehaviour:
       value: "d.\tKecanduan obat"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\na.\tMenurunkan kekebalan daya tahan
+      tubuh"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -422,7 +424,7 @@ MonoBehaviour:
       value: "d.\tCinta kasih"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nb.\tTidak halangan pernikahan"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -441,7 +443,7 @@ MonoBehaviour:
       value: "d.\tPria 19 tahun dan wanita 16 tahun"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\na.\tPria 16 tahun dan wanita 14 tahun"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -460,7 +462,7 @@ MonoBehaviour:
       value: "d.\tKeluarga  yang acuh tak acuh"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nb.\tHidup rukun"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -479,7 +481,8 @@ MonoBehaviour:
       value: "d.\tOrang yang hidup menyendiri demi pelayanannya"
       isTrue: 1
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nd.\tOrang yang hidup menyendiri demi
+      pelayanannya"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -498,7 +501,7 @@ MonoBehaviour:
       value: "d.\tAgar selalu konsentrasi"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\na.\tAgar selamat dalam pekerjaan"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -518,7 +521,7 @@ MonoBehaviour:
       value: "d.\tMemberhentikan mereka yang sedang sholat"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nb.\tSaling menghormat"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -537,7 +540,7 @@ MonoBehaviour:
       value: "d.\tSaling menjatuhkan"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\na.\tRukun"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -558,7 +561,8 @@ MonoBehaviour:
       value: "d.\tMelihat saja"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nb.\tGotong royong untuk membersihkan
+      lumpur"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -578,7 +582,7 @@ MonoBehaviour:
       value: "d.\tSaling mengganggu ketika menjalani ibadah"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nb.\tSaling mendukung"
   - type: 1
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -598,4 +602,4 @@ MonoBehaviour:
       value: "d.\tBersikap dan berperilaku penuh syukur"
       isTrue: 0
     ifTrueMsg: Selamat jawaban anda benar
-    ifFalseMsg: Maaf jawaban anda kurang tepat
+    ifFalseMsg: "\nJawaban yang benar adalah\nc.\tMelawan orang tuanya"
