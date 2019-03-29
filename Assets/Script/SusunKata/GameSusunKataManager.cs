@@ -122,6 +122,7 @@ public class GameSusunKataManager : MonoBehaviour
     }
 
     public void Home() {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Home");
+        //UnityEngine.SceneManagement.SceneManager.LoadScene("Home");
+        LoadingScreen.MAIN.ChangeScene("Home");
     }
 }

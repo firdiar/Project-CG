@@ -123,7 +123,8 @@ public class GameTODManager : MonoBehaviour
 
     public void Home() {
         // back to home
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Home");
+        //UnityEngine.SceneManagement.SceneManager.LoadScene("Home");
+        LoadingScreen.MAIN.ChangeScene("Home");
     }
 
     private void Update()

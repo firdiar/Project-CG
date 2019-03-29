@@ -9,8 +9,10 @@ public class MateriManager : MonoBehaviour
     
     [Header("MenuScreen")]
     [SerializeField] GameObject menuScreen;
-    [SerializeField] GameObject MenuOption;
-    
+    [SerializeField] GameObject menuOption;
+    [SerializeField] GameObject layer;
+    [SerializeField] Transform menuLain;
+
 
     [Header("LearnScreen")]
     [SerializeField] GameObject LearnScreen;
@@ -21,7 +23,9 @@ public class MateriManager : MonoBehaviour
     [SerializeField] RectTransform current;
     [SerializeField] RectTransform end;
     [SerializeField] GameObject LearnOption;
-    int index;
+    Transform cardOne = null;
+    Transform cardTwo = null;
+    //int index;
 
     bool isMoved = false;
 
@@ -63,6 +67,32 @@ public class MateriManager : MonoBehaviour
 
     }
 
+    public void ShowMenuLain() {
+        layer.SetActive(true);
+        StartCoroutine(MoveMenuLain(new Vector3(0 , menuLain.localPosition.y , menuLain.localPosition.z), menuLain));
+    }
+    public void HideMenuLain()
+    {
+        layer.SetActive(false);
+        StartCoroutine(MoveMenuLain(new Vector3(Screen.width , menuLain.localPosition.y, menuLain.localPosition.z), menuLain));
+    }
+
+    IEnumerator MoveMenuLain(Vector3 target, Transform obj) {
+        Debug.Log("Moving");
+        while (Vector3.Distance(obj.localPosition, target) > 1f && ( target.x==0 ? layer.activeInHierarchy:!layer.activeInHierarchy)) {
+            Debug.Log("Moving");
+            obj.localPosition = Vector3.Lerp(obj.localPosition, target, 0.2f);
+            yield return new WaitForSeconds(0.02f);
+        }
+
+        yield return null;
+    }
+
+
+    public void StartGame(string sceneName) {
+        LoadingScreen.MAIN.ChangeScene(sceneName);
+    }
+
     public void ChangeScreen(int j) {
 
         switch (j) {
@@ -84,7 +114,7 @@ public class MateriManager : MonoBehaviour
             case 1:
                 menuScreen.SetActive(false);
                 LearnScreen.SetActive(true);
-                index = 0;
+                //index = 0;
                 break;
         }
 
@@ -190,12 +220,12 @@ public class MateriManager : MonoBehaviour
         isMoved = true;
         if (current.childCount >= 1)
         {
-            Transform rt = current.GetChild(0);
-            rt.SetParent(end);
+            cardOne = current.GetChild(0);
+            cardOne.SetParent(end);
         }
         if (start.childCount >= 1) {
-            Transform rt = start.GetChild(0);
-            rt.SetParent(current);
+            cardTwo = start.GetChild(0);
+            cardTwo.SetParent(current);
         }
         
     }
@@ -208,49 +238,38 @@ public class MateriManager : MonoBehaviour
         isMoved = true;
         if (current.childCount >= 1)
         {
-            Transform rt = current.GetChild(0);
-            rt.SetParent(start);
-            rt.SetAsFirstSibling();
+            cardOne = current.GetChild(0);
+            cardOne.SetParent(start);
+            cardOne.SetAsFirstSibling();
         }
         if (end.childCount >= 1)
         {
-            Transform rt = end.GetChild(end.childCount-1);
-            rt.SetParent(current);
+            cardTwo = end.GetChild(end.childCount-1);
+            cardTwo.SetParent(current);
         }
     }
 
     private void Update()
     {
         if (isMoved) {
-            isMoved = false;
-            for (int i = 0; i < current.childCount; i++) {
-                if (Vector2.Distance(current.GetChild(i).localPosition, Vector2.zero) > 0.5f) {
-                    current.GetChild(0).localPosition = Vector2.Lerp(current.GetChild(0).localPosition , Vector2.zero , Time.deltaTime*5);
-                    isMoved = true;
-                }
-            }
-            for (int i = 0; i < start.childCount; i++)
+  
+            if (cardOne != null && Vector2.Distance(cardOne.localPosition, Vector2.zero) > 0.5f)
             {
-                if (Vector2.Distance(start.GetChild(i).localPosition, Vector2.zero) > 0.5f)
-                {
-                    start.GetChild(i).localPosition = Vector2.Lerp(start.GetChild(i).localPosition, Vector2.zero, Time.deltaTime * 5);
-                    isMoved = true;
-                }
+                cardOne.localPosition = Vector2.Lerp(cardOne.localPosition, Vector2.zero, Time.deltaTime * 5);
+
             }
-            for (int i = 0; i < end.childCount; i++)
+            if (cardTwo != null && Vector2.Distance(cardTwo.localPosition, Vector2.zero) > 0.5f)
             {
-                if (Vector2.Distance(end.GetChild(i).localPosition, Vector2.zero) > 0.5f)
-                {
-                    end.GetChild(i).localPosition = Vector2.Lerp(end.GetChild(i).localPosition, Vector2.zero, Time.deltaTime * 5);
-                    isMoved = true;
-                }
+                cardTwo.localPosition = Vector2.Lerp(cardTwo.localPosition, Vector2.zero, Time.deltaTime * 5);
             }
+            isMoved = !((cardOne == null || Vector2.Distance(cardOne.localPosition, Vector2.zero) < 0.5f) && (cardTwo == null || Vector2.Distance(cardTwo.localPosition, Vector2.zero) < 0.5f));
+            //Debug.Log("is Move : "+isMoved);
         }
 
         if (Input.GetKeyDown(KeyCode.Escape)) {
             if (menuScreen.activeInHierarchy)
             {
-                MenuOption.SetActive(true);
+                menuOption.SetActive(true);
             }
             else {
                 LearnOption.SetActive(true);
@@ -259,7 +278,8 @@ public class MateriManager : MonoBehaviour
     }
 
     public void Home() {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Home");
+        Debug.Log("Game Quit");
+        Application.Quit();
     }
 
 }

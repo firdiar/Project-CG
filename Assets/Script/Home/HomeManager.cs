@@ -22,7 +22,9 @@ public class HomeManager : MonoBehaviour
 
     public void ChangeScene(string sceneName) {
 
-        SceneManager.LoadScene(sceneName);
+        //SceneManager.LoadScene(sceneName);
+        
+        LoadingScreen.MAIN.ChangeScene(sceneName);
         //StartCoroutine(ChangeSceneAsync(sceneName));
 
     }
@@ -34,19 +36,5 @@ public class HomeManager : MonoBehaviour
     }
 
 
-    //IEnumerator ChangeSceneAsync(string sceneName) {
-    //    Debug.Log("Masuk");
-    //    LoadingScreen loadingBar = LoadingScreen.MAIN;
-    //    loadingBar.gameObject.SetActive(true);
-    //    DontDestroyOnLoad(loadingBar.gameObject);
-    //    loadingBar.setAlpha(1);
-    //    loadingBar.setProgress(0);
-
-    //    AsyncOperation AO = SceneManager.LoadSceneAsync(sceneName);
-    //    while (!AO.isDone)
-    //    {
-    //        Debug.Log(AO.progress);
-    //        yield return null;
-    //    }
-    //}
+    
 }

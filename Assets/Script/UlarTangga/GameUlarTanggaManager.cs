@@ -261,6 +261,7 @@ public class GameUlarTanggaManager : MonoBehaviour {
     public void QuitGame()
     {
         //Kembali ke Home
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Home");
+        //UnityEngine.SceneManagement.SceneManager.LoadScene("Home");
+        LoadingScreen.MAIN.ChangeScene("Home");
     }
 }

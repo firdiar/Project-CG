@@ -488,6 +488,7 @@ public class BoardGeneratorTTS : MonoBehaviour
 
     public void Home()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Home");
+        //UnityEngine.SceneManagement.SceneManager.LoadScene("Home");
+        LoadingScreen.MAIN.ChangeScene("Home");
     }
 }
