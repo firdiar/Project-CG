@@ -12,5 +12,6 @@ public class CourseListBaseScriptableObj : ScriptableObject
 public class CourseList {
     public Texture texture;
     public string courseName;
+	public Color colorbg;
     public List<ObjectLesson> dataRef;
 }

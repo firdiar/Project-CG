@@ -13,6 +13,7 @@ public class MenuScreenManager : MonoBehaviour
     [SerializeField] GameObject lessonPrefabs;
     [SerializeField] Transform lessonParent;
     [SerializeField] SoundBase sound;
+	[SerializeField] GameObject learnscreen;
 
     bool inProgress = false;
 
@@ -33,6 +34,8 @@ public class MenuScreenManager : MonoBehaviour
                     return;
 
                 GenerateLesson(cl.dataRef);
+				Menu2.GetComponent<RawImage>().color = cl.colorbg;
+				learnscreen.GetComponent<RawImage>().color = cl.colorbg;
                 sound.PlaySound("Klik");
                 HideMenu();
 

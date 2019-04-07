@@ -13,116 +13,127 @@ MonoBehaviour:
   m_Name: Lesson11
   m_EditorClassIdentifier: 
   learnCard:
-  - GambarLandscape: {fileID: 0}
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "GEREJA dan DUNIA\r\n\r\n"
-  - GambarLandscape: {fileID: 0}
+    isiCard: "GEREJA dan DUNIA\r\n\r\n Seringkali muncul pertanyaan bagaimana sikap
+      Gereja dalam menghadapi permasalahan sosial, ekonomi, budaya dan politik. Juga
+      bagaimana Gereja menyikapi umat yang kehidupannya miskin atau melarat."
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "Seringkali muncul pertanyaan bagaimana sikap Gereja dalam menghadapi
-      permasalahan sosial, ekonomi, budaya dan politik. Juga bagaimana Gereja menyikapi
-      umat yang kehidupannya miskin atau melarat. Gereja sungguh-sungguh mewartakan
-      dan memberi kesaksian tentang \u201CKabar Gembira\u201D kepada dunia, sambil
-      belajar dan mengambil banyak nilai-nilai positif yang dimiliki dunia untuk perkembangan
-      diri dan pewartaannya. Gereja kini telah memiliki pandangan tentang dunia yang
-      jauh lebih positif dari zaman-zaman yang lampau, sehingga hubungan antara keduanya
-      menjadi lebih saling menguntungkan. Jadi, hubungan antara Gereja dan dunia memiliki
-      pandangan-pandangan baru yang perlu dipahami. "
-  - GambarLandscape: {fileID: 0}
+    isiCard: " Gereja sungguh-sungguh mewartakan dan memberi kesaksian tentang \u201CKabar
+      Gembira\u201D kepada dunia, sambil belajar dan mengambil banyak nilai-nilai
+      positif yang dimiliki dunia untuk perkembangan diri dan pewartaannya. Gereja
+      kini telah memiliki pandangan tentang dunia yang jauh lebih positif dari zaman-zaman
+      yang lampau, sehingga hubungan antara keduanya menjadi lebih saling menguntungkan.Jadi,
+      hubungan antara Gereja dan dunia memiliki pandangan-pandangan baru yang perlu
+      dipahami.  "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "Ajaran Sosial Gereja\r\n\nSebagai orang Katolik, kita harus mengetahui
+    isiCard: "Ajaran Sosial Gereja\r\n\n Sebagai orang Katolik, kita harus mengetahui
       tentang ajaran sosial Gereja yang sudah berabad-abad diajarkan para Bapa Suci
       (Paus) untuk diperjuangkan umat Katolik dalam kehidupan masyarakat manusia.
       Ajaran Sosial Gereja (ASG) sudah berlangsung berabad-abad, sebagai salah satu
       bentuk perjuangan Gereja untuk mewujudkan kedadilan sosial sesuai semangat Injil.
       Untuk memahami Ajaran Sosial Gereja ini, simaklah tulisan berikut ini:\r\n"
-  - GambarLandscape: {fileID: 2800000, guid: 417f906a37783ad458f95e6dba16dcd9, type: 3}
-    GambarKotak: {fileID: 0}
-    isiCard: "Rerum Novarum (Kondisi Kerja)\r\nEnsiklik Paus Leo XIII \r\n"
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: Rerum Novarum (RN) merupakan Ensiklik pertama ajaran sosial Gereja. Menaruh
-      fokus keprihatinan pada kondisi kerja pada waktu itu, dan tentu saja juga nasib
-      para buruhnya. Tampilnya masyarakat terindustrialisasi mengubah pola lama hidup
-      bersama, pertanian. Tetapi, para buruh mendapat perlakuan buruk. Mereka diperas.
-      Jatuh dalam kemiskinan struktural yang luar biasa. Dan tidak mendapat keadilan
-      dalam upah dan perlakuan
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: "Ensiklik RN merupakan ensiklik pertama yang menaruh perhatian pada masalah-masalah
-      sosial secara sistematis dan dalam jalan pikiran yang berangkat dari prinsip
-      keadilan universal. Dalam RN hak-hak buruh dibahas dan dibela. Pokok-pokok pemikiran
-      RN menampilkan tanggapan Gereja atas isu-isu keadilan dan pembelaan atas martabat
-      manusia (kaum buruh). \r\n\r\n"
-  - GambarLandscape: {fileID: 2800000, guid: 4324c2344407dda4fbc75360074f1fc9, type: 3}
-    GambarKotak: {fileID: 0}
-    isiCard: "Quadragesimo Anno (40 Thn)\r\n\nEnsiklik Paus Pius XI\r\n"
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: " \r\nQuadragesimo Anno (QA) memiliki judul maksud \u201CRekonstruksi
-      Tatanan Sosial.\u201D Nama Ensiklik ini (40 tahun) dimaksudkan untuk memperingati
-      Ensiklik Rerum Novarum. Tetapi pada zaman ini memang ada kebutuhan sangat hebat
-      untuk menata kehidupan sosial bangsa manusia. Diperkenalkan dan ditekankan terminologi
-      yang sangat penting dalam Ajaran Sosial Gereja, yaitu \u201Csubsidiaritas\u201D
-      (maksudnya, apa yang bisa dikerjakan oleh tingkat bawah, otoritas di atasnya
-      tidak perlu ikut campur)."
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: "Dalam banyak hal QA masih melanjutkan RN mengenai soal-soal \u201Cdialog\u201D-nya
-      dengan perkembangan masyarakat. Menolak solusi komunisme yang menghilangkan
-      hak-hak\r\npribadi. Tetapi juga sekaligus mengkritik persaingan kapitalisme
-      sebagai yang akan menghancurkan dirinya sendiri.\r\n\r\n"
-  - GambarLandscape: {fileID: 2800000, guid: 274d94b7bd05dd6439868d632f211e57, type: 3}
-    GambarKotak: {fileID: 0}
-    isiCard: "Mater Et Magistra (Ibu dan Pengajaran)\r\n\nEnsiklik Yohanes XXIII\r\n"
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: "Masalah-masalah sosial yang diprihatinkan oleh Ensiklik ini khas pada
-      zaman ini. Soal jurang kaya miskin tidak hanya disimak dari sekedar urusan pengusaha
-      dan pekerja, atau pemilik modal dan kaum buruh, melainkan sudah menyentuh masalah
-      internasional. Untuk pertama kalinya isu \u201Cinternasional\u201D dalam hal
-      keadilan menjadi tema ajaran sosial Gereja. Ada jurang sangat hebat antara negaranegara
-      kaya dan negara-negara miskin. Kemiskinan di Asia, Afrika, dan Latin Amerika
-      adalah produk dari sistem tata dunia yang tidak adil."
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: "Di lain pihak, persoalan menjadi makin rumit menyusul perlombaan senjata
-      nuklir, persaingan eksplorasi ruang angkasa, bangkitnya ideologi-ideologi. Dalam
-      Ensiklik ini diajukan pula \u201Cjalan pikiran\u201D Ajaran Sosial Gereja: see,
-      judge, and act. Gereja Katolik didesak untuk berpartisipasi secara aktif dalam
-      memajukan tata dunia yang adil."
-  - GambarLandscape: {fileID: 2800000, guid: 53f2759b1b31b034086a43d1e95ed7b8, type: 3}
-    GambarKotak: {fileID: 0}
-    isiCard: "Pacem in Terris (Damai di Bumi)\r\n\nEnsiklik Paus Yohanes XIII\r\n"
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: 'Pacem in Terris menggagas perdamaian, yang menjadi isu sentral pada
-      decade enam puluhan. Bilamana terjadi perdamaian? Bila ada rincian tatanan yang
-      adil dengan mengedepankan hak-hak manusiawi dan keluhuran martabatnya. Yang
-      dimaksudkan dengan tatanan hidup ialah tatanan relasi (1) antarmasyarakat, (2)
-      antar masyarakat dan negara, (3) antarnegara, (4) antara masyarakat dan negaranegara
-      dalam level komunitas dunia. '
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: "Ensiklik menyerukan dihentikannya perang dan perlombaan senjata serta
-      pentingnya memperkokoh hubungan internasional lewat lembaga yang sudah dibentuk:
-      PBB. Ensiklik ini memiliki muatan ajaran yang ditunjukkan tidak hanya bagi kalangan
-      Gereja Katolik tetapi seluruh bangsa manusia pada umumnya.\r\n\r\n"
-  - GambarLandscape: {fileID: 2800000, guid: 7ed6a2bf9ccd54d49a601116382ecbaa, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 7ed6a2bf9ccd54d49a601116382ecbaa, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "Gaudium Et Spes (Kegembiraan dan Harapan)\r\n\nDokumen Konstitusi Pastoral
-      Konsili Vatikan II\r\n"
-  - GambarLandscape: {fileID: 0}
+      Konsili Vatikan II\r\n\n   Konsili Vatikan II merupakan tonggak pembaharuan
+      hidup Gereja Katolik secara menyeluruh."
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 'Konsili Vatikan II merupakan tonggak pembaharuan hidup Gereja Katolik
-      secara menyeluruh. GS (Gaudium et Spes) menaruh keprihatinan secara luas pada
-      tema hubungan Gereja dan Dunia modern. Ada kesadaran kokoh dalam Gereja untuk
-      berubah seiring dengan perubahan kehidupan manusia modern. Soal-soal yang disentuh
-      oleh GS dengan demikian berkisar tentang kemajuan manusia di dunia modern. Di
-      lain pihak tetap diangkat ke permukaan soal jurang yang tetap lebar antara si
-      kaya dan si miskin. Relasi antara Gereja dan sejarah perkembangan manusia di
-      dunia modern dibahas dalam suatu cara yang lebih gamblang, menyentuh nilai perkawinan,
-      keluarga, dan tata hidup masyarakat pada umumnya. '
-  - GambarLandscape: {fileID: 0}
+    isiCard: '
+
+      GS (Gaudium et Spes) menaruh keprihatinan secara luas pada tema hubungan Gereja
+      dan Dunia modern. Ada kesadaran kokoh dalam Gereja untuk berubah seiring dengan
+      perubahan kehidupan manusia modern. Soal-soal yang disentuh oleh GS dengan demikian
+      berkisar tentang kemajuan manusia di dunia modern. Di lain pihak tetap diangkat
+      ke permukaan soal jurang yang tetap lebar antara si kaya dan si miskin. Relasi
+      antara Gereja dan sejarah perkembangan manusia di dunia modern dibahas dalam
+      suatu cara yang lebih gamblang, menyentuh nilai perkawinan, keluarga, dan tata
+      hidup masyarakat pada umumnya. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Judul dokumen ini mengatakan suatu \u201Cperubahan eksternal\u201D dari
       kebijakan hidup Gereja: Kegembiraan dan harapan, duka dan kecemasan manusia-manusia
@@ -132,11 +143,307 @@ MonoBehaviour:
       saja, melainkan juga hidup Gereja di dunia modern secara kurang lebih menyeluruh.
       GS membuka cakrawala baru dengan mengajukan perlunya \u201Cmembaca tanda-tanda
       zaman\u201D (signs of the times)."
-  - GambarLandscape: {fileID: 2800000, guid: 1c0b5740282dc704aba1e5f56aeb6aaa, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 417f906a37783ad458f95e6dba16dcd9, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Rerum Novarum (Kondisi Kerja)\r\nEnsiklik Paus Leo XIII \r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: Rerum Novarum (RN) merupakan Ensiklik pertama ajaran sosial Gereja. Menaruh
+      fokus keprihatinan pada kondisi kerja pada waktu itu, dan tentu saja juga nasib
+      para buruhnya. Tampilnya masyarakat terindustrialisasi mengubah pola lama hidup
+      bersama, pertanian. Tetapi, para buruh mendapat perlakuan buruk. Mereka diperas.
+      Jatuh dalam kemiskinan struktural yang luar biasa. Dan tidak mendapat keadilan
+      dalam upah dan perlakuan
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Ensiklik RN merupakan ensiklik pertama yang menaruh perhatian pada masalah-masalah
+      sosial secara sistematis dan dalam jalan pikiran yang berangkat dari prinsip
+      keadilan universal. Dalam RN hak-hak buruh dibahas dan dibela. Pokok-pokok pemikiran
+      RN menampilkan tanggapan Gereja atas isu-isu keadilan dan pembelaan atas martabat
+      manusia (kaum buruh). \r\n\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 4324c2344407dda4fbc75360074f1fc9, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Quadragesimo Anno (40 Thn)\r\n\nEnsiklik Paus Pius XI\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: " \r\nQuadragesimo Anno (QA) memiliki judul maksud \u201CRekonstruksi
+      Tatanan Sosial.\u201D Nama Ensiklik ini (40 tahun) dimaksudkan untuk memperingati
+      Ensiklik Rerum Novarum. Tetapi pada zaman ini memang ada kebutuhan sangat hebat
+      untuk menata kehidupan sosial bangsa manusia. Diperkenalkan dan ditekankan terminologi
+      yang sangat penting dalam Ajaran Sosial Gereja, yaitu \u201Csubsidiaritas\u201D
+      (maksudnya, apa yang bisa dikerjakan oleh tingkat bawah, otoritas di atasnya
+      tidak perlu ikut campur)."
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Dalam banyak hal QA masih melanjutkan RN mengenai soal-soal \u201Cdialog\u201D-nya
+      dengan perkembangan masyarakat. Menolak solusi komunisme yang menghilangkan
+      hak-hak\r\npribadi. Tetapi juga sekaligus mengkritik persaingan kapitalisme
+      sebagai yang akan menghancurkan dirinya sendiri.\r\n\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 274d94b7bd05dd6439868d632f211e57, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Mater Et Magistra (Ibu dan Pengajaran)\r\n\nEnsiklik Yohanes XXIII\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Masalah-masalah sosial yang diprihatinkan oleh Ensiklik ini khas pada
+      zaman ini. Soal jurang kaya miskin tidak hanya disimak dari sekedar urusan pengusaha
+      dan pekerja, atau pemilik modal dan kaum buruh, melainkan sudah menyentuh masalah
+      internasional. Untuk pertama kalinya isu \u201Cinternasional\u201D dalam hal
+      keadilan menjadi tema ajaran sosial Gereja. Ada jurang sangat hebat antara negaranegara
+      kaya dan negara-negara miskin. Kemiskinan di Asia, Afrika, dan Latin Amerika
+      adalah produk dari sistem tata dunia yang tidak adil."
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Di lain pihak, persoalan menjadi makin rumit menyusul perlombaan senjata
+      nuklir, persaingan eksplorasi ruang angkasa, bangkitnya ideologi-ideologi. Dalam
+      Ensiklik ini diajukan pula \u201Cjalan pikiran\u201D Ajaran Sosial Gereja: see,
+      judge, and act. Gereja Katolik didesak untuk berpartisipasi secara aktif dalam
+      memajukan tata dunia yang adil."
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 53f2759b1b31b034086a43d1e95ed7b8, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Pacem in Terris (Damai di Bumi)\r\n\nEnsiklik Paus Yohanes XIII\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Pacem in Terris menggagas perdamaian, yang menjadi isu sentral pada
+      decade enam puluhan. Bilamana terjadi perdamaian? Bila ada rincian tatanan yang
+      adil dengan mengedepankan hak-hak manusiawi dan keluhuran martabatnya. Yang
+      dimaksudkan dengan tatanan hidup ialah tatanan relasi (1) antarmasyarakat, (2)
+      antar masyarakat dan negara, (3) antarnegara, (4) antara masyarakat dan negaranegara
+      dalam level komunitas dunia. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Ensiklik menyerukan dihentikannya perang dan perlombaan senjata serta
+      pentingnya memperkokoh hubungan internasional lewat lembaga yang sudah dibentuk:
+      PBB. Ensiklik ini memiliki muatan ajaran yang ditunjukkan tidak hanya bagi kalangan
+      Gereja Katolik tetapi seluruh bangsa manusia pada umumnya.\r\n\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 1c0b5740282dc704aba1e5f56aeb6aaa, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "Populorum Progressio (Kemajuan Bangsa-Bangsa)\r\n\nEnsiklik Paus Paulus
       VI\r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: Perkembangan bangsa-bangsa merupakan tema pokok perhatian dari Ensiklik
       Ajaran Sosial. Gereja memandang bahwa kemajuan bangsa manusia tidak hanya dalam
@@ -144,21 +451,71 @@ MonoBehaviour:
       (kultur). Kemajuan bangsa manusia masih tetap dan bahkan memiliki imbas pemiskinan
       pada sebagian besar bangsa-bangsa. Isu marginalisasi kaum miskin mendapat tekanan
       dalam dokumen ini. Revolusi di berbagai tempat
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: di belahan dunia kerap kali tidak membawa bangsa manusia kepada kondisi
-      yang lebih baik, malah kebalikannya, kepada situasi yang sangat runyam. Kekayaan
+    isiCard: '
+
+      di belahan dunia kerap kali tidak membawa bangsa manusia kepada kondisi yang
+      lebih baik, malah kebalikannya, kepada situasi yang sangat runyam. Kekayaan
       dari sebagian negara-negara maju harus dibagi untuk memajukan negara-negara
       yang miskin. Soal-soal yang berkaitan dengan perdagangan (pasar) yang adil juga
       mendapat sorotan yang tajam. Ensiklik ini menaruh perhatian secara khusus pada
       perkembangan masyarakat dunia, teristimewa negara-negara yang sedang berkembang.
       Diajukan pula refleksi teologis perkembangan/ kemajuan yang membebaskan dari
-      ketidakadilan dan pemiskinan.
-  - GambarLandscape: {fileID: 2800000, guid: fc2492170f805534ba363d29380dc5ae, type: 3}
+      ketidakadilan dan pemiskinan.'
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: fc2492170f805534ba363d29380dc5ae, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "Octogesima Adveniens (Tahun ke delapan puluh)\r\n\nSurat Apostolik Paus
       Paulus VI\r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Arti \u201COctogesima\u201D adalah yang tahun ke-80; maksudnya: surat
       apostolik ini dimaksudkan untuk manandai usia Rerum Novarum yang ke-80 tahun.
@@ -166,35 +523,131 @@ MonoBehaviour:
       bertindak memerangi kemiskinan. Soalsoal yang berkaitan dengan urbanisasi dipandang
       menjadi salah satu sebab lahirnya \u201Ckemiskinan baru\u201D, seperti orang
       tua, cacat, kelompok masyarakat yang tinggal di pinggiran kota, dst. "
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: 'Diajukan ke permukaan pula masalahmasalah diskriminasi warna kulit,
       asal usul, budaya, sex, agama. Gereja mendorong umatnya untuk bertindak ambil
       bagian secara aktif dalam masalah-masalah politik dan mendesak untuk memperjuangkan
       nilai-nilai semangat injili. '
-  - GambarLandscape: {fileID: 2800000, guid: 7b429db6e663a954790cd9f35502573b, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 7b429db6e663a954790cd9f35502573b, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "Convenientes Ex Universo (Berhimpun dari Seluruh Dunia)\r\n\nSinode
       para Uskup sedunia\r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Dunia berhadapan dengan problem keadilan. Untuk pertama kalinya (bolehdisebut
       demikian) sinode para Uskup menaruh perhatian pada soal-soal yang berkaitan
       dengan keadilan. Para uskup\r\nberhimpun dan bersidang serta menelorkan keprihatinan
       tentang keadilan dalam tata dunia. Misi Gereja tanpa ada suatu upaya konkret
       dan tegas mengenai tindakan perjuangan keadilan, tidaklah integral."
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Misi Kristus dalam mewartakan datangnya Kerajaan Allah mencakup pula
       datangnya keadilan. Dokumen ini banyak diinspirasikan oleh seruan keadilan dari
       Gereja-Gereja di Afrika, Asia, dan Latin Amerika. Secara khusus pengaruh pembahasan
       tema \u201CLiberation\u201D oleh para uskup Amerika Latin di Medellin (Kolumbia).
       Keadilan merupakan dimensi konstitutif pewartaan Injil."
-  - GambarLandscape: {fileID: 2800000, guid: 805288aeee85a414f83cfddd8449366f, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 805288aeee85a414f83cfddd8449366f, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "Evangelii Nuntiandi (Evangelisasi di dunia modern)\n\r\nAnjuran apostolik
       Paus Paulus VI\r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: 'Arah dasarnya: agar Gereja dalam pewartaannya dapat menyentuh manusia
       pada abad ke duapuluh. Ada tiga pertanyaan dasar: (1) Sabda Tuhan itu berdaya,
@@ -202,33 +655,112 @@ MonoBehaviour:
       yang tidak disentuh oleh Sabda Tuhan (melalui pewartaan Gereja)? (2) Dalam arti
       apakah kekuatan evangelisasi sungguh-sungguh mampu mengubah manusia abad ke-20
       ini? (3) '
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: Metode-metode apakah yang harus diterapkan agar kekuatan Sabda sungguh
       menemukan efeknya? Tuhan Yesus mewartakan keselamatan sekaligus pewartaan pembebasan.
       Gereja melanjutkannya. Hal baru dalam dokumen ini ialah bahwa pewartaan Kabar
       Gembira sekaligus harus membebaskan pula.
-  - GambarLandscape: {fileID: 2800000, guid: 1259a25eb36f6be4f9cda92af3450b96, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 1259a25eb36f6be4f9cda92af3450b96, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "Redemptor Hominis (Sang Penebus Manusia)\r\n\nEnsiklik Yohanes Paulus
-      II (Ensikliknya yang pertama)\r\n"
-  - GambarLandscape: {fileID: 0}
+      II (Ensikliknya yang pertama)\r\n\nSebenarnya Ensiklik ini tidak dikategorikan
+      sebagai Ensiklik Ajaran Sosial Gereja."
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "Sebenarnya Ensiklik ini tidak dikategorikan sebagai Ensiklik Ajaran
-      Sosial Gereja. Tetapi, lukisan tentang penebusan umat manusia oleh Yesus Kristus
-      sebagai penebusan yang menyeluruh memungkinkan beberapa gagasan ensiklik ini
-      bersinggungan dengan tema-tema keadilan sosial. Gagasan dasarnya: manusia ditebus
-      oleh Kristus dalam situasi hidupnya secara konkret. Yaitu, dalam hidup situasi
-      di dunia modern. Disinggung mengenai konsekuensi kemajuan dan segala macam akibat
-      yang ditimbulkan. Hak-hak asasi manusia dengan sendirinya juga didiskusikan.
-      \r\n\r\n"
-  - GambarLandscape: {fileID: 2800000, guid: 7bf417038afacdd4c9d792c298a98753, type: 3}
+    isiCard: "Tetapi, lukisan tentang penebusan umat manusia oleh Yesus Kristus sebagai
+      penebusan yang menyeluruh memungkinkan beberapa gagasan ensiklik ini bersinggungan
+      dengan tema-tema keadilan sosial. Gagasan dasarnya: manusia ditebus oleh Kristus
+      dalam situasi hidupnya secara konkret. Yaitu, dalam hidup situasi di dunia modern.
+      Disinggung mengenai konsekuensi kemajuan dan segala macam akibat yang ditimbulkan.
+      Hak-hak asasi manusia dengan sendirinya juga didiskusikan. \r\n\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 7bf417038afacdd4c9d792c298a98753, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "Laborem Excercens (Kerja Manusia)\n\r\nEnsiklik Paus Yohanes Paulus
       II\r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "\u201CKerja\u201D merupakan tema sentral hidup manusia. Hanya dengan
+    isiCard: "\n\u201CKerja\u201D merupakan tema sentral hidup manusia. Hanya dengan
       kerja, harkat dan martabat manusia menemukan pencetusan keluhurannya. Manusia
       berhak bekerja untuk kelangsungan hidupnya, untuk membuat agar hidup keluarga
       bahagia dan berkecukupan. Ensiklik ini mengkritik tajam komunisme dan kapitalisme
@@ -236,28 +768,108 @@ MonoBehaviour:
       cuma sebagai instrumen penghasil kemajuan dan perkembangan. Manusia berhak kerja,
       sekaligus berhak upah yang adil dan wajar, sekaligus berhak untuk makin hidup
       secara lebih manusiawi dengan kerjanya."
-  - GambarLandscape: {fileID: 2800000, guid: 7dc16abc903e79c40bbf305a3772989a, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 7dc16abc903e79c40bbf305a3772989a, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "Sollicitudo Rei Socialis (Keprihatinan Sosial)\n\r\nEnsiklik Paus Yohanes
       Paulus II\r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: Ensiklik ini merupakan ulang tahun ke-20 dari Ensiklik Populorum Progressio.
       Jurang antara wilayah /negara-negara Selatan (miskin) dan Utara (kaya) luar
       biasa besarnya. Perkembangan dan kemajuan sering kali sekaligus pemiskinan pada
       wilayah lain. Persoalannya semakin rumit manakala dirasakan semakin hebatnya
       pertentangan ideologis antara Barat dan Timur,
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: ", antara kapitalisme dan komunisme. Persaingan ini semakin memblokir
       kerjasama dan solidaritas kepada yang miskin. Negara-negara Barat semakin membabi
       buta dalam eksplorasi kemajuan. Sementara negaranegara miskin semakin terpuruk
       oleh kemiskinannya. Konsumerisme dan \u201Cdosa struktural\u201D makin mendominasi
       hidup manusia."
-  - GambarLandscape: {fileID: 2800000, guid: 36477ac9505597e4bb5dade248c885af, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 36477ac9505597e4bb5dade248c885af, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "Centesimus Annus (Tahun ke Seratus)\r\n\nEnsiklik Yohanes Paulus II\r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Menandai ulang tahun Rerum Novarum yang ke-100. Dokumen ini memiliki
       jalan pikiran yang\r\nkurang lebih sama, paradigma yang ditampilkan dalam Rerum
@@ -266,26 +878,90 @@ MonoBehaviour:
       periode baru yang harus disimak secara lebih teliti. Jatuhnya sosialisme marxisme
       tidak berarti kapitalisme dan liberalisme menemukan pembenarannya. Kesalahan
       fundamental dari sosialisme ialah tiadanya dasar yang lebih manusiawi atas perkembangan. "
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: ' Martabat dan tanggung jawab pribadi manusia seakan-akan disepelekan.
       Di lain pihak, kapitalisme bukanlah pilihan yang tepat. Perkembangan yang mengedepankan
       eksplorasi kebebasan akan memicu ketidakadilan yang sangat besar. Centesimus
       Annus mengurus soal-soal lingkungan hidup yang menjadi permasalahan menyolok
       pada zaman ini'
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "The Participation of Catholics in Political life\r\n\nDokumen yang dikeluarkan
-      oleh Kongregasi Suci untuk Ajaran Iman\n\r\nDokumen ini merupakan garis bawah
-      pentingnya partisipasi umat Katolik pada kehidupan politik. Umat Katolik tidak
-      boleh pasif. Tantangan perkembangan dan kemajuan demikian besar, umat Katolik
-      diminta memiliki kesadaran-kesadaran tanggung jawab dan partisipasi untuk memajukan
-      kehidupan bersama dalam soal-soal politik. Politik bukanlah lapangan kotor,
-      melainkan lapangan kehidupan yang harus ditata dengan baik.\r\n"
-  - GambarLandscape: {fileID: 2800000, guid: 1f798b28fc161e640bd60aee4a882fd7, type: 3}
+    isiCard: "The Participation of Catholics in Political life\r\nDokumen yang dikeluarkan
+      oleh Kongregasi Suci untuk Ajaran Iman.Dokumen ini merupakan garis bawah pentingnya
+      partisipasi umat Katolik pada kehidupan politik. Umat Katolik tidak boleh pasif.
+      Tantangan perkembangan dan kemajuan demikian besar, umat Katolik diminta memiliki
+      kesadaran-kesadaran tanggung jawab dan partisipasi untuk memajukan kehidupan
+      bersama dalam soal-soal politik. Politik bukanlah lapangan kotor, melainkan
+      lapangan kehidupan yang harus ditata dengan baik.\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 1f798b28fc161e640bd60aee4a882fd7, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "Caritas in Veritate (Amal Dalam Kebenaran)\r\n\nPaus Benediktus XVI\r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Caritas in Veritate (kasih dalam kebenaran). Ditulis oleh Paus Benediktus
       XVI dan terbit 29 Juni 2009. Ensiklik ini berbicara tentang per-kembangan integral
@@ -293,14 +969,46 @@ MonoBehaviour:
       Gereja adalah subjek yang merumuskannya, menyebarluaskannya, dan me-ngajarkannya.
       Ajaran sosial Gereja bukanlah sebuah hak prerogatif dari satu komponen tertentu
       dalam lembaga gerejawi melainkan dari keseluruhan jemaat; ajaran sosial. "
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: Gereja adalah bentuk ungkapan dari cara Gereja memahami masyarakat serta
       posisinya sendiri dengan berbagai struktur serta perubahan sosial. Keseluruhan
       jemaat Gereja, para Imam, Biarawan dan kaum Awam ambil dalam perumusan ajaran
       sosial ini, masing-masing menurut tugas, karisma serta pelayanan yang berbeda-beda
       yang ditemukan di dalam Gereja.
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Menghayati ASG\r\n\nMencari sebab-sebab mengapa ada pengemis, mengapa
       ada pengangguran belum dianggap sebagai hal yang berhubungan dengan iman. Padahal,
@@ -308,3 +1016,18 @@ MonoBehaviour:
       kepada para korban, tetapi mencari sebab-sebab mengapa terjadi korban dan mencari
       siapa penyebabnya. Mungkin saja bahwa penyebabnya adalah orang-orang yang mengaku
       beriman Katolik itu sendiri.\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 

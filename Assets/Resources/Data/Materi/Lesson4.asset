@@ -13,10 +13,27 @@ MonoBehaviour:
   m_Name: Lesson4
   m_EditorClassIdentifier: 
   learnCard:
-  - GambarLandscape: {fileID: 0}
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: MASYARAKAT
-  - GambarLandscape: {fileID: 0}
+    isiCard: ' MASYARAKAT'
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Lingkungan pertama yang sangat berperan penting dalam hidup kita adalah
       keluarga. Disinilah anak dilahirkan, dirawat dan dibesarkan oleh orang tua.
@@ -26,135 +43,473 @@ MonoBehaviour:
       tualah yang membimbing, mengajar dan mengarahkan anaknya agar dapat tumbuh dan
       berkembang dengan baik. Dengan begitu, peran orang tua sangatlah penting dalam
       hidup kita. "
-  - GambarLandscape: {fileID: 2800000, guid: e022453285a916840ab39c0487fb69f7, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: e022453285a916840ab39c0487fb69f7, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: 'Siapa nama Ibuku?...
+    isiCard: 'Siapa nama Ibumu?...
 
+      (sesuai nama ortu masing-masing)
 
-      Tempat dan tanggal lahir Ibuku?...'
-  - GambarLandscape: {fileID: 2800000, guid: 653b5b27b1942c84794e0f7bcb3fdda9, type: 3}
+      Tempat dan tanggal lahir Ibumu?...
+
+      (sesuai TTL ibumu)'
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 653b5b27b1942c84794e0f7bcb3fdda9, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: 'Siapa nama Ayahku?...
+    isiCard: 'Siapa nama Ayahmu?...
 
+      (sesuai nama ortu masing-masing)
 
-      Tempat dan tanggal lahir Ayahku?...'
-  - GambarLandscape: {fileID: 0}
+      Tempat dan tanggal lahir Ayahmu?...
+
+      (sesuai TTL ayahmu)'
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Sebagai anak, hendaknya kita memiliki sikap dan kewajiban kita terhadap
-      orang tua adalah :\n\r\nHormat Kepada Orang Tua\r\nBentuk hormat yang hendaknya
-      kita lakukan adalah harus berbicara sopan, ramah, rendah hati, tidak merendahkan
-      dan menghina mereka sebagai orang tua kita.\r\n"
-  - GambarLandscape: {fileID: 0}
+      orang tua sebagai berikut :\n\r\nHormat Kepada Orang Tua\r\nBentuk hormat yang
+      hendaknya kita lakukan adalah harus berbicara sopan, ramah, rendah hati, tidak
+      merendahkan dan menghina mereka sebagai orang tua kita.\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "Cinta Terhadap Orang Tua \r\nSikap cinta terhadap orang tua sungguh
+    isiCard: "\nCinta Terhadap Orang Tua \r\nSikap cinta terhadap orang tua sungguh
       mereka perlukan, dengan cara memberikan perhatian kepada orang tua kita ketika
       sedang sakit ataupun capek, menolong mereka ketika membutuhkan bantuan, mendoakan
       serta menunjukkan rasa terimakasih atas kebaikan mereka kepada kita. \r\nTaat
       Kepada Orang Tua \r\nSebagai anak, hendaknya kita menaati segala perintah dan
       nasehat yang diberikan kepada kita. Karena perintah dan nasehat tersebut merupakan
       salah satu bentuk rasa sayang mereka kepada anak-anaknya\r\n"
-  - GambarLandscape: {fileID: 2800000, guid: 0410189688d55fd46b710d2cad900a2c, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 0410189688d55fd46b710d2cad900a2c, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: "Membantu Orang Tua \r\nSebagai anak, hendaknya kita harus selalu siap
-      sedia untuk membantu dan menolong orang tua kita ketika sedang membutuhkan bantuan.
+    isiCard: "Membantu Orang Tua \r\nSebagai anak, hendaknya kita selalu siap sedia
+      untuk membantu dan menolong orang tua kita ketika sedang membutuhkan bantuan.
       Seperti membantu menyapu, mencuci piring, membersihkan tempat tidur, dan lain-lain\r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: 'Sama seperti yang diajarkan oleh Allah kepada kita dalam 10 Perintah
       Allah yang terdapat pada Firman Ke Empat (4) adalah :
 
       Orang tua adalah orang yang pertama mengajarkan anak untuk bersosialisasi dengan
       lingkungan sekitar seperti di lingkungan sekolah dan masyarakat. Dengan mengenalkan
-      anak untuk dapat bersosialisasi dengan saudara dan teman-teman yang ada disekitarnya
+      anak untuk dapat bersosialisasi dengan saudara dan teman-teman yang ada di sekitarnya
+
+
       diharapkan mereka dapat membangun hubungan yang harmonis dengan saudara dan
       teman-temannya. '
-  - GambarLandscape: {fileID: 2800000, guid: d847ef8b28efecd48b651b247eb46e53, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: d847ef8b28efecd48b651b247eb46e53, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "BUKA KITAB SUCI YUKSSSSS\r\n(LUKAS 10: 25-37)\r\nAPA KISAHNYA YAAAAA?\r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Melalui kisah dalam kitab suci yakni \u201COrang Samaria Yang Murah
-      Hati\u201D, Yesus mengajarkan bahwa sesama adalah mereka yang menunjukkan belas
-      kasih, khususnya mereka yang membutuhkan pertolongan. Melalui kisah itu, Yesus
-      menegaskan bahwa sesama kita adalah semua orang. Dengan demikian, bagi kita
-      tidak ada orang lain atau orang asing, karena semua orang adalah sesama kita;
-      semua orang saudara kita. "
-  - GambarLandscape: {fileID: 0}
+      Hati\u201D, Yesus mengajarkan bahwa sesama adalah mereka yang mengalami kesusahan,
+      khususnya mereka yang membutuhkan pertolongan. Melalui kisah itu, Yesus menegaskan
+      bahwa sesama kita adalah semua orang. Dengan demikian, bagi kita tidak ada orang
+      lain atau orang asing, karena semua orang adalah sesama kita; semua orang saudara
+      kita. "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: Apabila kita memandang semua orang sebagai saudara, kita patut menunjukkan
       belas kasih kepada semua orang. Itulah yang diajarkan Yesus melalui Kisah Orang
-      Samaria yang murah hati. Seperti orang samariakita diajak untuk belajar mencintai
+      Samaria yang murah hati. Seperti orang samaria kita diajak untuk belajar mencintai
       dan peduli kepada siapapun tanpa membedakan latar belakang suku, agama, kaya,
       miskin dan sebagainya.
-  - GambarLandscape: {fileID: 2800000, guid: 8cd18291c3a75ed46a366aaf5d3cfff7, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 8cd18291c3a75ed46a366aaf5d3cfff7, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: "Cinta kasih merupakan hukum yang paling utama. Seperti yang dikatakan
-      dalam injil Lukas 10: 27 mengatakan bahwa :\r\n\u201CKasihilah Tuhan, Allahmu,
-      dengan segenap hatimu dan dengan segenap jiwamu dan dengan segenap kekuatanmu
-      dan dengan segenap akal budimu, dan kasihilah sesamamu manusia seperti dirimu
-      sendiri\u201D\r\n"
-  - GambarLandscape: {fileID: 0}
+      dalam injil Lukas 10: 27:\r\n\u201CKasihilah Tuhan, Allahmu, dengan segenap
+      hatimu dan dengan segenap jiwamu dan dengan segenap kekuatanmu dan dengan segenap
+      akal budimu, dan kasihilah sesamamu manusia seperti dirimu sendiri\u201D\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 'Menjalin hubungan dengan orang-orang yang ada disekitar kita hendaknya
-      harus didasari dengan cinta kasih, agar nantinya kita sebagai anak Allah hendaknya
-      dapat mengasihi dan mencintai sesama tanpa membedakan suku, ras dan agama serta
-      dapat terciptanya suatu hubungan yang harmonis dengan semua orang. '
-  - GambarLandscape: {fileID: 0}
+    isiCard: 'Menjalin hubungan dengan orang-orang yang ada di sekitar kita hendaknya
+      didasari dengan cinta kasih, agar nantinya kita sebagai anak Allah dapat mengasihi
+      dan mencintai sesama tanpa membedakan suku, ras dan agama serta dapat terciptanya
+      suatu hubungan yang harmonis dengan semua orang. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: Hidup setiap orang hendaknya harus dipelihara dengan kasih. Sebagaimana
       orang Samaria yang murah hati berani mendobrak batas-batas adat istiadat, agama
       dan kebangsaan, kita pun harus melindungi dan melestarikan kehidupan dengan
       saling mengasihi tanpa memandang perbedaan, melainkan atas dasar keyakinan bahwa
       semua manusia adalah anak Allah.
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: 'Sebagai anak-anak Allah hendaknya kita mampu menghormati hidup kita
-      masing-masing. Mulai dari hal-hal kecil seperti makan dengan teraatur, menjaga
+      masing-masing. Mulai dari hal-hal kecil seperti makan dengan teratur, menjaga
       kesehatan tubuh agar tidak sakit, menjaga pola makan yang baik, dan lain-lain.
       Tidak hanya hidup kita saja, hendaknya kita juga menghormati hidup orang lain
       dengan tidak menyakiti orang-orang yang ada disekitar kita. '
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: b63e860d69e73a74bae7457ff03a8910, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: BERIKUT ADALAH GAMBAR YANG SESUAI DENGAN CARA MENGHORMATI HIDUP
-  - GambarLandscape: {fileID: 2800000, guid: b63e860d69e73a74bae7457ff03a8910, type: 3}
+    isiCard: Gambar di atas adalah gambar yang sesuai dengan cara menghormati hidup
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: c0f11afcc7cfa594bb70050d96d36f78, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: 
-  - GambarLandscape: {fileID: 0}
+    isiCard: Gambar diatas adalah gambar yang tidak sesuai dengan cara menghormati
+      hidup
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 94a141310c26d3f43b0155987b505ab5, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: BERIKUT ADALAH GAMBAR YANG TIDAK SESUAI DENGAN CARA MENGHORMATI HIDUP
-  - GambarLandscape: {fileID: 2800000, guid: c0f11afcc7cfa594bb70050d96d36f78, type: 3}
+    isiCard: 'Menghormati hidup selaras dengan yang diajarkan oleh Allah kepada kita
+      dalam 10 Perintah Allah yang terdapat pada Firman Ke Empat (4) yakni :'
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 
-  - GambarLandscape: {fileID: 2800000, guid: 94a141310c26d3f43b0155987b505ab5, type: 3}
-    GambarKotak: {fileID: 0}
-    isiCard: 'Sama seperti yang diajarkan oleh Allah kepada kita dalam 10 Perintah
-      Allah yang terdapat pada Firman Ke Empat (4) adalah :'
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: 'Sebagai pemberian Tuhan yang amat baik hendaknya hidup yang kita miliki
-      harus kita rawat, jaga dan pelihara. Hal tersebut merupakan tugas paling penting
+    isiCard: "Sebagai pemberian Tuhan yang amat baik hendaknya hidup yang kita miliki
+      harus kita rawat, jaga dan pelihara. Hal tersebut merupakan tugas paling penting\n\n
       bagi setiap makhluk hidup. Selain itu, sebagai makhluk ciptaanNya hendaknya
-      kita mampu mengasihi sesama kita, menghormati hidup dan melestarikan kehidupan. '
-  - GambarLandscape: {fileID: 0}
+      kita mampu mengasihi sesama kita, menghormati hidup dan melestarikan kehidupan. "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: 'Kita adalah makhluk sosial yang hidup bersama. Tak jarang bahwa dalam
       kehidupan sehari-hari kita terlibat dalam situasi saling membutuhkan satu dengan
       yang lain. Seperti contohnya adalah kita meminjam barang milik orang lain, dengan
       begitu akan ada tanggung jawab untuk menjaga dan mengembalikan barang tersebut
       dalam keadaan yang baik. Selain itu, sebelum kita meminjam barang milik orang
-      lain hendaknya kita mengatakannya terlebih dahulu agar tidak dikira mencuri
-      atau merampok barang milik orang lain. '
-  - GambarLandscape: {fileID: 0}
+      lain hendaknya kita minta izin terlebih dahulu agar tidak dikira mencuri atau
+      merampok barang milik orang lain. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: Namun, terkadang hal tersebut didasari oleh sifat manusia yang serakah
       dan ingin menang sendiri. Maka tak jarang tindakan mencuri atau merampok sering
-      terjadi disekitar kita. Sebagai anak Allah kita diajak untuk tetap menaati perintahNya.
-      Hayoooo, apakah masih ingat apa yang tertulis dalam 10 Perintah Allah mengenai
-      tema ini? Yukkk, sekarang kita mencoba untuk mengingat-ingat!
-  - GambarLandscape: {fileID: 2800000, guid: 0e069ee3a73b3514791487dc7b2623e3, type: 3}
+      terjadi di sekitar kita. Sebagai anak Allah kita diajak untuk tetap menaati
+      perintahNya. Hayoooo, apakah masih ingat apa yang tertulis dalam 10 Perintah
+      Allah mengenai tema ini? Yukkk, sekarang kita mencoba untuk mengingat-ingat!
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 0e069ee3a73b3514791487dc7b2623e3, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: INI ADALAH CONTOH DARI PENERAPAN 10 PERINTAH ALLAH
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Hal itu dinasehatkan pula oleh Santo Paulus bahwa di dalam harta milik
       terdapat hak bagi mereka yang kurang beruntung , \u201CHai tuan-tuan, berlakulah
@@ -163,3 +518,18 @@ MonoBehaviour:
       berkekurangan memiliki sebagian hak atasnya. Mengapa? Karena dunia diciptakan
       Tuhan untuk kesejahteraan mereka juga. Tuhan menghendaki agar orang yang lebih
       mampu mau berbagi dengan mereka yang membutuhkan."
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 

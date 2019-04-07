@@ -149,6 +149,7 @@ public class MateriManager : MonoBehaviour
                     g.transform.GetChild(0).gameObject.SetActive(false);
                     g.transform.GetChild(2).gameObject.SetActive(false);
                 }
+                g.gameObject.SetActive(false);
             }
             else {
                 GameObject g = Instantiate(CardSoalPrefabs,  start);
@@ -204,8 +205,9 @@ public class MateriManager : MonoBehaviour
                         g.transform.GetChild(2).gameObject.SetActive(true);
                     g.transform.GetChild(0).gameObject.SetActive(false);
                 });
-
+                g.gameObject.SetActive(false);
             }
+
 
         }
         GameObject go = Instantiate(CardSelesaiPrefabs,  start);
@@ -216,6 +218,9 @@ public class MateriManager : MonoBehaviour
         if (start.childCount == 0 || (current.childCount >= 1 && current.GetChild(0).gameObject.name.Contains("Soal") && current.GetChild(0).GetChild(0).gameObject.activeInHierarchy)) {
             return;
         }
+		if(cardOne != null && cardOne.gameObject.activeInHierarchy && cardTwo != null && cardTwo.gameObject.activeInHierarchy ){
+			return;
+		}
 
         isMoved = true;
         if (current.childCount >= 1)
@@ -224,6 +229,7 @@ public class MateriManager : MonoBehaviour
             cardOne.SetParent(end);
         }
         if (start.childCount >= 1) {
+            start.GetChild(0).gameObject.SetActive(true);
             cardTwo = start.GetChild(0);
             cardTwo.SetParent(current);
         }
@@ -235,6 +241,10 @@ public class MateriManager : MonoBehaviour
         {
             return;
         }
+		
+		if(cardOne != null && cardOne.gameObject.activeInHierarchy && cardTwo != null && cardTwo.gameObject.activeInHierarchy ){
+			return;
+		}
         isMoved = true;
         if (current.childCount >= 1)
         {
@@ -244,6 +254,7 @@ public class MateriManager : MonoBehaviour
         }
         if (end.childCount >= 1)
         {
+            end.GetChild(end.childCount - 1).gameObject.SetActive(true);
             cardTwo = end.GetChild(end.childCount-1);
             cardTwo.SetParent(current);
         }
@@ -252,15 +263,27 @@ public class MateriManager : MonoBehaviour
     private void Update()
     {
         if (isMoved) {
-  
+
             if (cardOne != null && Vector2.Distance(cardOne.localPosition, Vector2.zero) > 0.5f)
             {
                 cardOne.localPosition = Vector2.Lerp(cardOne.localPosition, Vector2.zero, Time.deltaTime * 5);
 
+                if (Vector2.Distance(cardOne.position, start.position) < 10 || Vector2.Distance(cardOne.position, end.position) < 10)
+                {
+                    cardOne.gameObject.SetActive(false);
+
+                }
+
             }
+
             if (cardTwo != null && Vector2.Distance(cardTwo.localPosition, Vector2.zero) > 0.5f)
             {
                 cardTwo.localPosition = Vector2.Lerp(cardTwo.localPosition, Vector2.zero, Time.deltaTime * 5);
+                if (Vector2.Distance(cardTwo.position, start.position) < 10 || Vector2.Distance(cardTwo.position, end.position) < 10)
+                {
+                    cardTwo.gameObject.SetActive(false);
+
+                }
             }
             isMoved = !((cardOne == null || Vector2.Distance(cardOne.localPosition, Vector2.zero) < 0.5f) && (cardTwo == null || Vector2.Distance(cardTwo.localPosition, Vector2.zero) < 0.5f));
             //Debug.Log("is Move : "+isMoved);

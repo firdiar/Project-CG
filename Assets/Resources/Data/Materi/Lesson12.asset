@@ -13,10 +13,27 @@ MonoBehaviour:
   m_Name: Lesson12
   m_EditorClassIdentifier: 
   learnCard:
-  - GambarLandscape: {fileID: 0}
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "DIALOG DAN KERJA SAMA\r\nANTAR UMAT BERAGAMA\r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Kemajemukan, termasuk kemajemukan agama dan keyakinan merupakan ciri,
       jati diri bangsa Indonesia yang tak terbantahkan. Inilah realitas kebangsaan
@@ -26,31 +43,113 @@ MonoBehaviour:
       dialog dan kerja sama antarumat beragama. Tanpa dialog dan kerja sama yang baik
       maka negeri ini akan terseok-seok dalam pembangunan dan dengan sendirinya semakin
       tertinggal dari bangsa-bangsa lain."
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "Kekhasan Agama-Agama di Indonesia\r\n\nDi Indonesia terdapat beberapa
+    isiCard: "Kekhasan Agama-Agama di Indonesia\r\nDi Indonesia terdapat beberapa
       agama dan kepercayaan yang secara undang-undang diakui keberadaannya. Agama-agama
       yang dimaksud adalah Islam, Katolik, Kristen (Protestan), Hindu, Buddha dan
       Khonghucu. Selain itu ada keyakinan atau kepercayaan lain termasuk agama-agama
       asli pribumi yang tersebar di setiap wilayah nusantara.\r\n"
-  - GambarLandscape: {fileID: 2800000, guid: d8dd8286c197a05499c2f9befbc8abe5, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 04ab918bbe2be1a458fbad35c7dabbc1, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: "Agama Asli dan Aliran Kepercayaan\r\n\nAgama asli masih tetap berpengaruh
+    isiCard: "Agama Asli dan Aliran Kepercayaan\r\nAgama asli masih tetap berpengaruh
       dalam hidup keagamaan banyak orang, walaupun telah menganut salah satu agama
       yang ada di dunia, khususnya Agama Kristen Katolik. Terdapat berbagai macam
       agama asli di Indonesia, antara lain, Lera wulan Tana Ekan di Flores Timur dan
-      Lembata; wiwitan di Sunda; Aluk To Dollo di Sulawesi; Sabulungan di Mentawai;
-      Merapu di Sumba; Kaharingan di Kalimantan. "
-  - GambarLandscape: {fileID: 0}
+      Lembata; wiwitan di Sunda; Aluk To Dollo di Sulawesi"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: Ada pula yang disebut agama-agama suku, seperti yang dianut oleh penduduk
-      beberapa pulau sebelah barat Sumatera beberapa suku kecil dan bagian suku-suku
-      yang besar di Sumatera; kelompok-kelompok besar dari suku Dayak di Kalimantan;
-      Toraja di Sulawesi; penduduk pulau Sumba; dan penduduk Irian Jaya. Selain itu,
-      masih terdapat apa yang kini dinamakan kepercayaan kepada Tuhan Yang Maha Esa,
-      yang menurut negara sama kedudukannya dengan agama dalam hal pengalaman ke-Tuhanan
-      Yang Maha Esa.
-  - GambarLandscape: {fileID: 0}
+    isiCard: ; Sabulungan di Mentawai; Merapu di Sumba; Kaharingan di Kalimantan.
+      Ada pula yang disebut agama-agama suku, seperti yang dianut oleh penduduk beberapa
+      pulau sebelah barat Sumatera beberapa suku kecil dan bagian suku-suku yang besar
+      di Sumatera; kelompok-kelompok besar dari suku Dayak di Kalimantan; Toraja di
+      Sulawesi; penduduk pulau Sumba; dan penduduk Irian Jaya.
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: Selain itu, masih terdapat apa yang kini dinamakan kepercayaan kepada
+      Tuhan Yang Maha Esa, yang menurut negara sama kedudukannya dengan agama dalam
+      hal pengalaman ke-Tuhanan Yang Maha Esa.
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Aliran kepercayaan dalam dokumen Nostra Aetate disebut juga kepercayaan
       terhadap Yang Mahatinggi. Aliran Kepercayaan mengajarkan tentang sikap batin
@@ -58,16 +157,48 @@ MonoBehaviour:
       diri manusia (melawan pengasingan)\r\nb) Pengalaman batin bahwa diri pribadi
       beralih ke kesatuan dan persatuan yang lebih tinggi\r\nc) Partisipasi dalam
       tata tertib sempurna yang mengatasi daya kemampuan manusia biasa.\r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "Sikap Gereja Katolik terhadap Aliran Kepercayaan dan Agama Asli\r\n\nSejak
+    isiCard: "Sikap Gereja Katolik terhadap Aliran Kepercayaan dan Agama Asli\r\nSejak
       Konsili Vatikan II, Gereja dengan penuh keyakinan menegaskan bahwa iman dan
       wahyu orang bukan Kristen dapat bersifat menyelamatkan dan bahwa Gereja harus
       menolak \u2018semua sarana yang memaksa\u2019 dalam pewartaan imannya. Sarana
       yang dimaksud adalah semacam sifat fanatisme berlebihan dan sifat menakut-nakuti
       kebudayaan lain. \u201CGereja Katolik tidak menolak apa pun, yang dalam agama-agama
       itu serba benar dan suci. "
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Dengan sikap hormat yang tulus, Gereja merenungkan cara-cara bertindak
       dan hidup, kaidah-kaidah serta ajaran-ajaran, yang memang dalam banyak hal berbeda
@@ -77,52 +208,890 @@ MonoBehaviour:
       kudus dan kitab-kitab sucinya, \u2018pesan kristiani\u2019 secara aktif disingkapkan
       oleh Roh Kudus di tengah-tengah kita dan melampaui rintangan-rintangan budaya,
       seturut janji yang Yesus berikan kepada para Rasul-Nya."
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "Persaudaraan Antar Umat Beragama dan Kepercayaan Lain\r\n\nKehidupan
-      rukun dan damai antarpemeluk agama menjadi dambaan seluruh masyarakat. Namun
-      kehidupan rukun dan damai tersebut belum dapat dinikmati sepenuhnya. karena
-      masih ada konflik yang bernuansa agama baik di dalam maupun di luar negeri.
-      Konflik ini terjadi, antara lain karena orang sering kali menyalahgunakan agama
-      untuk kepentingan tertentu, misalnya demi kekuasaan. Selain itu, orang kurang
-      mendalami agamanya dan kurang memahami agama orang lain sehingga mudah diadu
-      domba.\r\n"
-  - GambarLandscape: {fileID: 2800000, guid: d50fabcd495e7394ebaf23d57eef59a4, type: 3}
+    isiCard: "Pandangan Gereja Katolik Terhadap Agama Islam\r\nDalam Dekrit Konsili
+      Vatikan II, tentang hubungan Gereja dengan agamaagama bukan Kristen (Nostra
+      Aetate) sikap Gereja Katolik terhadap Islam dinyatakan sebagai berikut:\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 'Upaya menghargai keberagaman sebagai wujud toleransi antarumat beragama
+    isiCard: "\u201CGereja juga menghargai umat Islam, yang menyembah Allah satu-satunya,
+      yang hidup dan berdaulat, penuh belas kasihan dan maha kuasa, Pencipta langit
+      dan bumi, yang telah bersabda kepada umat manusia. Kaum muslimin berusaha menyerahkan
+      diri dengan segenap hati kepada ketetapanketetapan Allah yang bersifat rahasia,
+      seperti dahulu Abraham-iman Islam dengan sukarela mengacu kepadanya-telah menyerahkan
+      diri kepada Allah. Memang mereka tidak mengakui Yesus sebagai Allah, melainkan
+      menghormati-Nya sebagai Nabi. "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Mereka juga menghormati Maria Bunda-Nya yang tetap perawan, dan pada
+      saat-saat tertentu dengan khidmat berseru kepadanya. Selain itu, mereka mendambakan
+      hari pengadilan, saat Allah akan mengganjar semua orang yang telah bangkit.
+      Mereka juga menjunjung tinggi kehidupan susila, dan berbakti kepada Allah terutama
+      dalam doa, dengan memberi sedekah dan berpuasa. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: ". Namun demikian, tidak dapat dipungkiri cukup sering timbul pertikaian
+      dan permusuhan antara umat Kristiani dan kaum Muslimin. Konsili suci mendorong
+      agar melupakan peristiwa yang sudah berlalu, dan dengan tulus hati melatih diri
+      untuk saling memahami; bersama-sama membela serta mengembangkan keadilan sosial
+      bagi semua orang, menghormati nilai-nilai moral maupun perdamaian dan kebebasan\u201D.
+      (NA 3)"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Pandangan Agama Katolik terhadap Agama Hindu\r\nKonsili Vatikan II dalam
+      dekrtit tentang Nostra Aetate menjelaskan, \u201CSudah sejak dahulu kala hingga
+      sekarang ini di antara berbagai bangsa terdapat suatu kesadaran tentang daya
+      kekuatan gaib, yang hadir pada perjalanan sejarah dan peristiwa-peristiwa hidup
+      manusia; bahkan kadang-kadang ada pengakuan terhadap Kuasa Ilahi yang tertinggi
+      atau pun Bapa. Kesadaran dan "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: pengakuan tadi meresapi kehidupan bangsa-bangsa itu dengan semangat religius
+      yang mendalam. Adapun agama-agama, yang terikat pada perkembangan kebudayaan,
+      berusaha menanggapi masalahmasalah tadi dengan faham-faham yang lebih rumit
+      dan bahasa yang lebih terkembangkan. Demikianlah dalam Hinduisme manusia menyelidiki
+      misteri Ilahi dan mengungkapkannya dengan kesuburan mitos-mitos
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'yang melimpah serta dengan usaha-usaha filsafat yang mendalam. Hinduisme
+      mencari pembebasan dari kesesakan keadaan entah melalui bentuk-bentuk hidup
+      berulah-tapa atau melalui permenungan yang mendalam, atau dengan mengungsi kepada
+      Allah penuh kasih dan kepercayaan. Gereja Katolik tidak menolak apa pun, yang
+      dalam agama-agama itu serba benar dan suci. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Dengan sikap hormat yang tulus, Gereja merenungkan cara-cara bertindak
+      dan hidup, kaidah-kaidah serta ajaran-ajaran, yang memang dalam banyak hal berbeda
+      dari apa yang diyakini dan diajarkannya sendiri, tetapi tidak jarang toh memantulkan
+      sinar Kebenaran, yang menerangi semua orang. Namun, Gereja tiada hentinya mewartakan
+      dan wajib mewartakan Kristus, yakni \u201Cjalan, kebenaran, dan hidup\u201D
+      (lih. Yoh 14: 6); "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "dalam Dia manusia menemukan kepenuhan hidup keagamaan, \u201Cdalam Dia
+      pula Allah mendamaikan segala sesuatu dengan diri-Nya\u201D. Oleh karena itu,
+      Gereja mendorong para putranya supaya dengan bijaksana dan penuh kasih, melalui
+      dialog dan kerja sama dengan para penganut agama-agama lain, sambil memberi
+      kesaksian tentang iman serta perihidup Kristiani, mengakui, memelihara, dan
+      mengembangkan harta kekayaan rohani dan moral serta nilai-nilai sosio-budaya
+      yang terdapat pada mereka\u201D (NA.2)."
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Pandangan Gereja Katolik terhadap Agama Buddha\r\nDalam Konsili Vatikan
+      II yang termuat dalam dekrit \u201CNostra, Aetate \u201C Artikel 2, tentang
+      agama Buddha:\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "\u201CBuddhisme dalam berbagai alirannya mengakui, bahwa dunia yang
+      serba berubah ini sama sekali tidak mencukupi, dan mengajarkan kepada manusia
+      jalan untuk dengan jiwa penuh bakti dan kepercayaan memperoleh keadaan kebebasan
+      yang sempurna, atau \u2013 entah dengan usaha sendiri entah berkat bantuan dari
+      atas \u2013 mencapai penerangan yang tertinggi. "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Demikian pula agama-agama lain, yang terdapat di seluruh dunia, dengan
+      berbagai cara berusaha menanggapi kegelisahan hati manusia, dengan menunjukkan
+      berbagai jalan, yakni ajaran-ajaran serta kaidah-kaidah hidup maupun upacara-upacara
+      suci. Gereja Katolik tidak menolak apa pun, yang dalam '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "agama-agama itu serba benar dan suci. Dengan sikap hormat yang tulus,
+      Gereja merenungkan caracara bertindak dan hidup, kaidah-kaidah serta ajaran-ajaran,
+      yang memang dalam banyak hal berbeda dari apa yang diyakini dan diajarkannya
+      sendiri, tetapi tidak jarang memantulkan sinar Kebenaran, yang menerangi semua
+      orang. Namun, Gereja tiada hentinya mewartakan dan wajib mewartakan Kristus,
+      yakni \u201Cjalan, kebenaran, dan hidup\u201D (lih. Yoh 14: 6);"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "dalam Dia manusia menemukan kepenuhan hidup keagamaan, \u201Cdalam Dia
+      pula Allah mendamaikan segala sesuatu dengan diri-Nya\u201D. Oleh karena itu,
+      Gereja mendorong para putranya supaya dengan bijaksana dan penuh kasih, melalui
+      dialog dan kerja sama dengan para penganut agama-agama lain, sambil memberi
+      kesaksian tentang iman serta perihidup Kristiani, mengakui, memelihara, dan
+      mengembangkan harta kekayaan rohani dan moral serta nilai-nilai sosio-budaya
+      yang terdapat pada mereka\u201D(NA.2)."
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Pandangan Gereja Katolik terhadap Agama Khonghucu\r\nKonsili Vatikan
+      II dalam dekritnya tentang agama-agama bukan Kristen menyatakan antara lain;
+      \u201CGereja Katolik tidak menolak apa pun, yang dalam agama-agama itu serba
+      benar dan suci. Dengan sikap hormat yang tulus, Gereja merenungkan cara-cara
+      bertindak dan hidup, kaidah-kaidah serta ajaran-ajaran, yang memang dalam banyak
+      hal berbeda dari apa "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "apa yang diyakini dan diajarkannya sendiri, tetapi tidak jarang memantulkan
+      sinar Kebenaran, yang menerangi semua orang. Namun, Gereja tiada hentinya mewartakan
+      dan wajib mewartakan Kristus, yakni \u201Cjalan, kebenaran, dan hidup\u201D
+      (lih. Yoh 14: 6); dalam Dia manusia menemukan kepenuhan hidup keagamaan, \u201Cdalam
+      Dia pula Allah mendamaikan segala sesuatu dengan diri-Nya...(NA.2). "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Artinya bahwa Gereja Katolik menghargai keberadaan serta ajaran agama-agama
+      lain, termasuk Khonghucu.\r\n\r\n\r\n\r\n\r\nPandangan Gereja Katolik Terhadap
+      Agama Kristen\r\nDekrit Unitatis Redintegratio (UR) artikel 3 dalam Konsili
+      Vatikan II memandang hubungan antara saudara-saudari yang terpisah dari Gereja
+      Katolik sebagai berikut:\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "\u201CDalam satu dan satu-satunya Gereja Allah itu sejak awal mula telah
+      timbul berbagai perpecahan, yang oleh Rasul dikecam dengan tajam sebagai hal
+      yang layak di hukum. Dalam abad-abad sesudahnya timbullah pertentangan-pertentangan
+      yang lebih luas lingkupnya, dan jemaat-jemaat yang cukup besar terpisahkan dari
+      persekutuan sepenuhnya dengan Gereja Katolik, yang seringnya karena kesalahan
+      orang-orang di kedua belah pihak. "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: Tetapi mereka, yang sekarang lahir dan di besarkan dalam iman akan Kristus
+      di jemaat-jemaat itu, tidak dapat dipersalahkan dan dianggap berdosa karena
+      memisahkan diri. Gereja Katolik merangkul mereka dengan sikap bersaudara penuh
+      hormat dan cinta kasih. Sebab mereka itu, yang beriman akan Kristus dan dibaptis
+      secara sah, berada dalam suatu persekutuan dengan Gereja Katolik
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'meskipun persekutuan ini tidak sempurna. Perbedaan- perbedaan yang ada
+      dalam derajat yang berbeda di antara mereka dan Gereja Katolik-  baik perihal
+      ajaran dan ada kalanya juga dalam tata-tertib, maupun mengenai tata-susunan
+      Gereja, memang menciptakan banyak hambatan, kadang menjadi hambatan yang serius,
+      terhadap persekutuan gerejawi '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: gerejawi yang penuh. Gerakan ekumenis bertujuan mengatasi hambatan-hambatan
+      itu. Sungguhpun begitu, karena mereka dalam Baptis dibenarkan berdasarkan iman,
+      mereka disaturagakan dalam Kristus. Oleh karena itu mereka memang dengan tepat
+      menyandang nama Kristen, dan tepat pula oleh putera-puteri Gereja katolik diakui
+      selaku saudara-saudari dalam Tuhan.
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Kecuali itu, dari unsur-unsur atau nilai-nilai, yang keseluruhannya
+      ikut berperanan dalam pembangunan serta kehidupan Gereja sendiri, beberapa bahkan
+      banyak sekali yang sangat berharga, yang dapat ditemukan di luar kawasan Gereja
+      katolik yang kelihatan: Sabda Allah dalam Kitab suci, kehidupan rahmat, iman'
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: harapan dan cinta kasih, begitu pula kurnia-kurnia Roh kudus lainnya
+      yang bersifat batiniah dan unsur-unsur lahiriah. Itu semua bersumber pada Kristus
+      dan mengantar kepada-Nya, dan memang selayaknya termasuk gereja Kristus yang
+      tunggal.
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: Tidak sedikit pula upacara-upacara agama kristen, yang diselenggarakan
+      oleh saudara-saudari yang tercerai dari kita. Upacara-upacara itu dengan pelbagai
+      cara dan menurut bermacam-ragam situasi masing-masing Gereja dan jemaat sudah
+      jelas memang dapat menyalurkan hidup rahmat yang sesungguhnya, dan harus diakui
+      dapat membuka pintu memasuki persekutuan keselamatan.
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: Oleh karena itu Gereja-Gereja dan Jemaat-Jemaat yang terpisah, walaupun
+      menurut pandangan kita diwarnai oleh kekurangan-kekurangan, sama sekali bukannya
+      tidak berarti atau bernilai dalam misteri keselamatan. Sebab Roh Kristus tidak
+      menolak untuk menggunakan mereka sebagai upaya-upaya keselamatan, yang kekuatannya
+      bersumber pada kepenuhan rahmat serta kebenaran sendiri, yang dipercayakan kepada
+      Gereja katolik.
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: Akan tetapi saudara-saudari yang tercerai dari kita, baik secara perorangan
+      maupun sebagai Jemaat dan Gereja, tidak menikmati kesatuan, yang oleh Yesus
+      Kristus hendak dikurniakan kepada mereka semua, yang telah dilahirkan-Nya kembali
+      dan dihidupkan-Nya untuk menjadi satu tubuh, bagi kehidupan yang serba baru,
+      menurut kesaksian
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Kitab suci dan tradisi Gereja yang terhormat. Sebab hanya melalui Gereja
+      Kristus yang katoliklah, yang adalah \u2018sarana umum untuk keselamatan\u2019,
+      dapat dicapai seluruh kepenuhan upaya-upaya penyelamatan. Sebab kita percaya,
+      bahwa hanya kepada Dewan Para Rasul yang diketuai oleh Petruslah Tuhan telah
+      mempercayakan segala harta Perjanjian Baru, untuk membentuk satu Tubuh kristus
+      di dunia. Dalam tubuh itu harus disaturagakan sepenuhnya siapa saja, yang"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: dengan suatu cara telah termasuk umat Allah, Selama berziarah di dunia,
+      umat itu, meskipun dalam para anggotanya tetap tidak terluputkan dari dosa,
+      berkembang dalam Kristus, dan secara halus dibimbing oleh Allah, menurut rencana-Nya
+      yang penuh rahasia, sampai akhirnya penuh kegembiraan meraih seluruh kepenuhan
+      kemuliaan kekal di kota Yerusalem sorgawi.
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Persaudaraan Antar Umat Beragama dan Kepercayaan Lain\r\nKehidupan rukun
+      dan damai antarpemeluk agama menjadi dambaan seluruh masyarakat. Namun kehidupan
+      rukun dan damai tersebut belum dapat dinikmati sepenuhnya. karena masih ada
+      konflik yang bernuansa agama baik di dalam maupun di luar negeri. Konflik ini
+      terjadi, antara lain karena orang sering kali menyalahgunakan agama untuk kepentingan
+      tertentu, "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "misalnya demi kekuasaan. Selain itu, orang kurang mendalami agamanya
+      dan kurang memahami agama orang lain sehingga mudah diadu domba.\r\nBerikut
+      adalah salah satu contoh upaya membangun persaudaraan sejati antar umat beragama:\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: d50fabcd495e7394ebaf23d57eef59a4, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: Upaya menghargai keberagaman sebagai wujud toleransi antarumat beragama
       ditunjukkan Uskup Amboina Mgr Petrus Canisius Mandagi MSC dengan menampung kafilah
-      (kontingen) Musabaqah Tilawatil Quran (MTQ) asal Provinsi Banten di kediamannya
-      di Kawasan Batu Gaja, Ambon. Anggota kafilah yang menempati wisma Keuskupan
-      Amboina dari Provinsi Banten di antaranya adalah Wakil Ketua DPRD Kabupaten
-      Banten, Asisten III Pemkab Banten, '
-  - GambarLandscape: {fileID: 0}
+      (kontingen) Musabaqah Tilawatil Quran (MTQ)
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: ', Rektor Universitas Tirta Yasa Banten, Prof Dr Hidayat, dan belasan
-      anggota kafilah lainnya. Saat ditemui di Keuskupan Amboina, Kamis (7/6/2012)
-      pagi, sejumlah anggota kafilah tengah menikmati sarapan pagi Bersama Uskup Mandagi,
-      suasana hangat penuh kekeluargaan terlihat jelas saat para anggota kafilah dan
-      uskup duduk semeja memulai sarapan pagi. Uskup mengatakan, apa yang dilakukannya
-      merupakan wujud tanggung jawab moral sebagai anak bangsa untuk terus memupuk
-      tali persaudaraan antarsesama umat beragama. Baginya, selain ingin menghargai
-      pelaksanaan MTQ yang sarat makna keagamaan, apa yang dilakukan merupakan bentuk
-      dukungan nyata umat Katolik di Maluku terhadap suksesnya MTQ tingkat nasional
-      ke XXIV di Kota Ambon.'
-  - GambarLandscape: {fileID: 2800000, guid: 3a7aa7d1e162deb43a3e81ff947d5039, type: 3}
+    isiCard: asal Provinsi Banten di kediamannya di Kawasan Batu Gaja, Ambon. Anggota
+      kafilah yang menempati wisma Keuskupan Amboina dari Provinsi Banten di antaranya
+      adalah Wakil Ketua DPRD Kabupaten Banten, Asisten III Pemkab Banten, Rektor
+      Universitas Tirta Yasa Banten, Prof Dr Hidayat, dan belasan anggota kafilah
+      lainnya. Saat ditemui di Keuskupan Amboina, Kamis (7/6/2012)
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: Ningrum mengaku kaget pertemanannya dengan biarawati yang diabadikan
-      oleh Lexy Rambadeta pada 8 Januari 2014 lalu menjadi istimewa. Padahal, pertemanan
-      antarumat beragama merupakan hal yang wajar dan biasa di Yogyakarta. Hal ini
-      pun membuat Ningrum bertanya, mengapa hal yang biasa di sini menjadi hal yang
-      begitu istimewa. Menurut Ningrum jika manusia hanya melihat perbedaan, maka
-      masing-masing tidak akan menemukan titik kebersamaan. Karena setiap individu
-      diciptakan berbeda, baik fisik maupun sifatnya.
-  - GambarLandscape: {fileID: 0}
+    isiCard: pagi, sejumlah anggota kafilah tengah menikmati sarapan pagi Bersama
+      Uskup Mandagi, suasana hangat penuh kekeluargaan terlihat jelas saat para anggota
+      kafilah dan uskup duduk semeja memulai sarapan pagi. Uskup mengatakan, apa yang
+      dilakukannya merupakan wujud tanggung jawab moral sebagai anak bangsa untuk
+      terus memupuk tali persaudaraan antarsesama umat beragama
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: Baginya, selain ingin menghargai pelaksanaan MTQ yang sarat makna keagamaan,
+      apa yang dilakukan merupakan bentuk dukungan nyata umat Katolik di Maluku terhadap
+      suksesnya MTQ tingkat nasional ke XXIV di Kota Ambon.
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 3a7aa7d1e162deb43a3e81ff947d5039, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Ningrum mengaku kaget pertemanannya dengan biarawati yang diabadikan
+      oleh Lexy Rambadeta pada 8 Januari 2014 lalu menjadi istimewa. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Padahal, pertemanan antarumat beragama merupakan hal yang wajar dan
+      biasa di Yogyakarta. Hal ini pun membuat Ningrum bertanya, mengapa hal yang
+      biasa di sini menjadi hal yang begitu istimewa. Menurut Ningrum jika manusia
+      hanya melihat perbedaan, maka masing-masing tidak akan menemukan titik kebersamaan.
+      Karena setiap individu diciptakan berbeda, baik fisik maupun sifatnya.\r\n\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: Dari kedua kisah tersebut tentunya teman-taman pasti mulai memahami apa
       penyebab konflik antar umat beagama. Tentunya bukan karena ajaran dari Agama-Agama
       tertentu, namun penyebab utamanya adalah dari dalam diri manusia, apakah ia
-      memeluk Agama yang diyakininya demi menemukan Allah dan menciptakan perdamaian
-      dalam masyarakat atau hanya memeluk agama sebagai kepentingan dirinya sendiri
-      sehingga dapat merugikan orang lain.  Oleh karena itu teman-teman hendaknya
-      mengembangkan sikap atau tindakan yang dirasa harus dilakukan demi terwujudnya
-      kerukunan antar umat beragama.
+      memeluk Agama
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: yang diyakininya demi menemukan Allah dan menciptakan perdamaian dalam
+      masyarakat atau hanya memeluk agama sebagai kepentingan dirinya sendiri sehingga
+      dapat merugikan orang lain.  Oleh karena itu teman-teman hendaknya mengembangkan
+      sikap atau tindakan yang dirasa harus dilakukan demi terwujudnya kerukunan antar
+      umat beragama.
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 

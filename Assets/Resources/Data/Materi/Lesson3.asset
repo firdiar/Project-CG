@@ -18,8 +18,8 @@ MonoBehaviour:
     GambarKotak: {fileID: 0}
     isiCard: "GEREJA\r\nMenjadi anggota Gereja berarti secara otomatis ikut terlibat
       dalam tugas pelayanan yang dinyatakan dalam kehidupan sehari-hari. Oleh karena
-      itu, penting halnya mengenal sakramen-sakramen dan keutamaan kristiani yang
-      dapat diterapkan baik dilingkungan sekolah, gereja dan masyarakat. \r\n"
+      itu, penting untuk mengenal sakramen-sakramen dan keutamaan kristiani yang dapat
+      diterapkan baik dilingkungan sekolah, Gereja dan masyarakat. \r\n"
     soal: 
     A:
       value: 
@@ -66,7 +66,7 @@ MonoBehaviour:
       Baptis, Krisma, Ekaristi, Tobat, Pengurapan orang sakit, Perkawinan, dan Imamat.
       Namun yang menjadi pintu gerbang dari ke 7 sakramen disebut sakramen inisiasi
       yakni sakramen baptis, ekaristi dan krisma. \r\nMengapa disebut pintu gerbang
-      ? karena semua anggota gereja perlu menerima sakramen inisiasi terlebih dahulu
+      ? karena semua anggota Gereja perlu menerima sakramen inisiasi terlebih dahulu
       sebelum sakramen lainnya. \r\n"
     soal: 
     A:
@@ -86,7 +86,9 @@ MonoBehaviour:
   - type: 0
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 2800000, guid: 85d16544092963c4eb798be82c013f47, type: 3}
-    isiCard: MARI MENGAMATI
+    isiCard: 'MARI MENGAMATI
+
+      Dari gambar tersebut kira-kira mau mengisahkan tentang apa?'
     soal: 
     A:
       value: 
@@ -107,7 +109,7 @@ MonoBehaviour:
     GambarKotak: {fileID: 2800000, guid: e42f431afc184a946b7bb451cc0ebfc1, type: 3}
     isiCard: '
 
-      Dari gambar tersebut kita-kira mau menjelaskan tentang apa ya ?'
+      Dari gambar tersebut kita-kira mau mengisahkan tentang apa ya ?'
     soal: 
     A:
       value: 
@@ -126,7 +128,10 @@ MonoBehaviour:
   - type: 0
     GambarLandscape: {fileID: 2800000, guid: 974e5c98a6f8a494c90b2efc7f6cad92, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: "Untuk lebih jelasnya, Yuk membaca Kitab Suci !\r\n  (Matius 3: 13-17)\r\n"
+    isiCard: "Untuk lebih jelasnya, Yuk membaca Kitab Suci !\r\n  (Matius 3: 13-17)\r\nDengan
+      kerendahan hati Yesus ia membiarkan Yohanes Membatis diri-Nya, hal ini dilakukan
+      sebelum Yesus tampil di tengah masyarakat untuk menyampaikan kabar gembira.
+      Pembaptisan Yesus menjadi dasar pembaptisan dalam Gereja Katolik.\n"
     soal: 
     A:
       value: 
@@ -145,9 +150,9 @@ MonoBehaviour:
   - type: 0
     GambarLandscape: {fileID: 2800000, guid: a382b7c83248e4044a4c2678242d8232, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: Dengan kerendahan hati Yesus ia membiarkan Yohanes Membatis diri-Nya,
-      hal ini dilakukan sebelum Yesus tampil di tengah masyarakat untuk menyampaikan
-      kabar gembira. Pembaptisan Yesus menjadi dasar pembaptisan dalam Gereja Katolik.
+    isiCard: 'gambar 1.1
+
+      perhatikan gambar diatas'
     soal: 
     A:
       value: 
@@ -166,9 +171,9 @@ MonoBehaviour:
   - type: 0
     GambarLandscape: {fileID: 2800000, guid: 1db388490805cd947bc647cf10a6dd81, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: '
+    isiCard: 'gambar 1.2
 
-      Perhatikan gambar diatas.'
+      Perhatikan gambar di atas.'
     soal: 
     A:
       value: 
@@ -204,16 +209,40 @@ MonoBehaviour:
       value: Menangis
       isTrue: 0
     ifTrueMsg: Jawaban yang tepat
-    ifFalseMsg: Jawaban anda kurang tepat
+    ifFalseMsg: 'Jawaban anda kurang tepat
+
+
+      Jawaban yang tepat adalah
+
+      A.  Imam/Romo/Pastor  menuangkan air sebagai tanda sakramen baptis diatas kepala
+      penerima sakramen'
   - type: 0
     GambarLandscape: {fileID: 2800000, guid: 1db388490805cd947bc647cf10a6dd81, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: 'Gambar diatas menunjukkan tanda dari sakramen baptis. Rahmat Sakramen
+    isiCard: Gambar di atas menunjukkan tanda dari sakramen baptis. Rahmat Sakramen
       Baptis yaitu dibersihkan dalam arti lahir kembali, dipersatukan dengan Kristus
       berarti kita menerima berkat dan menjadi anak-anak Allah, menjadi anggota Gereja
-      berarti secara resmi kita diterima menjadi anggota Gereja . Tentunya seorang
-      yang telah di baptis memiliki tugas yakni hidup sebagai orang katolik yang baik
-      dan terlibat dalam kegiatan Gereja. '
+      berarti secara resmi kita diterima menjadi anggota Gereja .
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 1db388490805cd947bc647cf10a6dd81, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: ' Tentunya seorang yang telah di baptis memiliki tugas yakni hidup sebagai
+      orang katolik yang baik dan terlibat dalam kegiatan Gereja. '
     soal: 
     A:
       value: 
@@ -303,13 +332,12 @@ MonoBehaviour:
   - type: 0
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "PERAYAAN EKARISTIdibagi menjadi 2 bagian yaitu liturgi sabda dan ekaristi.
-      \r\nNamun sebelum itu ada .... \r\n1.Pembukaan : terdiri dari doa-doa pernyataan
-      tobat agar merayakan perayaan ekaristi dengan baik dan penuh kesadaran diri.
-      \r\n2.Liturgi Sabda : terdiri dari pembacaan Kitab Suci (biasanya ada 3 bacaan
-      diselingi dengan mazmur/lagu antar bacaan), lalu homili (pemimpin memberi penjelasan
-      atas bacaan-bacaan yang telah didengarkan umat), dan doa umat (umat memanjatkan
-      doa kepada Tuhan)\r\n"
+    isiCard: "PERAYAAN EKARISTI dibagi menjadi 2 bagian yaitu liturgi sabda dan ekaristi.
+      \r\n1. Ritus Pembukaan : terdiri dari doa-doa pernyataan tobat agar merayakan
+      perayaan ekaristi dengan baik dan penuh kesadaran diri. \r\n2.Liturgi Sabda
+      : terdiri dari pembacaan Kitab Suci (biasanya ada 3 bacaan diselingi dengan
+      mazmur/lagu antar bacaan), lalu homili (pemimpin memberi penjelasan atas bacaan-bacaan
+      yang telah didengarkan umat), dan doa umat (umat memanjatkan doa kepada Tuhan)\r\n"
     soal: 
     A:
       value: 
@@ -326,12 +354,34 @@ MonoBehaviour:
     ifTrueMsg: 
     ifFalseMsg: 
   - type: 0
-    GambarLandscape: {fileID: 2800000, guid: 508bf971014faad46a64740146e1cbba, type: 3}
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "\r3.Liturgi Ekaristi : terdiri dari persembahan (mempersiapkan roti
       dan anggur menjadi tubuh dan darah Kristus), lalu doa syukur agung (bersyukur
       kepada Allah, mengenangkan perjamuan terakhir), dan komuni (menerima dan bersatu
-      dengan tubuh dan darah Kristus sebagai saudara)\r\n"
+      dengan tubuh dan darah Kristus sebagai saudara)\r\n\t"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "4.\tRitus Penutup : inti dari ritus penutup adalah berkat dan pengutusan.
+      Namun sebelum itu biasanya disampaikan pengumuman. Ritus penutup berfungsi mengakhiri
+      seluruh rangkaian perayaan ekaristi dan mengantar umat untuk kembali keperjuangan
+      hidup sehari-hari, dan menjalankan perutusan di dunia. \n"
     soal: 
     A:
       value: 
@@ -354,9 +404,28 @@ MonoBehaviour:
       kesalahan baik kepada orang tua, teman, guru, maupun diri kalian sendiri? \r\n\r\nPastinya
       pernah bukan? Kesalahan yang sering kita lakukan ini disebut dosa. Mengapa?
       Dosa bukan sebatas kita melanggar perintah Allah, tetapi perbuatan kita yang
-      menyakiti hati Allah dan orang-orang disekitar kita. \r\n\r\nNamun Tuhan sangat
-      mencintai umat manusia, sehingga Tuhan mau manusia yang berbuat dosa segera
-      bertobat. Untuk itulah adanya sakramen tobat dalam Gereja Katolik. \r\n"
+      menyakiti hati Allah dan orang-orang disekitar kita. \r\n\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Namun Tuhan sangat mencintai umat manusia, sehingga Tuhan mau manusia
+      yang berbuat dosa segera bertobat. Untuk itulah adanya sakramen tobat dalam
+      Gereja Katolik. \r\n"
     soal: 
     A:
       value: 
@@ -501,9 +570,27 @@ MonoBehaviour:
       Dalam perintah Allah yang ke-4 dikatakan bahwa \u201CHormatilah Ibu Bapamu\u201D.
       Ketika seorang anak tidak menghormati orang tuanya itu artinya ia telah berbuat
       dosa, ia menyakiti hati Tuhan dan orang tuanya. Berbuat dosa berarti memutuskan
-      hubungan dengan Allah dan orang-orang disekitarnya. \t\r\nNamun kita tau Tuhan
-      mencintai umat manusia sehingga ia memberi kesempatan umatNya untuk bertobat.
-      Bertobat berarti  kembali kepada Tuhan, orang-orang disekitar dan lingkungan.
+      hubungan dengan Allah dan orang-orang di sekitarnya. \t\r\nNamun kita tau Tuhan
+      mencintai umat manusia sehingga ia memberi kesempatan umatNya untuk bertobat. "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Bertobat berarti  kembali kepada Tuhan, orang-orang di sekitar dan lingkungan.
       Sebesar dan sesering apapun kita melakukan dosa, Tuhan selalu terbuka untuk
       mengampuni asalkan manusia sungguh-sungguh bertobat. \r\n"
     soal: 
@@ -524,11 +611,10 @@ MonoBehaviour:
   - type: 0
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "Orang lain juga tentu pernah menyakiti hati kita, tetapi sudah kalian
-      memberi pengampunan tanpa perlu orang tersebut mengucapkan kata maaf ?\r\nTuhan
-      juga mengajarkan k\nita untuk saling menganmpuni kesalahan orang lain. Yesus
-      memberi teladan agar kita saling mengampuni dan jangan menganggap diri kita
-      lebih baik dari orang lain.\r\n"
+    isiCard: "Orang lain juga tentu pernah menyakiti hati kita, Meskipun dia tidak
+      meminta maaf kita perlu mengampuni dia.\nTuhan juga mengajarkan kita untuk saling
+      menganmpuni kesalahan orang lain. Yesus memberi teladan agar kita saling mengampuni
+      dan jangan menganggap diri kita lebih baik dari orang lain.\r\n"
     soal: 
     A:
       value: 
@@ -549,10 +635,28 @@ MonoBehaviour:
     GambarKotak: {fileID: 0}
     isiCard: "Kuasa pengampunan dosa diberikan Tuhan Yesus kepada para Rasul, yang
       diserahkan kepada para penggantinya, yaitu kepada Uskup-Uskup dan Imam-Imam
-      sampai sekarang.\r\n\r\nKetika kita mengaku dosa, perlu diketahui bahwa kita
-      bukan mengaku dosa kepada imam/romo/pastor. Ini hanyalahatanda dan sarana dari
-      Gereja, pengampunan yang kita terima bukanlah dari imam tetapi langsung dari
-      Tuhan. \r\n"
+      sampai sekarang.\r\n\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 181e5083e97f4d441800ae798ea1b484, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Ketika kita mengaku dosa, perlu diketahui bahwa kita bukan mengaku dosa
+      kepada imam/romo/pastor. Ini hanyalah tanda dan sarana dari Gereja, pengampunan
+      yang kita terima bukanlah dari imam tetapi langsung dari Tuhan. \r\n"
     soal: 
     A:
       value: 
@@ -571,14 +675,32 @@ MonoBehaviour:
   - type: 0
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "upacara pengakuan dan pengampunan merupakan tanda Tuhan telah mengampuni
+    isiCard: "Upacara pengakuan dan pengampunan merupakan tanda Tuhan telah mengampuni
       dosa kita dan kita sungguh-sungguh bertobat. \r\nTanda pertobatan terlihat dari
       doa tobat yang kita ungkapan dengan sungguh-sungguh.\r\n\r\nTanda pengampunan
       dari Tuhan terlihat dari dari ucapan Bapa pengakuan yang mengatakan \u201CTuhan
-      telah mengampuni dosamu, dalam nama Bapa, Putra, dan Roh Kudus.\u201D\r\n\r\nDalam
-      proses upacara pengakuan dosa, setelah kita mengakukan dosa-dosa kita imam/romo/pastor,
-      akan memberi kita nasihat serta denda/penitensi atas dosa-dosa yang kita lakukan.
-      \r\n"
+      telah mengampuni dosamu, dalam nama Bapa, Putra, dan Roh Kudus.\u201D\r\n\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Dalam proses upacara pengakuan dosa, setelah kita mengakukan dosa-dosa
+      kita imam/romo/pastor, akan memberi kita nasihat serta denda/penitensi atas
+      dosa-dosa yang kita lakukan. \r\n"
     soal: 
     A:
       value: 
@@ -637,7 +759,12 @@ MonoBehaviour:
       value: Menangis
       isTrue: 0
     ifTrueMsg: Jawaban yang tepat
-    ifFalseMsg: Jawaban anda kurang tepat
+    ifFalseMsg: 'Jawaban anda kurang tepat
+
+
+      Jawaban yang tepat adalah
+
+      B. Berusaha ,Berdoa Dan Belajar '
   - type: 0
     GambarLandscape: {fileID: 2800000, guid: d3cd3eebabd50fe448a71f0f464306fa, type: 3}
     GambarKotak: {fileID: 0}
@@ -663,14 +790,32 @@ MonoBehaviour:
   - type: 0
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "Harapan itu juga dapat semakin kita kuatkan dengan berusaha menyampaikan
+    isiCard: 'Harapan itu juga dapat semakin kita kuatkan dengan berusaha menyampaikan
       rasa kasih kita kepada sesama. Karena Tuhan Yesus sendiri yang mengajarkan kita
       untuk saling mengasihi satu dengan yang lainnya. Yesus memiliki harapan agar
-      seluruh umat manusia agar hidup dengan baik seturut dengan kehendak Allah. Oleh
-      karena itu tuhan Yesus sendiri menguatkan harapanNya dengan memberi kasih-Nya
-      kepada semua umat manusia. Seperti kisah dalam Kitab Suci \u201Cmemberi makan
-      5000 orang\u201D, kisah tersebut menunjukkan belas kasih Yesus. Yesus sangat
-      menekankan pentingnya hidup saling mengasihi."
+      seluruh umat manusia agar hidup dengan baik seturut dengan kehendak Allah. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Oleh karena itu tuhan Yesus sendiri menguatkan harapanNya dengan memberi
+      kasih-Nya kepada semua umat manusia. Seperti kisah dalam Kitab Suci \u201Cmemberi
+      makan 5000 orang\u201D, kisah tersebut menunjukkan belas kasih Yesus. Yesus
+      sangat menekankan pentingnya hidup saling mengasihi."
     soal: 
     A:
       value: 

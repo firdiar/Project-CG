@@ -16,11 +16,11 @@ MonoBehaviour:
   - type: 0
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "MASYARAKAT\r\n\r\nHidup ditengah masyarakat dengan baik sangat disukai
-      oleh Tuhan, apalagi ketika kitameneladani Yesus di dalam kehidupan sehari-hari.
+    isiCard: "MASYARAKAT\r\n\r\nHidup di tengah masyarakat dengan baik sangat disukai
+      oleh Tuhan, apalagi ketika kita meneladani Yesus di dalam kehidupan sehari-hari.
       Tidak perlu berbuat hal-hal besar, melalui hal-hal kecil juga Tuhan senang.
-      Kita akan belajar mengenai lingkungan disekitar kita seperti rumah yang kita
-      tinggali, anggota keluarga, sekolah dan guru di sekolah. mari kita mulai dengan
+      Kita akan belajar mengenai lingkungan di sekitar kita seperti rumah yang kita
+      tinggali, anggota keluarga, sekolah dan guru di sekolah. Mari kita mulai dengan
       rumah dan anggota keluarga.\r\n"
     soal: 
     A:
@@ -42,8 +42,8 @@ MonoBehaviour:
     GambarKotak: {fileID: 0}
     isiCard: "Setiap keluarga pasti membutuhkan tempat tinggal atau sering disebut
       dengan \u201Crumah\u201D. Pada umumnya rumah terdiri dari ruang tamu, kamar
-      tidur, dapur, gudang dan masih banyak lagi. Apakah dirumah kitapunya lebih banyak
-      ruangan dari yang tadi disebutkan? Ayo sebutkan? \uF04A. Nah ketika seluruh
+      tidur, dapur, gudang dan masih banyak lagi. Apakah di rumah kita punya lebih
+      banyak ruangan dari yang tadi disebutkan? Ayo sebutkan? \uF04A. Nah ketika seluruh
       ruangan digunakan dengan baik, anggota keluarga akan merasa aman dan nyaman. "
     soal: 
     A:
@@ -103,7 +103,7 @@ MonoBehaviour:
   - type: 0
     GambarLandscape: {fileID: 2800000, guid: a436c0da2de2ed24fa2e67ce28cc7996, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: Nah, didalam rumah tentunya ada yang namanya anggota keluarga, anggota
+    isiCard: Nah, di dalam rumah tentunya ada yang namanya anggota keluarga, anggota
       keluarga itu siapa aja sih? Ya, ada ibu, ayah dan anak-anak. Tentunya juga setiap
       anggota keluarga punya tanggung jawabnya masing-masing. Apakah kamu tau tanggung
       jawab dari masing-masing anggota keluarga? Ayo sebutkan !
@@ -128,7 +128,7 @@ MonoBehaviour:
     isiCard: "Bagaimana dengan tanggung jawab seorang ayah dan ibu? Ya, ibu dan ayah
       bertanggung jawab untuk melindungi, mendidik serta memberi nafkah seluruh anggota
       keluarganya. Seorang ibu juga bertanggung jawab untuk menyiapkan makanan untuk
-      keluarga dan erawat rumah. Untuk anggota keluarga yang lain bagaimana? Anak
+      keluarga dan merawat rumah. Untuk anggota keluarga yang lain bagaimana? Anak
       ? apakah tugas kalian sebagai anak dalam keluarga? \uF04A"
     soal: 
     A:
@@ -163,26 +163,31 @@ MonoBehaviour:
       value: Lari Maraton
       isTrue: 0
     ifTrueMsg: Jawaban yang tepat
-    ifFalseMsg: maaf jawaban anda kurang tepat
+    ifFalseMsg: 'maaf jawaban anda kurang tepat
+
+
+      Jawaban yang tepat adalah
+
+      A. Belajar, membantu orang tua'
   - type: 0
     GambarLandscape: {fileID: 2800000, guid: ef9ee9f79251c5c499499babedd526c3, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: Tugas seorang anak adalah Belajar, membantu orang tua
-    soal: "Apa tugasku ?\r"
+    soal: 
     A:
-      value: Belajar, membantu orang tua
-      isTrue: 1
+      value: 
+      isTrue: 0
     B:
-      value: Main game
+      value: 
       isTrue: 0
     C:
-      value: Main bola
+      value: 
       isTrue: 0
     D:
-      value: Lari Maraton
+      value: 
       isTrue: 0
-    ifTrueMsg: Jawaban yang tepat
-    ifFalseMsg: maaf jawaban anda kurang tepat
+    ifTrueMsg: 
+    ifFalseMsg: 
   - type: 0
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
@@ -209,13 +214,13 @@ MonoBehaviour:
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: 'Selain di rumah dan di dalam keluarga, sekolah juga menjadi bagian lingkungan
-      sekitar kita. Setiap sesuatu yang kita lakukan pasti punya tujuan misalnya makan,
-      untuk apa kita makan? Tujuannya supaya kita kenyang, energi tubuh bertambah
-      dan bisa beraktivitas. Sama hal dengan bersekolah, apakah kalian tau tujuan
-      dari bersekolah? .........tujuan dari bersekolah supaya menjadi seorang anak
-      yang pintar dan baik hati. Guru disekolah mengajarkan banyak pengetahuan kepada
-      adik-adik, tidak hanya pengetahuan tetapi diajarkan juga untuk membedakan mana
-      yang salah dan mana yang benar? '
+      sekitar kita. Setiap apa yang kita lakukan pasti punya tujuan misalnya makan,
+      untuk apa kita makan? Tujuannya supaya kita sehat, energi tubuh bertambah dan
+      bisa beraktivitas. Sama hal dengan bersekolah, apakah kalian tau tujuan dari
+      bersekolah? .........tujuan dari bersekolah supaya menjadi seorang anak yang
+      pintar dan baik hati. Guru disekolah mengajarkan banyak pengetahuan kepada adik-adik,
+      tidak hanya pengetahuan tetapi diajarkan juga untuk membedakan mana yang salah
+      dan mana yang benar? '
     soal: 
     A:
       value: 
@@ -257,7 +262,7 @@ MonoBehaviour:
     isiCard: "Perbuatan yang baik hasilnya akan membuat gembira tetapi perbuatan yang
       jahat akan. merugikan diri sendiri dan orang lain. untuk itu kita diajak untuk
       berusaha selalu berbuat baik dan menolak hal-hal yang jahat. \r\n\r\n\r\nNah,
-      sudah berbuat baik kah kita hari ini ? Yuk berbuat baik! \uF04A \r\n"
+      sudah ksh kita berbuat baik hari ini ? Yuk berbuat baik! \uF04A \r\n"
     soal: 
     A:
       value: 

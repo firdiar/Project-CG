@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9f5ac730b7934d47857496e6046b223, type: 3}
+  m_Name: Penggunaan
+  m_EditorClassIdentifier: 
+  learnCard:
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: Petunjuk penggunaan
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Buka aplikasi logos \rlalu Masuk kedalam menu home \r"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Menu home
+
+      anda dapat membaca materi yang ada, materi dikemas dengan serinci mungkin sehingga
+      tidak membingungkan Anda '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Setelah Anda membaca materi silahkan Anda pindah ke fitur quis dan pilih
+      quis sesuai dengan jenjang pendidikan Anda\r quis yang dibuat berdasarkan materi-materi
+      yang ada dalam semester genap\r"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Pada bagian pojok kanan atas terdapat titik tiga lalu Anda klik\r Pada
+      bagian itu terdapat beberapa game, namun saran pilihlah game sesuai dengan jenjang
+      pendidikan Anda\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Untuk game SD (susun kata) cara bermain \r\n\nAkan ada beberapa kata
+      yang diacak lalu  Anda diminta untuk menyusun kata dengan benar. Setelah Anda
+      yakin dengan jawaban yang Anda buat lalu klik cek, jika benar maka Anda akan
+      lanjut ke babak berikutnya\r\n ~ Selamat bermain susun kata dan jangan lupa
+      KS nya dibuka yah\uF04A ~ \r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "\uF0D8Untuk game SMP (teka teki silang) cara bermain : \r\n\nAnda diminta
+      untuk mengisi kotak yang telah disediakan, pertama-tama Anda klik nomor yang
+      ada di kotak maka akan muncul soal nya. Usakan untuk mengisi secara berurutan
+      sehingga tidak membingungkan Anda, setelah Anda yakin dengan jawaban yang Anda
+      buat dalam kotak lalu klik cek. Jika jawaban Anda benar maka anda bisa lanjut
+      untuk mengisi kotak berikutnya. \r\n~ Cermati soal dan kotak yang disediakan,
+      Semangat ~\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "\uF0D8Untuk game SMA (truth or dare) cara bermain\n\nPertama-tama Anda
+      diminta mencari teman yang  sedang berada disamping Anda, game ini dapat dimainkan
+      oleh 2 maupun 4 orang. Lalu setelah Anda mendapatkan teman putar botol yang
+      ada, setelah botol diputar pemain yang namanya terpilih akan menjawab pertanyaan,
+      botol dapat diputar kembali setelah pertanyaan sebelumnya sudah selesai dijawab.
+      Pada game ini tidak ada hukuman apabila jawaban teman Anda kurang memuaskan
+      karena pertanyaan yang muncul hanya berupa refleksi pribadi. \r\n~ Selamat bermain
+      dan jangan lupa cari teman ~\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "\uF0D8Untuk game ular tangga (umum dapat digunakan oleh SD, SMP maupun
+      SMA) cara bermain\n\nPertama-tama anda diminta untuk mencari teman dalam bermain
+      game ini. Lalu anda (sesuai dengan urutan) klik/ tekan dadu yang ada tunggu
+      hingga dadu berhenti dan hingga salah satu titik muncul ( . , .. , \u2026 ,
+      \u2026. , \u2026.. , \u2026\u2026). Setelah dadu berhenti sesuai dengan titiknya
+      maka soal akan muncul. Ketika jawaban Anda benar maka Anda akan maju terus namun
+      ketika jawaban Anda salah maka Anda akan turun (mengulang dari start). \r\n\t\t~
+      Selamat bermain~ \r"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 

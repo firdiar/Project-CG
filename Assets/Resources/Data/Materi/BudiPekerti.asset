@@ -16,26 +16,14 @@ MonoBehaviour:
   - type: 0
     GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: Tujuan Aplikasi
-    soal: 
-    A:
-      value: 
-      isTrue: 0
-    B:
-      value: 
-      isTrue: 0
-    C:
-      value: 
-      isTrue: 0
-    D:
-      value: 
-      isTrue: 0
-    ifTrueMsg: 
-    ifFalseMsg: 
-  - type: 0
-    GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: Kredit
+    isiCard: 'Tujuan Aplikasi
+
+
+      Menciptakan sarana belajar yang asyik untuk para pelajar sehingga pelajar dapat
+      bermain sambil belajar.
+
+
+'
     soal: 
     A:
       value: 

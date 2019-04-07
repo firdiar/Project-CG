@@ -13,14 +13,47 @@ MonoBehaviour:
   m_Name: Lesson5
   m_EditorClassIdentifier: 
   learnCard:
-  - GambarLandscape: {fileID: 0}
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: GEREJA
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Hidup menggereja harus didasari oleh 4 lingkup, yaitu :\r\nKOINONIA(Persekutuan)\tLITURGIA(Peribadahan)\tKERYGMA(Pewartaan)\t\nDIAKONIA\r(Pelayanan)\r\n
       \         \t         \t            \t             \n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: 'Oleh karena itu, pengembangan dan keterlibat umat harus menuju kepada
       keempat aspek diatas. Maka tak jarang sering kita jumpai suatu paguyuban/ perkumpulan
@@ -29,44 +62,201 @@ MonoBehaviour:
       tersebut pasti memiliki berbagai macam kegiatan yang nantinya dilaksanakan serta
       melibatkan umat beriman yang lainnya untuk bergabung dalam kegiatan tersebut,
       entah menjadi panitia atupun peserta. '
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Lalu, apa itu Hidup Menggereja ya?\r\n\nHidup menggeraja adalah persekutuan,
       peribadahan, pewartaan, dan pelayanan. Dari keempat lingkup tersebut diharapkan
       untuk dapat membantu umat agar dapat mengembangkan imannya sekaligus menjadi
       perwujudan perintah Yesus. \r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: SUDAHKAH AKU TERLIBAT DALAM KEGIATAN DI GEREJA SEPERTI DI BAWAH INI?
-  - GambarLandscape: {fileID: 2800000, guid: 674026e33d983cb4ea6bfa9e79dc0d76, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 674026e33d983cb4ea6bfa9e79dc0d76, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: 'MISDINAR '
-  - GambarLandscape: {fileID: 2800000, guid: 31f79018e2bbce04fac81c2fdeb68854, type: 3}
+    isiCard: 'Gambar 1.1
+
+
+
+      MISDINAR '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 31f79018e2bbce04fac81c2fdeb68854, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: PIA dan PIR
-  - GambarLandscape: {fileID: 2800000, guid: 6f51376d4224a0c499177c893a269125, type: 3}
+    isiCard: 'Gambar 1.2
+
+
+
+      PIA dan PIR'
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 6f51376d4224a0c499177c893a269125, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: ' KOOR'
-  - GambarLandscape: {fileID: 2800000, guid: 2d3d75e6890aff3468dca4ac8f4ced43, type: 3}
+    isiCard: 'Gambar 1.3
+
+
+
+      KOOR'
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 2d3d75e6890aff3468dca4ac8f4ced43, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: LEKTOR
-  - GambarLandscape: {fileID: 2800000, guid: 4eb84c7e80eab684185c517b7d3912c1, type: 3}
+    isiCard: 'Gambar 1.4
+
+
+
+      LEKTOR'
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 4eb84c7e80eab684185c517b7d3912c1, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: AMBIL DAN BACA KITAB SUCI YUKKK!
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: "Kisah Para Rasul 2: 42-47\r\n\nMereka bertekun dan dengan sehati berkumpul
-      dalam Bait Allah untuk memecahkan roti sambil memuji Allah. Segala kepunyaan
-      mereka merupakan kepunyaan bersama. Dan setiap hari Tuhan menambahkan jumlah
-      mereka.\r\n"
-  - GambarLandscape: {fileID: 0}
+    isiCard: "AMBIL DAN BACA KITAB SUCI YUKKK!\n\nKisah Para Rasul 2: 42-47\r\n\nMereka
+      bertekun dan dengan sehati berkumpul dalam Bait Allah untuk memecahkan roti
+      sambil memuji Allah. Segala kepunyaan mereka merupakan kepunyaan bersama. Dan
+      setiap hari Tuhan menambahkan jumlah mereka.\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Kisah Para Rasul 6: 1-7\r\n\n12 murid Yesus meminta mereka untuk memilih
       7 diantara mereka untuk melakukan tugas pelayanan.\rOleh karena itu, setelah
       dibaptis kita telah sah menjadi murid-murid Yesus. Dengan demikian kita memiliki
       tanggung jawab untuk melaksanakan tugas perutusan yang telah diberikan Yesus
       kepada kita. \r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: Bidang pewartaan yang dilakukan oleh Gereja merupakan kelanjutan dari
       pengajaran para rasul. Dengan perayaan ekaristi dan doa-doa dapat membangun
@@ -75,14 +265,46 @@ MonoBehaviour:
       ada dalam gereja maupun masyarakat merupakan suatu usaha untuk menghadirkan
       Allah di tengah kehidupan manusia sekaligus sarana kita untuk mengembangkan
       iman.
-  - GambarLandscape: {fileID: 2800000, guid: cc483b2db42f0d442a385daa85f574a1, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: cc483b2db42f0d442a385daa85f574a1, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: Dengan begitu adapula tugas kita sebagai umat beriman untuk menciptakan
       kehidupan bersama yang rukun, damai dan sejahtera. Namun, pada kenyataannya
       dalam kehidupan bersama masih sering kuta jumpai berbagai macam konflik kecil
       maupun besar. Di tengah situasi konflik tersebut pasti akan ada tokoh-tokoh
       atau kelompok yang mempelopori konflik tersebut.
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: 'Oleh karenanya, sebagai umat beriman kita diajak bersama-sama untuk
       membangun persaudaraan yang baik diantara umat yang ada disekitar kita meskipun
@@ -90,23 +312,103 @@ MonoBehaviour:
       ataupun perselisihan anatar suku, ras dan agama. Dengan begitu kita diajak untuk
       bersam-sama membangun satu keutuhan agar terciptanya hubungan yang baik antar
       sesama tanpa mengenal perbedaan. '
-  - GambarLandscape: {fileID: 2800000, guid: db4ca153378da3d4a83e8b4ba09797a2, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: db4ca153378da3d4a83e8b4ba09797a2, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: INI ADALAH CONTOH BUDAYA KEAGAMAAN DI BEBERAPA AGAMA
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "UNTUK DIINGAT!\r\n\nDengan aku mengenal para pemuka agama beserta kitab
       dan tempat ibadahnya, sama halnya aku sudah berusaha untuk menghargai agama
       orang lain. \r\n"
-  - GambarLandscape: {fileID: 2800000, guid: 0569b63561d4de64eb9e27df9cf35432, type: 3}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 0569b63561d4de64eb9e27df9cf35432, type: 3}
     GambarKotak: {fileID: 0}
     isiCard: HAYOOO, JANGAN BOSAN UNTUK MEMBUKA DAN MEMBACA KITAB SUCI YAA!!
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "\u201CKamu adalah garam dunia. Jika garam itu menjadi tawar, dengan
       apakah ia diasinkan? Tidak ada lagi gunanya selain dibuang dan diinjak orang\u201D\r\n(Mat
       5:13)\r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Sebagai murid Yesus, kita diperintahkan untuk bisa menjadi garam dan
       terang dunia. Sama seperti Yesus yang dianiaya, dicemooh bahkan dihina Iapun
@@ -115,3 +417,18 @@ MonoBehaviour:
       mendendam dan membenci sesamanya. \r\n\tOleh karenanya, kita diajak untuk turut
       ambil bagian dan mengusahakan untuk dapat membangun keadaan masyarakat menjadi
       lebih baik dan memberi teladan akan perilaku kasih dan damai. \r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 

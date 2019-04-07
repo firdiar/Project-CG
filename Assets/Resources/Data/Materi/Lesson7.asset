@@ -13,88 +13,332 @@ MonoBehaviour:
   m_Name: Lesson7
   m_EditorClassIdentifier: 
   learnCard:
-  - GambarLandscape: {fileID: 0}
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Mengembangkan Diri Melalui Pergaulan\r\n\n\nDalam kehidupan tentunya
-      kita hidup sebagai makhluk sosial yang mana tidak dapat hidup secara sendirian.
-      Lingkup kehidupan di masyarakat, Gereja dan sekolah memiliki peran tersendiri
-      bagi seseorang dalam memperkembangkan diirnya. Masing-masing lingkup tersebut
-      ada tokoh yang terlibat baik secara langsung maupun tidak yang berperan dalam
-      mengembangkan diri khususnya  teman sebaya. \r\n"
-  - GambarLandscape: {fileID: 0}
+      kita hidup sebagai makhluk sosial yang mana tidak dapat hidup secara sendirian
+      baik dalam kehidupan di sekolah maupun di Gereja dan dalam lingkup tersebut
+      kita memiliki peran tersendiri. Masing-masing lingkup tersebut ada tokoh yang
+      terlibat baik secara langsung maupun tidak yang berperan dalam mengembangkan
+      diri khususnya  teman sebaya. \r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 'Dalam perkembangan psikologi remaja mulai memasuki pentingnya teman
-      sebaya dalam perkembangan diri baik menjadi seorang teman, sahabat maupun pacar.
-      Bagi seorang remaja terkadang muncul sikap egois yang mana lebih mementingkan
-      teman daripada keluarga. Walaupun ada rasa egois tersebut namun kita dapat melihat
-      bahwa persentasi pergaulan dengan teman-temannya berbeda. Ketika seseorang itu
-      hanya sebatas pertemanan maka pergaulan mereka masih bersifat umum yang mana
-      komunikasi yang mereka lakukan juga masih bersifat formal yang dalam artian
-      tidk semua diceritakan. '
-  - GambarLandscape: {fileID: 0}
+    isiCard: 'Kaum remaja sudah mulai memasuki fase teman sebaya dalam perkembangan
+      dirinya baik sebagai teman, sahabat maupun pacar. Bagi seorang remaja terkadang
+      muncul sikap egois yang mana lebih mementingkan teman daripada keluarga. Walaupun
+      ada rasa egois tersebut namun kita dapat melihat bahwa persentasi pergaulan
+      dengan teman-temannya berbeda. Ketika seseorang itu hanya sebatas pertemanan
+      maka pergaulan mereka masih bersifat umum yang mana komunikasi yang mereka lakukan
+      juga masih bersifat formal yang dalam artian tidak semua diceritakan. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: 'Beda halnya dengan bersahabat, yang mana pergaulan tersebut sudah mulai
       mendalam yang dalam artian mereka sudah saling mengenal luar dalam dan sudah
       mau saling curhat secara mendalam masalah yang dihapi. Dan tidak semua teman
       dapat dijadikan menjadi seorang sahabat. Lalu tahap pacaran, pada pergaulan
-      pacaran mulai mengenal pergaulan khusus yaitu dengan lawan jenisnya. Dalam tahap
-      ini mereka mulai mengenal pasangan mereka dan melihat pengalaman dalam keluarga.
-      Apakah sikap dan sifat lawan jenisnya tersebut memiliki kesamaan dengan salah
-      satu anggota keluarga. '
-  - GambarLandscape: {fileID: 0}
+      pacaran mulai mengenal pergaulan khusus yaitu pergaulan dengan lawan jenisnya.
+      Dalam tahap ini mereka mulai mengenal pasangan mereka dan melihat pengalaman
+      dalam keluarga. Apakah sikap dan sifat lawan jenisnya tersebut memiliki kesamaan
+      dengan salah satu anggota keluarga. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "A.\tBerteman\r\nDalam kehidupan sehari-hari sering kita mendengar pepatah
       \u201Ctak kenal maka tak sayang\u201D. Pepatah tersebut mengungkap arti bahwa
       kita mengenal terlebih dahulu seseorang itu maka kita bias saying. Dalam pertemanan
-      tentu kita mengenali dulu orang tersebut sehingga nantinya akan muncul rasa
+      tentu kita mengenali dahulu orang tersebut sehingga nantinya akan muncul rasa
       sayang yang mendalam dan menjalani relasi pertemanan dengan lebih baik dan sepenuh
-      hati. Berteman ialah suatu relasi/ hubungan yang terjadi anatara diri kita dengan
-      orang lain dengan tujuan untuk bersosialisasi. Dalam hubungan pertemanan dapat
-      hanay sebatas teman bermain, teman belajar dan sebisa mungking tidak saling
-      mengecewakan dan menjatugkan.\r\n"
-  - GambarLandscape: {fileID: 0}
+      hati. "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Berteman ialah suatu relasi/ hubungan yang terjadi antara diri kita
+      dengan orang lain dengan tujuan untuk bersosialisasi. Dalam hubungan pertemanan
+      biasa hanya sebatas teman bermain, teman belajar dan sebisa mungkin tidak saling
+      mengecewakan dan menjatuhkan.\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Remaja yang sedang menjalani pertemanan sebisa mungkin bersatu dan merendahkan
       diri dengan teman seperti Kristus seperti yang dikatakan oleh Paulus dalam suratnya
-      Filipi 2:1-8. Pada ayat 2 dikataka \u201Chendaklah kamu sehati sepikir, dalam
+      Filipi 2:1-8. Pada ayat 2 diuraikan \u201Chendaklah kamu sehati sepikir, dalam
       satu kasih, satu jiwa, satu tujuan. Tidak mencari kepentingan sendiri dan sebaliknya
       hendaklah kamu rendah hati\u201D. Paulus dalam hal ini selalu menasehati agar
       mampu membangun relasi pertemanan dengan baik dan tidak mementingkan kepentingan
-      pribadi. Sikap yang perlu dipupuk ketika berteman yang dikatakan Paulus dalam
-      suratnya ialah sehati sepikir dalam satu jiwa dan satu tujuan."
-  - GambarLandscape: {fileID: 2800000, guid: 989c6c01c6fff0f49b6646dae7cfc9f7, type: 3}
+      pribadi. "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: Gambar 1.1
-  - GambarLandscape: {fileID: 0}
+    isiCard: Sikap yang perlu dipupuk ketika berteman yang dikatakan Paulus dalam
+      suratnya ialah sehati sepikir dalam satu jiwa dan satu tujuan.
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 989c6c01c6fff0f49b6646dae7cfc9f7, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: "Dari gambar 1.1 tersebut dapat diceritakan secara singkat bahwa pertemanan
-      tersebut saling membantu, saling meneguhkan khususnya dalam hal sekolah. Yang
-      namanya teman saling mendukung dan sebisa mungkin untuk belajar bersama agar
-      sama-sama menjadi baik. Dalam pertemanan juga tidak selamanya berjalan mulus-mulus
-      saja,aka nada saatnya terjadi masalah dan membuat pertemanan kurang membaik.
-      Masalah yang sering diajalani ketika berteman ialah karena egois diri, menjelek-jelekkan
-      teman dengan teman yang lainnya,dst. \r\n"
-  - GambarLandscape: {fileID: 0}
+    isiCard: 'Gambar 1.1
+
+
+      Dari gambar 1.1 tersebut dapat diceritakan secara singkat bahwa pertemanan tersebut
+      saling membantu, saling meneguhkan khususnya dalam hal sekolah. Yang namanya
+      teman saling mendukung dan sebisa mungkin untuk belajar bersama agar sama-sama
+      menjadi baik. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Dalam pertemanan juga tidak selamanya berjalan mulus akan ada saatnya
+      terjadi masalah dan membuat pertemanan kurang membaik. Masalah yang sering dialami
+      ketika berteman ialah karena egois diri, menjelek-jelekkan teman dengan teman
+      yang lainnya,dst. \r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "B.\tBersahabat\r\nKetika remaja telah memiliki teman dan teman tersebut
       tidak semuanya dapat dijadikan seorang sahabat. Mengapa ? karena ketika sudah
       menjalani relasi persahabaatn berarti sudah menjalin hubungan yang lebih mendalam
-      yang mana sudah mulai terbuka dan bercerita tentang masalah yang dihadapi. Sahabat
-      dapat diartikan yaitu seorang teman yang selalu ada untuk mendampingi ketika
-      kita sangat membutuhkan yang dalam artian seorang sahabat tidak hanya ketika
-      suka cita ada namun ketika sedih juga ada. \r\n"
-  - GambarLandscape: {fileID: 0}
+      yang mana sudah mulai terbuka dan bercerita tentang masalah yang dihadapi. "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 'Dalam 1 Sam 18:1-4 mengisahkan tentang persahabatan Daud dan Yonatan.
-      Kisah persahabaatn mereka dapat menjadi gambaran tentang arti persahabatan sejati.
-      Dalam hubungan persahabatan satu dengan yang lain saling membantu dan saling
-      ada tanpa pamrih. Anak remaja telah memilih tean menjadi sahabat dan dalam hal
-      ini sahabatan tidak selamanya yang satu agama, suku begitu namun menjalin relasi
-      persahabatn yang berbeda agama, suku merupakan hal terbaik. '
-  - GambarLandscape: {fileID: 2800000, guid: 7a4df0246039a444d8ac534853a3e388, type: 3}
+    isiCard: "Sahabat dapat diartikan sebagai seorang teman yang selalu ada untuk
+      mendampingi ketika kita sangat membutuhkan yang dalam artian seorang sahabat
+      tidak hanya ada atau dekat dengan kita ketika suka cita namun ketika sedih juga
+      ada. \r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 'Gambar 1.2 '
-  - GambarLandscape: {fileID: 0}
+    isiCard: 'Dalam 1 Sam 18:1-4 dikisahkan tentang persahabatan Daud dan Yonatan.
+      Kisah persahabatan mereka dapat menjadi gambaran tentang arti persahabatan sejati.
+      Dalam hubungan persahabatan satu dengan yang lain saling membantu dan tidak
+      memikirkan pamrih. Anak remaja telah memilih teman menjadi sahabat dan dalam
+      hal ini persahabatan tidak selamanya yang satu agama, suku saja namun menjalin
+      relasi persahabatn yang berbeda agama, suku merupakan hal terbaik. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 7a4df0246039a444d8ac534853a3e388, type: 3}
+    GambarKotak: {fileID: 0}
+    isiCard: "Gambar 1.2 \n\nPada gambar 1.2 menceritakan bahwa seorang sahabaat tidak
+      selamanya yang sepaham, sesuku, seagama dengan kita. Gambar tersebut menggambarkan
+      berbeda-beda warna kulit dapat menjadi seorang sahabat. "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Seperti yang dituliskan dalam Sirakh 6 : 5-17. Persahabatan sejati tidak
+      dibangun demi kesenangan pribadi dan untuk sesaat saja namun persahabatan sejati
+      dilandasi dengan iman akan Allah yang lebih dahulu mengasihi dan menjadikan
+      manusia sahabat. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: 'Dalam menjalani hubungan persahabatan tentu sama hal nya seperti menjalani
       hubungan pertemanan yang mana memiliki masalah yang terkadang membuat persahabatan
@@ -102,34 +346,154 @@ MonoBehaviour:
       ada masalah akan dibicarakan secara bersama-sama. Persahabatan yang baik akan
       menumbuhkan sikap cinta kasih, terbuka, jujur , berkorban tanpa pamrih dan selalu
       ada saat keadaan apapun. '
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "C.\tBerpacaran \r\nSemakin berkembangnya anak remaja tersebut maka semakin
       berkembang juga keinginan untuk mengenal lawan jenisnya. Untuk menarik perhatian
       lawan jenis biasanya seseorang tersebut mulai memperbaiki diri baik penampilan
       maupun perkataannya. Pacaran yang sehat tidak hanya tertarik untuk menyenangkan
-      diri, namun menuntut perlakuan yang hormat dan suci terhadap pacar. Menjalin
-      hubungan pacaran tidak hanya sekedar status pacaran namun hubungan pacaran yang
-      dibangun oleh seorang remaja tersebut alah pacaran yang saling membangun. \r\n"
-  - GambarLandscape: {fileID: 2800000, guid: 2d04f0a33ba579648a1151855139ccbb, type: 3}
+      diri, namun menuntut perlakuan yang hormat dan suci terhadap pacar. "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: Gambar 1.3
-  - GambarLandscape: {fileID: 0}
+    isiCard: "Menjalin hubungan pacaran tidak hanya sekedar status pacaran namun hubungan
+      pacaran yang dibangun oleh seorang remaja tersebut ialah pacaran yang saling
+      membangun. \r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 2d04f0a33ba579648a1151855139ccbb, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: 'Gambar 1.3 mengungkapkan bahwa pacaran itu saling membangun, saling
-      belajar bersama. Tentu ada pro dan kontra ketika anak remaja mulai memasuki
-      yang namanya dunia percintaan. Ketika anak remaja telah berpacaran hal ini tidak
-      dapat lepas dari bimbingan orang tua agar  remaja tersebut tidak menyalahgunakan
-      kata pacaran tersebut. Ketika kita berpacaran dengan yang satu agama, sebisa
-      mungkin kita untuk saling mengingtakan berangkat ke gereja dan ketika berpacaran
-      dengan teman sekelas maka kita harus bias menyesuakan diri yang dalam artian
-      tidak setiap saat berdekatan. Menjadikan pacar sebagai motivasi untuk mengkiatkan
+    isiCard: 'Gambar 1.3
+
+
+      Gambar 1.3 mengungkapkan bahwa pacaran itu saling membangun, saling belajar
+      bersama. Tentu ada pro dan kontra ketika anak remaja mulai memasuki yang namanya
+      dunia percintaan. Ketika anak remaja telah berpacaran hal ini tidak dapat lepas
+      dari bimbingan orang tua agar  remaja tersebut tidak menyalahgunakan kata pacaran
+      tersebut. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: 'Ketika kita berpacaran dengan yang satu agama, sebisa mungkin kita untuk
+      saling mengingtakan berangkat ke gereja dan ketika berpacaran dengan teman sekelas
+      maka kita harus bisa menyesuakan diri yang dalam artian tidak setiap saat berdekatan.
+      Menjadikan pacar sebagai motivasi untuk menggiatkan diri belajar dan memperoleh
       prestasi bukan malah menurukan. '
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "1 Korintus 6:18 \u201CJauhkanlah dirimu dari percabulan!\u201D bacaan
-      ini mengajak para remaja untuk sungguh menjauhkan diri dari yang namanya percabulan.
-      Ada beberapa anak remaja yang ssalah mengartikan yang namanya pacaran. Pada
-      zaman sekarang ada beberapa anak remaja yang terjerumus menjadi salah satu remaja
-      yang hamil diluar nikah. \r\nYeremia 29:11 pacaran yang benar harus di dasari
+    isiCard: "Dalam 1 Korintus 6:18\ndituliskan \u201CJauhkanlah dirimu dari percabulan!\u201D
+      bacaan ini mengajak para remaja untuk sungguh menjauhkan diri dari yang namanya
+      percabulan. Ada beberapa anak remaja yang salah mengartikan yang namanya pacaran.
+      Pada zaman sekarang ada beberapa anak remaja yang terjerumus menjadi salah satu
+      remaja yang hamil diluar nikah. \r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Dalam Yeremia 29:11 dituliskan bahwa pacaran yang benar harus di dasari
       dengan Kasih Allah sehingga orientasi pergaulan hanya ada di dalam tubuh Kristus.\r\n\r\n"
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 

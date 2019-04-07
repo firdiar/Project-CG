@@ -13,177 +13,613 @@ MonoBehaviour:
   m_Name: Lesson8
   m_EditorClassIdentifier: 
   learnCard:
-  - GambarLandscape: {fileID: 0}
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Gereja Sebagai Paguyuban Orang Beriman \r\n\nGereja merupakan suatu
       paguyuban orang beriman yang dimana mereka saling mengenal dan saling membantu.
       Gereja berasal dari kata Yunani yaitu  \u201Cekklesia\u201D yang artinya rakyat
-      yang bersifat religius. Berdasarkan Katekismus Geeja Katolik (KGK) 752 mengungkapkan
+      yang bersifat religius. Berdasarkan Katekismus Gereja Katolik (KGK) 752 diungkapkan
       bahwa Gereja merupakan persekutuan umat beriman yang ada di dunia yang terdiri
       dari jemaat-jemaat setempat dan menjadi nyata sebagai pertemuan liturgy terutama
       dalam pertemuan ekaristis. "
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: 'Dalam Gereja umat diajak untuk membangun persekutuan persaudaraan  yang
       mana mereka saling mengenal, saling berbagi dan saling membantu. Setelah mengikuti
       perayaan ekaristi umat diajak untuk mampu menjadi umat yang Ekaristis yang dalam
       artian umat menjadi pelopor diwujudkannya persekutuan persaudaraan perdamaian
       solidaritas dalam segala sesuatu.  '
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: Untuk menjadi suatu bagian dalam paguyuban tersebut tentu kita sebaiknya
       terlebih dahulu mengenal Gereja dan segala isinya. Kita perlu mengetahui siapa
       anggota Gereja tersebut, hak dan kewajiban ketika telah bergabung menjadi paguyuban
       Gereja.
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "A.\tGereja sebagai Paguyuban\r\n\n\nSuatu kelompok dapat dikatakan suatu
       paguyuban apabila sesama anggotanya ada interaksi dan komunikasi yang baik.
       Mereka saling mengenal, saling memahami serta saling membantu. \r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 'Kis 2: 41-47 menggambarkan kehidupan para murid Yesus.  Persekutuan
+    isiCard: 'Kis 2: 41-47 menggambarkan dinamika kehidupan para murid Yesus.  Persekutuan
       mereka terbentuk karena memiliki pengalaman yang sama yaitu murid Yesus serta
       orang yang percaya kepadaNya. Persekutuan yang mereka bangun sering berkumpul
       untuk memecahkan roti dan segala kepunyaan mereka ialah milik bersama. '
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 'Menjadi suatu persekutuan tidak hanya mengenal sebatas menganal saja
-      namun ada ikatan batain yang ketika salah satu anggota persekutuan mengalami
+    isiCard: 'Menjadi suatu persekutuan tidak hanya mengenal sebatas mengenal saja
+      namun ada ikatan batin yang ketika salah satu anggota persekutuan mengalami
       musibah kita ikut merasakannya. Dalam paguyuban Gereja memiliki banyak anggota
       namun mereka satu tubuh. Walaupun mereka satu tubuh tetapi juga memiliki tugas
-      berbeda-beda san tentunya mereka saling membantu terhadap tugas yang diembannya. '
-  - GambarLandscape: {fileID: 2800000, guid: 7f11c73f8c77e1d44aa3c5ff06a8b19f, type: 3}
+      berbeda-beda dan tentunya mereka saling membantu terhadap tugas yang diembannya. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 7f11c73f8c77e1d44aa3c5ff06a8b19f, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: "Gambar 1.1 \t"
-  - GambarLandscape: {fileID: 2800000, guid: 5b2bd7f32ca2d5a4da0d237b51d8827c, type: 3}
+    isiCard: "Gambar 1.1 \nDalam kehidupan sehari-hari kita sering menjumpai yang
+      namanya suatu perkumpulan namun hal tersebut tidak dapat langsung dikatakan
+      suatu paguyuban."
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 5b2bd7f32ca2d5a4da0d237b51d8827c, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: 'Gambar 1.2 '
-  - GambarLandscape: {fileID: 0}
+    isiCard: "Gambar 1.2 \n\nPada gambar 1.1 dan 1.2 menggambarkan sebuah Paguyuban
+      yang saling berbagi, ambil bagian, saling komunikasi dan saling meneguhkan."
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 'Dalam kehidupan sehari-hari kita sering menjumpai yang namanya suatu
-      perkumpulan namun hal tersebut tidak dapat langsung dikatakan sutau paguyuban
-      . Pada Gambar 1.1 dan 1.2 menggambarkan sebuah Paguyuban yang saling berbagi,
-      ambil bagian, slaing komunikasi dan saling meneguhkan. Dalam Kis 2: 41-47 mengisahkan
-      cara hidup jemaat yang pertama dimana mereka awalnya dibaptis dan mereka bertekun
-      dalm pengajaran para rasul dan mereka yang percaya akan mujizat yang diadakan
-      oleh rasul-rasul akan menjadi satu.'
-  - GambarLandscape: {fileID: 0}
+    isiCard: 'Dalam Kis 2: 41-47 dikisahkan cara hidup jemaat yang pertama dimana
+      mereka awalnya dibaptis dan mereka bertekun dalm pengajaran para rasul dan mereka
+      yang percaya akan mujizat yang diadakan oleh rasul-rasul akan menjadi satu.'
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: Dalam Gereja tiap-tiap umat memiliki tugas masing-masing yang misalnya
       saja Imam dalam Gereja memiliki tugas dalam pelayanan rohani melalui sakramen-sakramen,
       kaum awam baik yang menikah maupun selibat  tentunya memiliki tugas dalam perutusan
       Gereja sesuai dengan Kehendak Allah berdasarkan nilai-nilai Kristiani.
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: 'Usaha yang dapat kita lakukan untuk terlibat menjadi suatu bagian dari
-      Gereja sebagai Paguyuban ialah memperhatikan, memperdulikan sesame anggota paguyuban.
-      Yang misalnya saja kita kaum remaja, ketika dalam pertemuan rutin PIR sebisa
-      mungkin kita mengajak teman yang malas berkumpul dan ketika salah satu angota
+      Gereja sebagai Paguyuban ialah memperhatikan, memperdulikan sesama anggota paguyuban.
+      Yang Misalnya saja kita kaum remaja, ketika dalam pertemuan rutin PIR sebisa
+      mungkin kita mengajak teman yang malas berkumpul dan ketika salah satu anggota
       PIR ada yang sakit kita menjenguknya agar ia tidak merasa sendirian. '
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "B.\tCiri Gereja sebagai Paguyuban\r\n\nDalam Gereja katolik memiliki
+    isiCard: "B.\tCiri Gereja sebagai Paguyuban\r\n\nDalam Gereja Katolik memiliki
       yang namanya Doa Syahadat, dalam doa tersebut tertulis dan minimal sekali seminggu
-      (saat misa) mengungkapkan ciri dari gereja yaitu Gereja yang satu, kudus, katolik
-      dan apostolik. Pada LG 8 Gereja yang satuu merupakan perwujudan akan kehendak
+      (saat misa) mengungkapkan ciri dari Gereja yaitu Gereja yang satu, kudus, katolik
+      dan apostolik. Pada LG 8 Gereja yang satu merupakan perwujudan akan kehendak
       tunggal Yesus Kristus dalam Roh Kudus yang tetap ada ditengah hidup manusia
       untuk menyelamatkan. "
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: 'Dalam KGK menjelaskan alasan mengapa Gereja itu dikatakan satu yaitu
       : Gereja yang menurut asalnya adalah Tritunggal Mahakudus, kesatuan Allah tinggal
-      dalam tiga pibadi Bapa,Putra dan Rok Kudus. Gereja yang satu juga merupakan
+      dalam tiga pibadi Bapa,Putra dan Roh Kudus. Gereja yang satu juga merupakan
       Gereja yang bersifat universal .'
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Gereja katolik menyakini diri kudus bukan karena tiap anggotanya sudah
-      kudus namun dipanggil karena kekudusan oleh Tuhan seperti yang diungkaokan dalam
+      kudus namun dipanggil karena kekudusan oleh Tuhan seperti yang diungkapkan dalam
       injil Matus 5 :48 \u201CHendaklah kamu sempurna sebagaimana Bapamu di surga
-      sempurna adanya\u201D. Gereja yang kudus merupaka gereja yang menjadi perwujudan
-      kehendak Allah yang Mahakudus untuk bersatu dengan manusia serta memeprsatukan
-      manusia dalam kekudusannya. Anggota dari Gereja sebagai paguyuban tersebut merupakan
-      anggota yang kudus karena mereka ditandai oleh Kristus sendiri melalui babptisan
-      dan diserahkan kepada Kristus dan dipersatukan dalam iman, harapan dan cinta
-      yang kudus. "
-  - GambarLandscape: {fileID: 0}
+      sempurna adanya\u201D. Gereja yang kudus merupakan Gereja yang menjadi perwujudan
+      kehendak Allah yang Mahakudus untuk bersatu dengan manusia serta mempersatukan
+      manusia dalam kekudusannya. "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "Gereja yang Katolik, katolik berasal dari Bahasa latih Latin yaitu \u201Ccatholicus\u201D
+    isiCard: 'Anggota dari Gereja sebagai paguyuban tersebut merupakan anggota yang
+      kudus karena mereka ditandai oleh Kristus sendiri melalui babptisan dan diserahkan
+      kepada Kristus dan dipersatukan dalam iman, harapan dan cinta yang kudus. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Gereja yang Katolik, katolik berasal dari Bahasa Latin yaitu \u201Ccatholicus\u201D
       yang artinya universal/ umum. Gereja yang bersifat universal berarti Gereja
       khususnya Katolik mencakup seluruh umat yang telah dibaptis secara katolik dan
       menerima pengajaran iman, moral serta tata liturgi katolik. Gereja bersifat
-      katolik juga krena terbuka bagi dunia, tidak hanay sebatas tempat tertentu,
+      katolik juga karena terbuka bagi dunia, tidak hanya sebatas tempat tertentu,
       bangsa dan kebudayaan tertentu, waktu dan golongan masyarakat tertentu saja. "
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 'Gereja yang Apostolik berate Gereja yang berasal dari para rasul  dan
+    isiCard: 'Gereja yang Apostolik berarti Gereja yang berasal dari para rasul  dan
       berpegang teguh pada kesaksian iman mereka dan dengan Kristus sebagai batu penjuru.
-      Maka dari itu Gereja yang Apostolik berarti Gereja yang mengakui diri sama dnegan
+      Maka dari itu Gereja yang Apostolik berarti Gereja yang mengakui diri sama dengan
       Gereja Perdana yaitu Gereja para rasul. '
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: 'Kebiasaan hidup mulai dari Gereja Perdana sebagai suatu paguyuban hingga
       sekarang masih tetap dipertahankan. Cara yang dapat dilakukan agar keempat ciri
-      tersebut dapat terlaksana ialah aktif dalam kegiatan gereja, bersifat terbuka
+      tersebut dapat terlaksana ialah aktif dalam kegiatan Gereja, bersifat terbuka
       terhadap Gereja lainnya. Dalam hal mewujudkan kekudusan sebagai kaum remaja
       kita dapat mengambil bagian dalam hal lektor, pemazmur, putra/i altar. '
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "C.\tBentuk-bentuk Pelayanan Gereja sebagai Paguyuban\r\n\nDalam Gereja
-      katolik, ada empat bentuk tugas gereja yang diantaranya :  Diakonia(pelayanan),
+      Katolik, ada empat bentuk tugas Gereja yang diantaranya :  Diakonia(pelayanan),
       Liturgia(pengudusan), Koinonia(persekutuan), Kerygma(pewartaan). Selain hal
       tersebut masih ada tugas pelayanan yang dapat diambil atau diikuti oleh kaum
-      remaja yang diantaranya putra/I altar, lektor, dst."
-  - GambarLandscape: {fileID: 0}
+      remaja yang diantaranya putra/i altar, lektor, dst."
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: "Namun semakin berkembangnya zaman, kaum remaja sekarang kurang mau mengambil
-      bagian dalam tugas tersebut, sebagian kaum remaja juga kegereja hanya sekedar
+      bagian dalam tugas tersebut, sebagian kaum remaja juga ke gereja hanya sekedar
       \u201Ckarena disuruh orang tua\u201D, kurang sepenuh hati untuk ke gereja. Tanpa
       disadari bahwa kaum remaja merupakan harapan untuk gereja dimasa yang akan datang.
       Ada wadah yang telah disediakan oleh Gereja dalam menampung para remaja agar
       memiliki kreatifitas dan melatih bakat yang dimiliki  yang misalnya PIR, group
-      koor kaum remaja, dst. Selagi masih muda, kita kaum remaja diajak untuk terus
-      menerus melayani Tuhan dengan cara ambil bagian dalam pelayanan di Gereja sebagai
-      suatu paguyuban. "
-  - GambarLandscape: {fileID: 0}
+      koor kaum remaja, dst. "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: "Hidup Ini Adalah Kesempatan \r\n\n\nHidup ini adalah kesempatan \r\nHidup
+    isiCard: 'Selagi masih muda, kita kaum remaja diajak untuk terus menerus melayani
+      Tuhan dengan cara ambil bagian dalam pelayanan di Gereja sebagai suatu paguyuban. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
+    GambarKotak: {fileID: 0}
+    isiCard: "Lagu berikut menginspirasi kita untuk ambil bagian dalam pelayanan tersbut.
+      \n\"Hidup Ini Adalah Kesempatan\" \n\nHidup ini adalah kesempatan \r\nHidup
       ini untuk melayani Tuhan \r\nJangan sia-sia kan waktu yang Tuhan beri \r\nHidup
       ini hanya sementara \r\n\tOh Tuhan pakailah hidupku \r\n\tSelagi aku masih kuat
       \r\n\tBila saat nya nanti \r\n\tKu tak berdaya lagi\r\n\tHidup sudah jadi berkat\r\n"
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
-    isiCard: 'Lirik lagu Hidup Ini Adalah Kesempatan mengandung arti bahwa jidup kita
-      diduniaini hanya sementara, kita tidak tau kapan Tuhan akan memanggil kita maka
-      kita diajak untuk selalu melayani Tuhan tanpa lelah agar nantinya ketika kita
-      tal berdaya lagi hidup kita sudah jadi berkat lewat pelayanan-pelayanan yang
-      kita lakukan semasa kita berdaya. '
-  - GambarLandscape: {fileID: 2800000, guid: 1331f0b975bc1da478351887a5257095, type: 3}
+    isiCard: 'Lirik lagu di atas mengandung arti bahwa hidup kita di dunia ini hanya
+      sementara, kita tidak tau kapan Tuhan akan memanggil kita maka kita diajak untuk
+      selalu melayani Tuhan tanpa lelah agar nantinya ketika kita tak berdaya lagi
+      hidup kita sudah jadi berkat lewat pelayanan-pelayanan yang kita lakukan semasa
+      kita berdaya. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 1331f0b975bc1da478351887a5257095, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: 'Gambar 1.1 '
-  - GambarLandscape: {fileID: 2800000, guid: 7289251c0fbac7348ab77d93cb751146, type: 3}
+    isiCard: "Gambar 1.1 \n\nGambar di atas merupakan tugas pelayanan Gereja yang
+      dapat diikuti oleh kaum remaja. "
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 2800000, guid: 7289251c0fbac7348ab77d93cb751146, type: 3}
     GambarKotak: {fileID: 0}
-    isiCard: Gambar 1.2
-  - GambarLandscape: {fileID: 0}
-    GambarKotak: {fileID: 0}
-    isiCard: 'Gambar diatas merupakan tugas pelayanan Gereja yang dapat diikuti oleh
-      kaum remaja. Kita diajak untuk sebisa mungkin mengambil tugas tersebut khususnya
-      ketika kita sudah menerima komuni pertama, kita dianjurkan untuk mengikuti putra/I
-      altar agar iman kita semakin berkembang dan tugas pelayanan kita ada, tidak
-      hanya ke gereja dating, duduk dna mendengarkan homili saja. '
-  - GambarLandscape: {fileID: 0}
+    isiCard: 'Gambar 1.2
+
+
+      Kita diajak untuk sebisa mungkin mengambil tugas tersebut khususnya ketika kita
+      sudah menerima komuni pertama, kita dianjurkan untuk mengikuti putra/i altar
+      agar iman kita semakin berkembang dan tugas pelayanan kita ada, tidak hanya
+      ke gereja datang, duduk dan mendengarkan homili saja. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: 'Sebagai kaum remaja sebisa mungkin kita menjalani  4 ciri tugas pelayann
-      gereja yang telah disebutkan diatas. Yang mana Liturgia merupakan bentuk kegiatan
-      ibadat yang dilaksanakan oleh umat baik Ekaristi maupun ibadat biasa. Diakonoa
-      merupakan bentuk pelaynan kepada semua orang yang membutuhkan bantuan. Yang
-      misalnya saja ketika ada teman yang kesekolah tidak membawa pulpen sebisa mungkin
+      Gereja yang telah disebutkan di atas. Yang mana Liturgia merupakan bentuk kegiatan
+      ibadat yang dilaksanakan oleh umat baik Ekaristi maupun ibadat biasa. Diakonia
+      merupakan bentuk pelayanan kepada semua orang yang membutuhkan bantuan. Yang
+      Misalnya saja ketika ada teman yang ke sekolah tidak membawa pulpen sebisa mungkin
       kita membantu untuk meminjamkan pulpen jika kita membawa lebih dari satu. '
-  - GambarLandscape: {fileID: 0}
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 
+  - type: 0
+    GambarLandscape: {fileID: 0}
     GambarKotak: {fileID: 0}
     isiCard: 'Kerygma merupakan suatu pewartaan baik dalam bentuk pengajaran iman,
-      komunikasi iman, berbagi pengalaman, hal ini dapat kita lihat ketika kita laksankan
+      komunikasi iman, berbagi pengalaman, hal ini dapat kita lihat ketika kita laksanakan
       dalam lingkungan, kita saling berbagi iman dan saling meneguhkan. Koinonia merupakan
       suatu usaha untuk mewujudkan suatu persaudaraan dengan saling berbagi, memenuhi
-      kebutuhan sesame. Hal ini dapat kita lakukan dengan berbagi sembagi kepada mereka
-      sesame kita yang sungguh tidak mampu dan kunjungan ke panti asuhan. '
+      kebutuhan sesama. Hal ini dapat kita lakukan dengan berbagi sembako kepada sesama
+      kita yang sungguh tidak mampu dan kunjungan ke panti asuhan. '
+    soal: 
+    A:
+      value: 
+      isTrue: 0
+    B:
+      value: 
+      isTrue: 0
+    C:
+      value: 
+      isTrue: 0
+    D:
+      value: 
+      isTrue: 0
+    ifTrueMsg: 
+    ifFalseMsg: 

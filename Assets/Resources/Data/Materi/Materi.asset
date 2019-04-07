@@ -13,13 +13,9 @@ MonoBehaviour:
   m_Name: Materi
   m_EditorClassIdentifier: 
   list:
-  - texture: {fileID: 2800000, guid: 74f0616122dd4b24e84d7c27f8c9a7dd, type: 3}
-    courseName: PAK dan Budi Pekerti
-    dataRef:
-    - lessonName: Budi Pekerti
-      lessonData: BudiPekerti
   - texture: {fileID: 2800000, guid: fe5264d20a16a9841ae57055c5c4b562, type: 3}
     courseName: Materi SD
+    colorbg: {r: 0.9528302, g: 0.7955052, b: 0.4269758, a: 1}
     dataRef:
     - lessonName: Kelas 1
       lessonData: Lesson1
@@ -33,8 +29,15 @@ MonoBehaviour:
       lessonData: Lesson5
     - lessonName: Kelas 6
       lessonData: Lesson6
+  - texture: {fileID: 2800000, guid: 1991244ddc22db347b1153f4a232b6c3, type: 3}
+    courseName: Quiz SD
+    colorbg: {r: 0.7231379, g: 0.4292453, b: 1, a: 1}
+    dataRef:
+    - lessonName: Quiz SD
+      lessonData: QuizSD
   - texture: {fileID: 2800000, guid: 9c802c3f91a2bd24ba7f02794914a3be, type: 3}
     courseName: Materi SMP
+    colorbg: {r: 0.9245283, g: 0.43173724, b: 0.8032052, a: 1}
     dataRef:
     - lessonName: Kelas 1
       lessonData: Lesson7
@@ -42,8 +45,15 @@ MonoBehaviour:
       lessonData: Lesson8
     - lessonName: Kelas 3
       lessonData: Lesson9
+  - texture: {fileID: 2800000, guid: ae95ee0153aadcc4e9d1f127df8e6e2b, type: 3}
+    courseName: Quiz SMP
+    colorbg: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
+    dataRef:
+    - lessonName: Quiz SMP
+      lessonData: QuizSMP
   - texture: {fileID: 2800000, guid: c6558ec9d6a6d454dbd80db2bcf5e196, type: 3}
     courseName: Materi SMA
+    colorbg: {r: 0.43147027, g: 0.6484122, b: 0.9056604, a: 1}
     dataRef:
     - lessonName: Kelas 1
       lessonData: Lesson10
@@ -51,18 +61,17 @@ MonoBehaviour:
       lessonData: Lesson11
     - lessonName: Kelas 3
       lessonData: Lesson12
-  - texture: {fileID: 2800000, guid: 1991244ddc22db347b1153f4a232b6c3, type: 3}
-    courseName: Quiz SD
-    dataRef:
-    - lessonName: Quiz SD
-      lessonData: QuizSD
-  - texture: {fileID: 2800000, guid: ae95ee0153aadcc4e9d1f127df8e6e2b, type: 3}
-    courseName: Quiz SMP
-    dataRef:
-    - lessonName: Quiz SMP
-      lessonData: QuizSMP
   - texture: {fileID: 2800000, guid: c96546b151f74014685a0636e48483d2, type: 3}
     courseName: Quiz SMA
+    colorbg: {r: 0.77265036, g: 0.89865845, b: 0.9150943, a: 1}
     dataRef:
     - lessonName: Quiz SMA
       lessonData: QuizSMA
+  - texture: {fileID: 2800000, guid: 74f0616122dd4b24e84d7c27f8c9a7dd, type: 3}
+    courseName: PAK dan Budi Pekerti
+    colorbg: {r: 0.15098791, g: 0.8207547, b: 0.6408084, a: 1}
+    dataRef:
+    - lessonName: Tujuan Pembuatan
+      lessonData: Tujuan
+    - lessonName: Petunjuk Penggunaan
+      lessonData: Penggunaan
